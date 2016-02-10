@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAS.UA.Server.ServerConfiguration.CASConfiguration">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIgAAACFAAAEAAAAAAAIAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>CASConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CASExtension" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.ProcessDataBindings">
+    <Position X="7.75" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAQAAgAAAAAQAAAAABAAEAAAAAAACAAA=</HashCode>
+      <FileName>CASConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NodesConfiguration" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.InstanceConfiguration">
+    <Position X="4" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEAAAEAAAABAAAAAAAAAACAAAABAAAABA=</HashCode>
+      <FileName>InstanceConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="DataSources" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.DataSourceConfiguration">
+    <Position X="0.5" Y="1" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataSourceConfiguration.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceEditor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataSourceConfiguration.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACAAAAUAEBAAEAAQAAAAAAIAAAAAAAAAAGRI=</HashCode>
+      <FileName>DataSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SelectedSourceConfiguration" />
+      <Property Name="CommServerSourceConfiguration" />
+      <Property Name="OPCDAClientSourceConfiguration" />
+      <Property Name="SimulatorSourceConfiguration" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CommServerSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration" Collapsed="true">
+    <Position X="7.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAKEAAAgAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>OPCDAClientSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration" Collapsed="true">
+    <Position X="10.25" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAAAAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>SimulatorSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.SourceBase" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>SourceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

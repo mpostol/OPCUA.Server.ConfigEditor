@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<csv:CASConfiguration
+  xmlns:sdk="http://opcfoundation.org/UA/SDK/Configuration.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd"
+  xmlns:s1="http://opcfoundation.org/UA/Sample/Configuration.xsd"
+  xmlns:s2="http://opcfoundation.org/UA/SDK/COM/Configuration.xsd"
+  xmlns="http://opcfoundation.org/UA/SDK/Configuration.xsd"
+  xmlns:csv="http://cas.eu/UA/2009/ServerConfiguration.xsd">
+  <ApplicationName>CAS.CommServer.UA.Server</ApplicationName>
+  <ApplicationUri>urn:localhost:UA:CAS_UA_Server</ApplicationUri>
+  <ProductUri>urn:cas.eu:UA:Server</ProductUri>
+  <ApplicationType>Server_0</ApplicationType>
+  <SecurityConfiguration>
+    <ApplicationCertificate>
+      <StoreName>My</StoreName>
+      <StoreLocation>LocalMachine</StoreLocation>
+      <SubjectName>CN=CommServer/O=CAS/C=PL</SubjectName>
+    </ApplicationCertificate>
+    <TrustedIssuerCertificates>
+      <StoreName>CAS UA Certificate Authorities</StoreName>
+      <StoreLocation>LocalMachine</StoreLocation>
+    </TrustedIssuerCertificates>
+    <TrustedPeerCertificates>
+      <StoreName>UA Applications</StoreName>
+      <StoreLocation>LocalMachine</StoreLocation>
+      <TrustedCertificates>
+        <CertificateIdentifier>
+          <StoreName>My</StoreName>
+          <StoreLocation>LocalMachine</StoreLocation>
+          <SubjectName>UA Client</SubjectName>
+        </CertificateIdentifier>
+      </TrustedCertificates>
+    </TrustedPeerCertificates>
+    <NonceLength>32</NonceLength>
+    <RevocationMode>NoCheck</RevocationMode>
+    <InvalidCertificateDirectory>%CommonApplicationData%\CAS\CAS.CommServerUA\RejectedCertificates</InvalidCertificateDirectory>
+  </SecurityConfiguration>
+  <TransportConfigurations/>
+  <TransportQuotas>
+    <OperationTimeout>600000</OperationTimeout>
+    <MaxStringLength>1048576</MaxStringLength>
+    <MaxByteStringLength>4194304</MaxByteStringLength>
+    <MaxArrayLength>65535</MaxArrayLength>
+    <MaxMessageSize>4194304</MaxMessageSize>
+    <MaxBufferSize>65535</MaxBufferSize>
+    <ChannelLifetime>300000</ChannelLifetime>
+    <SecurityTokenLifetime>3600000</SecurityTokenLifetime>
+  </TransportQuotas>
+  <sdk:ServerConfiguration>
+    <BaseAddresses>
+      <ua:String>opc.tcp://localhost:51234/UA/CAS_UA_Server</ua:String>
+      <ua:String>http://localhost:51235/UA/CAS_UA_Server</ua:String>
+    </BaseAddresses>
+    <AlternateBaseAddresses xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd">
+      <ua:String>http://loclhost:51235/UA/CAS.CommServer.UA.Server</ua:String>
+    </AlternateBaseAddresses>
+    <SecurityPolicies>
+      <ServerSecurityPolicy>
+        <SecurityMode>SignAndEncrypt_3</SecurityMode>
+        <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic128Rsa15</SecurityPolicyUri>
+        <SecurityLevel>3</SecurityLevel>
+      </ServerSecurityPolicy>
+      <ServerSecurityPolicy>
+        <SecurityMode>Sign_2</SecurityMode>
+        <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic256</SecurityPolicyUri>
+        <SecurityLevel>2</SecurityLevel>
+      </ServerSecurityPolicy>
+      <ServerSecurityPolicy>
+        <SecurityMode>None_1</SecurityMode>
+        <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#None</SecurityPolicyUri>
+        <SecurityLevel>0</SecurityLevel>
+      </ServerSecurityPolicy>
+    </SecurityPolicies>
+    <MinRequestThreadCount>5</MinRequestThreadCount>
+    <MaxRequestThreadCount>100</MaxRequestThreadCount>
+    <MaxQueuedRequestCount>2000</MaxQueuedRequestCount>
+    <UserTokenPolicies xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd">
+      <ua:UserTokenPolicy>
+        <ua:TokenType>Anonymous_0</ua:TokenType>
+      </ua:UserTokenPolicy>
+      <ua:UserTokenPolicy>
+        <ua:TokenType>UserName_1</ua:TokenType>
+      </ua:UserTokenPolicy>
+      <ua:UserTokenPolicy>
+        <ua:TokenType>Certificate_2</ua:TokenType>
+      </ua:UserTokenPolicy>
+    </UserTokenPolicies>
+    <DiagnosticsEnabled>false</DiagnosticsEnabled>
+    <MaxSessionCount>100</MaxSessionCount>
+    <MinSessionTimeout>10000</MinSessionTimeout>
+    <MaxSessionTimeout>3600000</MaxSessionTimeout>
+    <MaxBrowseContinuationPoints>10</MaxBrowseContinuationPoints>
+    <MaxQueryContinuationPoints>10</MaxQueryContinuationPoints>
+    <MaxHistoryContinuationPoints>100</MaxHistoryContinuationPoints>
+    <MaxRequestAge>600000</MaxRequestAge>
+    <MinPublishingInterval>100</MinPublishingInterval>
+    <MaxPublishingInterval>3600000</MaxPublishingInterval>
+    <PublishingResolution>50</PublishingResolution>
+    <MaxSubscriptionLifetime>3600000</MaxSubscriptionLifetime>
+    <MaxMessageQueueSize>100</MaxMessageQueueSize>
+    <MaxNotificationQueueSize>100</MaxNotificationQueueSize>
+    <MaxNotificationsPerPublish>1000</MaxNotificationsPerPublish>
+    <MinMetadataSamplingInterval>1000</MinMetadataSamplingInterval>
+    <AvailableSamplingRates />
+    <RegistrationEndpoint xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd">
+      <ua:EndpointUrl>http://localhost:52601/UADiscovery/registration</ua:EndpointUrl>
+      <ua:Server xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd">
+        <ua:ApplicationUri>urn:localhost:UADiscovery</ua:ApplicationUri>
+        <ua:ProductUri xsi:nil="true" />
+        <ua:ApplicationName xsi:nil="true" />
+        <ua:ApplicationType>DiscoveryServer_3</ua:ApplicationType>
+        <ua:GatewayServerUri xsi:nil="true" />
+        <ua:DiscoveryProfileUri xsi:nil="true" />
+        <ua:DiscoveryUrls>
+          <ua:String>http://localhost:52601/UADiscovery</ua:String>
+        </ua:DiscoveryUrls>
+      </ua:Server>
+      <ua:ServerCertificate xsi:nil="true" />
+      <ua:SecurityMode>SignAndEncrypt_3</ua:SecurityMode>
+      <ua:SecurityPolicyUri></ua:SecurityPolicyUri>
+      <ua:UserIdentityTokens />
+      <ua:TransportProfileUri xsi:nil="true" />
+      <ua:SecurityLevel>1</ua:SecurityLevel>
+    </RegistrationEndpoint>
+    <MaxRegistrationInterval>30000</MaxRegistrationInterval>
+    <NodeManagerSaveFile>CAS.UA.Server.nodes.xml</NodeManagerSaveFile>
+  </sdk:ServerConfiguration>
+  <Extensions/>
+  <TraceConfiguration>
+    <OutputFilePath>%CommonApplicationData%\CAS\CAS.CommServerUA\log\CAS.UA.Server.starting.log</OutputFilePath>
+    <DeleteOnLoad>true</DeleteOnLoad>
+    <TraceMasks>5</TraceMasks>
+  </TraceConfiguration>
+  <DisableHiResClock>true</DisableHiResClock>
+  <csv:CASExtension>
+    <csv:OPCDAClientConfiguration  />
+    <csv:CommServerConfiguration />
+    <csv:SimulatorConfiguration />
+    <csv:NodesConfiguration />
+  </csv:CASExtension>
+</csv:CASConfiguration>
