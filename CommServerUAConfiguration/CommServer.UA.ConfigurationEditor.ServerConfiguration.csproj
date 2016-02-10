@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28F30394-6EBA-4584-9041-F69CCB921424}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAS.UA.Server.ServerConfiguration</RootNamespace>
+    <AssemblyName>CAS.UA.Server.ServerConfiguration</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\PR32-ModelDesigner\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CAS.UA.Server.ServerConfiguration.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\CAS.UA.Server.ServerConfiguration.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CAS.ControlLibrary, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CommServerUA\CommonBinaries\PR36-CAS_MAIN_CORE_PCKG\50000\CAS.ControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CAS.OpcNetApi.350">
+      <HintPath>..\..\CommonBinaries\EX01-OPCFoundation_NETApi\CAS.OpcNetApi.350.dll</HintPath>
+    </Reference>
+    <Reference Include="CAS.RTLib, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CommServerUA\CommonBinaries\PR36-CAS_MAIN_CORE_PCKG\50000\CAS.RTLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CAS.UA.IServerConfiguration, Version=1.0.0.32204, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\..\PR32-ModelDesigner\packages\CAS.UA.IServerConfiguration.1.00.00\lib\net35\CAS.UA.IServerConfiguration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Opc.Ua.Core">
+      <HintPath>..\..\CommonBinaries\OPCFSDK.Binaries\Opc.Ua.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CASConfiguration.cs" />
+    <Compile Include="CommServerConfiguration.cs" />
+    <Compile Include="CommServerSourceConfiguration.cs" />
+    <Compile Include="CommServer\CommServerMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommServer\CommServerMain.Designer.cs">
+      <DependentUpon>CommServerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommServer\SelectionTreeForCommServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommServer\SelectionTreeForCommServer.Designer.cs">
+      <DependentUpon>SelectionTreeForCommServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IEnableOK.cs" />
+    <Compile Include="Controls\OKCnacelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\OKCnacelForm.designer.cs">
+      <DependentUpon>OKCnacelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSourceConfiguration.cs" />
+    <Compile Include="DefaultSourceConfiguration.cs" />
+    <Compile Include="InstanceConfiguration.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelLayer.cs" />
+    <Compile Include="NamedTraceLogger.cs" />
+    <Compile Include="NodeDescriptorWrapper.cs" />
+    <Compile Include="OPCDAClientConfiguration.cs" />
+    <Compile Include="OPCDAClientSourceConfiguration.cs" />
+    <Compile Include="OPCDAClient\OPCDAClientMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OPCDAClient\OPCDAClientMain.Designer.cs">
+      <DependentUpon>OPCDAClientMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCDAClient\OPCItemIdentifier.cs" />
+    <Compile Include="OPCDAClient\SelectionTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OPCDAClient\SelectionTree.designer.cs">
+      <DependentUpon>SelectionTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCDAClient\TreeNodes\BaseTreeNode.cs" />
+    <Compile Include="OPCDAClient\TreeNodes\ItemTreeNode.cs" />
+    <Compile Include="OPCDAClient\TreeNodes\ServerTreeNode.cs" />
+    <Compile Include="OPCDAClient\TreeNodes\SubscriptionTreeNodes.cs" />
+    <Compile Include="OPCDAClient\Wrappers\ItemWrapperForPropertyGrid.cs" />
+    <Compile Include="OPCDAClient\Wrappers\ServerWrapperForPropertyGrid.cs" />
+    <Compile Include="OPCDAClient\Wrappers\SubscriptionWrapperForPropertyGrid.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyInfo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SimulatorConfiguration.cs" />
+    <Compile Include="SimulatorSourceConfiguration.cs" />
+    <Compile Include="SourceBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="cas.snk" />
+    <None Include="ClassDiagrams\CASConfiguration.cd" />
+    <None Include="ClassDiagrams\SourceBase.cd" />
+    <EmbeddedResource Include="CAS.UAServer.Default.uasconfig" />
+    <None Include="Help\ASModelDesigner.chm" />
+    <None Include="packages.config" />
+    <None Include="Properties\AssemblyInfo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PR24-Biblioteka\DataPorterConfigLib\DataPorterConfigLib.csproj">
+      <Project>{6A9D0309-3FCA-4A32-917D-68BD883B3F37}</Project>
+      <Name>DataPorterConfigLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PR24-Biblioteka\NetworkConfigLib\BK.NetworkConfigLib.csproj">
+      <Project>{531FA61A-6106-442D-9380-B4991DCECF19}</Project>
+      <Name>BK.NetworkConfigLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommServer\CommServerMain.resx">
+      <DependentUpon>CommServerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommServer\SelectionTreeForCommServer.resx">
+      <DependentUpon>SelectionTreeForCommServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OKCnacelForm.resx">
+      <DependentUpon>OKCnacelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCDAClient\OPCDAClientMain.resx">
+      <DependentUpon>OPCDAClientMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCDAClient\SelectionTree.resx">
+      <DependentUpon>SelectionTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\CAS.UA.Server.ServerConfiguration.nuspec">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAS.UA.Server.ServerConfiguration.tt</DependentUpon>
+    </None>
+    <None Include="Properties\CAS.UA.Server.ServerConfiguration.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CAS.UA.Server.ServerConfiguration.nuspec</LastGenOutput>
+    </None>
+    <None Include="Resources\Folder_Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\tag_element_48_full.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)..\ModelsContainer\EmbeddedExample\"</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+</Project>

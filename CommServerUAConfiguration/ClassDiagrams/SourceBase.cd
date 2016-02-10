@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAS.UA.Server.ServerConfiguration.SourceBase" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAABI=</HashCode>
+      <FileName>SourceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CommServerSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DefaultSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAKEAAAgAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>OPCDAClientSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration" Collapsed="true">
+    <Position X="13" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAAAAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>SimulatorSourceConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

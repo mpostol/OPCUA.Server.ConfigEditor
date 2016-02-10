@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>CAS.UA.Server.ServerConfiguration</id>
+        <version>3.00.12</version>
+        <title>CAS CommServer UA Configuration Editor</title>
+        <authors>CAS</authors>
+        <owners>commsvr.com</owners>
+        <projectUrl>http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <developmentDependency>false</developmentDependency>
+        <description>This plug-in is used to configure the CAS OPC UA CommServer and define bindings of the model instance nodes with the actual real-time process data source.</description>
+        <summary>ASMD and CommServer common module used to create and use the configuration file.</summary>
+        <releaseNotes>NET35 release - refactoring.</releaseNotes>
+        <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+        <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
+    </metadata>
+    <files>
+        <file src="..\bin\Release\CAS.UA.Server.ServerConfiguration.dll" target="lib\net35\CAS.UA.Server.ServerConfiguration.dll" />
+        <file src="..\bin\Release\CAS.UA.Server.ServerConfiguration.XML" target="lib\net35\CAS.UA.Server.ServerConfiguration.xml" />
+    </files>
+</package>
+
