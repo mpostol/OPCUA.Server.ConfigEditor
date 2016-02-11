@@ -71,7 +71,9 @@ namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer
     /// <summary>
     /// Copies the contents of input to output. Doesn't close either stream.
     /// </summary>
-    public static void CopyStream(Stream input, FileInfo outputFileName)
+    /// <param name="input">The input <see cref="Stream"/>.</param>
+    /// <param name="outputFileName">Name of the output file <see cref="FileInfo"/>.</param>
+    private static void CopyStream(Stream input, FileInfo outputFileName)
     {
       using (Stream file = outputFileName.OpenWrite())
       {

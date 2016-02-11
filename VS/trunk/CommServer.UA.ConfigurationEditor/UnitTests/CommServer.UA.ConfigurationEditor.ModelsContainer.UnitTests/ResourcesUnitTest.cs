@@ -11,17 +11,17 @@ namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.UnitTests
     [TestMethod]
     public void ResourcesTestMethod()
     {
-      DirectoryInfo _tergetDirectory = null;
+      DirectoryInfo _targetDirectory = null;
       try
       {
         string _path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), m_TestPath);
-        _tergetDirectory = new DirectoryInfo(_path);
-        Assert.IsFalse(_tergetDirectory.Exists, "The test directory already exist before test starting");
+        _targetDirectory = new DirectoryInfo(_path);
+        Assert.IsFalse(_targetDirectory.Exists, "The test directory already exist before test starting");
         ContainerResources.ExampleSolutionInstallation(m_TestPath, (x, y) => { });
-        _tergetDirectory.Refresh();
-        Assert.IsTrue(_tergetDirectory.Exists);
-        Assert.AreEqual<int>(3, _tergetDirectory.GetFiles().Length, "Expected only 2 solutions and configuration editor");
-        Assert.AreEqual<int>(2, _tergetDirectory.GetDirectories().Length, "Expected only 2 solutions folders");
+        _targetDirectory.Refresh();
+        Assert.IsTrue(_targetDirectory.Exists);
+        Assert.AreEqual<int>(3, _targetDirectory.GetFiles().Length, "Expected only 2 solutions and configuration editor");
+        Assert.AreEqual<int>(2, _targetDirectory.GetDirectories().Length, "Expected only 2 solutions folders");
       }
       catch (Exception)
       {
@@ -29,9 +29,9 @@ namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.UnitTests
       }
       finally
       {
-        _tergetDirectory.Delete(true);
-        _tergetDirectory.Refresh();
-        Assert.IsFalse(_tergetDirectory.Exists);
+        _targetDirectory.Delete(true);
+        _targetDirectory.Refresh();
+        Assert.IsFalse(_targetDirectory.Exists);
       }
     }
     private const string m_TestPath = "TestingFolder2Delete";
