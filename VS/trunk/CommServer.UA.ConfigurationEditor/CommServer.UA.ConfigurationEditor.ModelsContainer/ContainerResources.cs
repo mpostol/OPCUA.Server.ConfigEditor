@@ -14,10 +14,11 @@
 //_______________________________________________________________
 
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 
-namespace CAS.UA.Model.Designer.ModelsContainer
+namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer
 {
   /// <summary>
   /// Class Resources - contains helpers to manage resources in the module
@@ -28,7 +29,8 @@ namespace CAS.UA.Model.Designer.ModelsContainer
     /// Installation of the examples.
     /// </summary>
     /// <param name="destinationFolder">The destination folder.</param>
-    public static void ExampleSolutionInstallation(string destinationFolder, Action<string, System.Diagnostics.TraceEventType> trace)
+    /// <param name="trace">The trace.</param>
+    public static void ExampleSolutionInstallation(string destinationFolder, Action<string, TraceEventType> trace)
     {
       //creating the directory
       string _path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), destinationFolder);

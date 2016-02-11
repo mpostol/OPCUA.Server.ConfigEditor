@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 
 
-namespace CAS.UA.Model.Designer.ModelsContainer.UT
+namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.UnitTests
 {
   [TestClass]
   public class ResourcesUnitTest

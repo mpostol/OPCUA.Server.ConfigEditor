@@ -7,8 +7,8 @@
     <ProjectGuid>{643A2A07-394D-418F-937C-2D394EFE5015}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CAS.UA.Model.Designer.ModelsContainer</RootNamespace>
-    <AssemblyName>CAS.UAModelDesignerModelsContainer</AssemblyName>
+    <RootNamespace>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer</RootNamespace>
+    <AssemblyName>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseIntermediateOutputPath>obj2</BaseIntermediateOutputPath>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\CAS.UAModelDesignerModelsContainer.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
