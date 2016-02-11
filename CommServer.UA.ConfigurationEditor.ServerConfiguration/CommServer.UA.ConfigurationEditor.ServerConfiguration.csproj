@@ -45,19 +45,36 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.ControlLibrary, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CommServerUA\CommonBinaries\PR36-CAS_MAIN_CORE_PCKG\50000\CAS.ControlLibrary.dll</HintPath>
+    <Reference Include="CAS.CodeProtect, Version=5.0.2.39087, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.CodeProtect.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="CAS.OpcNetApi.350">
-      <HintPath>..\..\CommonBinaries\EX01-OPCFoundation_NETApi\CAS.OpcNetApi.350.dll</HintPath>
+    <Reference Include="CAS.ControlLibrary, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.ControlLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CAS.NetworkConfigLib, Version=4.0.22.24144, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.NetworkConfigLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CAS.OpcNetApi.350, Version=2.0.108.39166, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.OpcNetApi.350.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="CAS.RTLib, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CommServerUA\CommonBinaries\PR36-CAS_MAIN_CORE_PCKG\50000\CAS.RTLib.dll</HintPath>
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.RTLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CAS.RTLibComm, Version=5.0.2.39088, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.RTLibComm.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="CAS.UA.IServerConfiguration, Version=1.0.0.32204, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
       <HintPath>..\packages\CAS.UA.IServerConfiguration.1.00.00\lib\net35\CAS.UA.IServerConfiguration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataPorterConfigLib, Version=2.0.12.24145, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\DataPorterConfigLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Opc.Ua.Core">
@@ -153,7 +170,6 @@
     <Compile Include="SourceBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="cas.snk" />
     <None Include="ClassDiagrams\CASConfiguration.cd" />
     <None Include="ClassDiagrams\SourceBase.cd" />
@@ -164,16 +180,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\PR24-Biblioteka\DataPorterConfigLib\DataPorterConfigLib.csproj">
-      <Project>{6A9D0309-3FCA-4A32-917D-68BD883B3F37}</Project>
-      <Name>DataPorterConfigLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\PR24-Biblioteka\NetworkConfigLib\BK.NetworkConfigLib.csproj">
-      <Project>{531FA61A-6106-442D-9380-B4991DCECF19}</Project>
-      <Name>BK.NetworkConfigLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CommServer\CommServerMain.resx">
@@ -231,6 +237,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)..\ModelsContainer\EmbeddedExample\"</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)..\CommServer.UA.ConfigurationEditor.ModelsContainer\EmbeddedExample\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
