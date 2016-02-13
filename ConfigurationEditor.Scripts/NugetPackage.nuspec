@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CommServer.UA.ConfigurationEditor.ModelsContainer</id>
+    <version>3.20.1-Alpha</version>
+    <title>CommServer.UA.ConfigurationEditor.ModelsContainer - CommServer UA ConfigurationEditor ServerConfiguration </title>
+    <authors>CAS</authors>
+    <owners>commsvr.com</owners>
+    <projectUrl>server.hq.cas.com.pl/Products/CommServer.UA.ConfigurationEditor</projectUrl>
+	  <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <description>
+	    Installation package of CommServer UA ConfigurationEditor ServerConfiguration plug-in
+    </description>
+    <summary>
+	  ConfigurationEditor ServerConfiguration.
+    </summary>
+    <releaseNotes>
+      To be added as a intermediary step in the decoupling process. 
+	</releaseNotes>
+    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+    <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
+  </metadata>
+  <files>
+  </files>
+</package>
+
