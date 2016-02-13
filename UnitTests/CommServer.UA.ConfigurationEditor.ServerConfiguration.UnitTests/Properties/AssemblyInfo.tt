@@ -3,11 +3,11 @@
 //<summary>
 //  Title   : Assembly info for: <#=m_AssemblyTitle#>
 //  System  : Microsoft Visual C# .NET
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//  $LastChangedDate:  $
+//  $Rev:  $
+//  $LastChangedBy: $
+//  $URL:  $
+//  $Id:  $
 //
 //  <#=AssemblyCopyright#>
 //  <#=Phone#>
@@ -32,7 +32,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("<#= CASUAServerServerConfigurationVersion #>.*")]
 [assembly: AssemblyFileVersion("<#= CASUAServerServerConfigurationVersion #>")]
 
-<#@ include file = "..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
 <#+
 string m_AssemblyTitle = "CAS UA Server Configuration Unit Tests";
 #>
