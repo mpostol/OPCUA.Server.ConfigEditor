@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>CommServer.UA.ConfigurationEditor.ModelsContainer</id>
+    <id>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer</id>
     <version>3.20.1-Alpha</version>
-    <title>CommServer.UA.ConfigurationEditor.ModelsContainer - CommServer UA ConfigurationEditor ServerConfiguration </title>
+    <title>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer - CommServer UA ConfigurationEditor ServerConfiguration </title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
     <projectUrl>svn://svnserver.hq.cas.com.pl/Products/CommServer.UA.ConfigurationEditor</projectUrl>
