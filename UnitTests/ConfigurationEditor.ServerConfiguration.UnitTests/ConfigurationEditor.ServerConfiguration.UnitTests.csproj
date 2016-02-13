@@ -100,7 +100,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CommServer.UA.ConfigurationEditor.ServerConfiguration\ConfigurationEditor.ServerConfiguration.csproj">
+    <ProjectReference Include="..\..\ConfigurationEditor.ServerConfiguration\ConfigurationEditor.ServerConfiguration.csproj">
       <Project>{28F30394-6EBA-4584-9041-F69CCB921424}</Project>
       <Name>ConfigurationEditor.ServerConfiguration</Name>
     </ProjectReference>

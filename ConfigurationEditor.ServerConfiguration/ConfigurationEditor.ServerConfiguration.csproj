@@ -237,6 +237,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)..\CommServer.UA.ConfigurationEditor.ModelsContainer\EmbeddedExample\"</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)..\ConfigurationEditor.ModelsContainer\EmbeddedExample\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
