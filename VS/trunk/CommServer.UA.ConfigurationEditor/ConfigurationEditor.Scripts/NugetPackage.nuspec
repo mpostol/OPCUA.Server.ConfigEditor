@@ -6,7 +6,7 @@
     <title>CommServer.UA.ConfigurationEditor.ModelsContainer - CommServer UA ConfigurationEditor ServerConfiguration </title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
-    <projectUrl>server.hq.cas.com.pl/Products/CommServer.UA.ConfigurationEditor</projectUrl>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/Products/CommServer.UA.ConfigurationEditor</projectUrl>
 	  <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
@@ -23,6 +23,9 @@
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
   </metadata>
   <files>
+     <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" />
+     <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.pdb" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.pdb" />
+     <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.XML" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.XML" />
   </files>
 </package>
 

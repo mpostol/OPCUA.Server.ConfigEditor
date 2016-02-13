@@ -4,7 +4,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CAS.UA.Server.ServerConfiguration</id>
-        <version><#= CASUAServerServerConfigurationVersion #></version>
+        <version><#= CASCommServerUAConfigurationEditorVersion #></version>
         <title>CAS CommServer UA Configuration Editor</title>
         <authors><#=AssemblyCompany#></authors>
         <owners><#= Owner #></owners>

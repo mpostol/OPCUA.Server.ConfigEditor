@@ -43,10 +43,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NugetPackage.tt">
+    <None Include="NugetPackage.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NugetPackage.nuspec</LastGenOutput>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
