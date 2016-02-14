@@ -23,6 +23,9 @@
 	</releaseNotes>
     <copyright><#=AssemblyCopyright#></copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
+    <dependencies>
+      <dependency id="CAS.CommServer.DA.Configuration" version="1.00.00-Alpha" />
+    </dependencies>
   </metadata>
   <files>
      <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" />
