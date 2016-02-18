@@ -213,6 +213,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CAS.UA.Server.ServerConfiguration.tt</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Properties\CAS.UA.Server.ServerConfiguration.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
