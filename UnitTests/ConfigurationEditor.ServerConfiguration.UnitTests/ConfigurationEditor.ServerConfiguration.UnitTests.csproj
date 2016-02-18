@@ -79,7 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cas.snk" />
-    <None Include="Help\ASModelDesigner.chm" />
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

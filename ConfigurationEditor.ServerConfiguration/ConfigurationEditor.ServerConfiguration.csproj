@@ -178,7 +178,6 @@
     <None Include="ClassDiagrams\CASConfiguration.cd" />
     <None Include="ClassDiagrams\SourceBase.cd" />
     <EmbeddedResource Include="CAS.UAServer.Default.uasconfig" />
-    <None Include="Help\ASModelDesigner.chm" />
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
