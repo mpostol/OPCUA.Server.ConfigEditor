@@ -48,36 +48,8 @@
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.CodeProtect, Version=5.0.2.39087, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.CodeProtect.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.ControlLibrary, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.ControlLibrary.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.NetworkConfigLib, Version=4.0.22.24144, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.NetworkConfigLib.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.OpcNetApi.350, Version=2.0.108.39166, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.OpcNetApi.350.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.RTLib, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.RTLib.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.RTLibComm, Version=5.0.2.39088, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\CAS.RTLibComm.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="CAS.UA.IServerConfiguration, Version=1.0.0.32204, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
       <HintPath>..\..\packages\CAS.UA.IServerConfiguration.1.00.00\lib\net35\CAS.UA.IServerConfiguration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DataPorterConfigLib, Version=2.0.12.24145, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\CAS.CommServer.DA.Configuration.1.00.00-Alpha\lib\net35\DataPorterConfigLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
