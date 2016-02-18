@@ -142,6 +142,11 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
+    <None Include="Properties\ConfigurationEditor.ModelsContainer.nuspec.nuspec">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigurationEditor.ModelsContainer.nuspec.tt</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -180,6 +185,10 @@
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.NodeSet.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.NodeSet2.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.PredefinedNodes.xml" />
+    <Content Include="Properties\ConfigurationEditor.ModelsContainer.nuspec.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ConfigurationEditor.ModelsContainer.nuspec.nuspec</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
