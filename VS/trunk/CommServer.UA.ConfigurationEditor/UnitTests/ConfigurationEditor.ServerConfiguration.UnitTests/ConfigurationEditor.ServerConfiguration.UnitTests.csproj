@@ -8,8 +8,8 @@
     <ProjectGuid>{678A6D7B-A8AF-43B1-A5AA-9499A9E06065}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OPCFSDKConfig.UT</RootNamespace>
-    <AssemblyName>OPCFSDKConfig.UT</AssemblyName>
+    <RootNamespace>CAS.CommServer.UA.Server.ServerConfiguration.UnitTests</RootNamespace>
+    <AssemblyName>CAS.CommServer.UA.Server.ServerConfiguration.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

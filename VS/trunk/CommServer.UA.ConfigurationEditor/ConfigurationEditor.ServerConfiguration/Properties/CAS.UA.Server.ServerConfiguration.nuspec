@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>CAS.UA.Server.ServerConfiguration</id>
-        <version>3.20.1</version>
+        <id>CAS.CommServer.UA.Server.ServerConfiguration</id>
+        <version>3.20.1-Charlie</version>
         <title>CAS CommServer UA Configuration Editor</title>
         <authors>CAS</authors>
         <owners>commsvr.com</owners>
