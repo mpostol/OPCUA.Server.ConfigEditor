@@ -16,21 +16,21 @@
 	    Installation package of CommServer UA ConfigurationEditor ServerConfiguration plug-in
     </description>
     <summary>
-	  ConfigurationEditor ServerConfiguration.
+	    ConfigurationEditor ServerConfiguration.
     </summary>
     <releaseNotes>
       To be added as a intermediary step in the decoupling process. 
-	</releaseNotes>
+	  </releaseNotes>
     <copyright><#=AssemblyCopyright#></copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
-      <dependency id="CAS.CommServer.DA.Configuration" version="1.00.00-Alpha" />
+      <dependency id="CAS.CommServer.UA.Server.ServerConfiguration" version="3.20.1-Charlie" />
     </dependencies>
   </metadata>
   <files>
-     <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" />
-     <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.pdb" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.pdb" />
-     <file src="..\ConfigurationEditor.ModelsContainer\bin\Debug\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.XML" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.XML" />
+     <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" />
+     <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.pdb" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.pdb" />
+     <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml" />
   </files>
 </package>
 
