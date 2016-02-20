@@ -210,15 +210,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\CAS.UA.Server.ServerConfiguration.nuspec">
+    <None Include="Properties\CAS.CommServer.UA.Server.ServerConfiguration.nuspec.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CAS.UA.Server.ServerConfiguration.tt</DependentUpon>
+      <DependentUpon>CAS.CommServer.UA.Server.ServerConfiguration.nuspec.tt</DependentUpon>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Properties\CAS.UA.Server.ServerConfiguration.tt">
+    <None Include="Properties\CAS.CommServer.UA.Server.ServerConfiguration.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>CAS.UA.Server.ServerConfiguration.nuspec</LastGenOutput>
+      <LastGenOutput>CAS.CommServer.UA.Server.ServerConfiguration.nuspec.nuspec</LastGenOutput>
     </None>
     <None Include="Resources\Folder_Open.png" />
   </ItemGroup>

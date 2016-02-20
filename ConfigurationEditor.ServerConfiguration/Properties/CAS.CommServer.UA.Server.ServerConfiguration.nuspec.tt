@@ -17,10 +17,10 @@
         <copyright><#=AssemblyCopyright#></copyright>
         <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
         <dependencies>
-          <dependency id="CAS.CommServer.DA.Client.Configuration" version="3.11.0" />
-          <dependency id="CAS.CommServer.DA.Server.Configuration" version="4.1.0" />
-          <dependency id="CAS.UA.Common" version="2.00.02" />
-          <dependency id="CAS.UA.IServerConfiguration" version="1.00.00" />
+            <dependency id="CAS.CommServer.DA.Client.Configuration" version="3.11.0" />
+            <dependency id="CAS.CommServer.DA.Server.Configuration" version="4.1.0" />
+            <dependency id="CAS.UA.IServerConfiguration" version="1.00.00" />
+            <dependency id="CAS.UA.Common" version="3.00.00" />
         </dependencies>
     </metadata>
     <files>
