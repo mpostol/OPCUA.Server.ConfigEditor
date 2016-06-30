@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelDesign xmlns:CASUAServerDemo="http://cas.eu/UA/Demo/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:OpcUa="http://opcfoundation.org/UA/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TargetNamespace="http://cas.eu/UA/Demo/" xmlns="http://opcfoundation.org/UA/ModelDesign.xsd">
+<ModelDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpcUa="http://opcfoundation.org/UA/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:CASUAServerDemo="http://commsvr.com/UA/Examples/BoilerType" TargetNamespace="http://commsvr.com/UA/Examples/BoilerType" xmlns="http://opcfoundation.org/UA/ModelDesign.xsd">
   <Namespaces>
     <Namespace Name="OpcUa" Prefix="Opc.Ua" InternalPrefix="Opc.Ua.Server" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd" XmlPrefix="OpcUa">http://opcfoundation.org/UA/</Namespace>
-    <Namespace Name="Sample" Prefix="CAS.UA.Server.Demo" XmlPrefix="CASUAServerDemo">http://cas.eu/UA/Demo/</Namespace>
+    <Namespace Name="BoilerType" Prefix="Commsvr.UA.Examples.BoilerType" XmlNamespace="http://commsvr.com/UA/Examples/BoilerType/Types.xsd" XmlPrefix="CASUAServerDemo" FilePath="BoilerType">http://commsvr.com/UA/Examples/BoilerType</Namespace>
   </Namespaces>
   <ReferenceType SymbolicName="CASUAServerDemo:FlowTo" BaseType="OpcUa:NonHierarchicalReferences">
     <Description>A reference that indicates a flow between two objects.</Description>

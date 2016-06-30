@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelDesign xmlns:bt="http://commsvr.com/UA/Examples/BoilerType" xmlns:bs="http://commsvr.com/UA/Examples/BoilersSet" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:OpcUa="http://opcfoundation.org/UA/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" TargetNamespace="http://commsvr.com/UA/Examples/BoilersSet" TargetXmlNamespace="http://commsvr.com/UA/Examples/BoilersSet" xmlns="http://opcfoundation.org/UA/ModelDesign.xsd">
+  <Namespaces>
+    <Namespace Name="OpcUa" Prefix="Opc.Ua" InternalPrefix="Opc.Ua.Server" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd" XmlPrefix="OpcUa">http://opcfoundation.org/UA/</Namespace>
+    <Namespace Name="BoilerType" Prefix="Commsvr.UA.Examples.BoilerType" XmlNamespace="http://commsvr.com/UA/Examples/BoilerType/Types.xsd" XmlPrefix="bt" FilePath="BoilerType">http://commsvr.com/UA/Examples/BoilerType</Namespace>
+    <Namespace Name="BoilersSet" Prefix="Commsvr.UA.Examples.BoilersSet" XmlNamespace="http://commsvr.com/UA/Examples/BoilersSet/Types.xsd" XmlPrefix="bs" FilePath="BoilersSet">http://commsvr.com/UA/Examples/BoilersSet</Namespace>
+  </Namespaces>
+  <Object SymbolicName="bs:BoilersArea" TypeDefinition="OpcUa:FolderType">
+    <Children>
+      <Object SymbolicName="bs:CASBoiler" TypeDefinition="bt:BoilerType">
+        <BrowseName>Boiler #1</BrowseName>
+        <Children>
+          <Object SymbolicName="bs:InputPipe">
+            <DisplayName>Pipe1001</DisplayName>
+          </Object>
+          <Object SymbolicName="bs:Drum">
+            <DisplayName>Drum1001</DisplayName>
+          </Object>
+          <Object SymbolicName="bs:OutputPipe">
+            <DisplayName>Pipe1002</DisplayName>
+          </Object>
+          <Object SymbolicName="bs:FlowController">
+            <DisplayName>FC1001</DisplayName>
+          </Object>
+          <Object SymbolicName="bs:LevelController">
+            <DisplayName>LC1001</DisplayName>
+          </Object>
+          <Object SymbolicName="bs:CustomController">
+            <DisplayName>CC1001</DisplayName>
+          </Object>
+        </Children>
+      </Object>
+    </Children>
+    <References>
+      <Reference IsInverse="true">
+        <ReferenceType>OpcUa:Organizes</ReferenceType>
+        <TargetId>OpcUa:ObjectsFolder</TargetId>
+      </Reference>
+      <Reference IsInverse="true">
+        <ReferenceType>OpcUa:HasNotifier</ReferenceType>
+        <TargetId>OpcUa:Server</TargetId>
+      </Reference>
+      <Reference>
+        <ReferenceType>OpcUa:HasNotifier</ReferenceType>
+        <TargetId>bs:BoilersArea_CASBoiler</TargetId>
+      </Reference>
+    </References>
+  </Object>
+</ModelDesign>
