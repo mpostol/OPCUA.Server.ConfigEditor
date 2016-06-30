@@ -104,9 +104,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel.xml" />
     <EmbeddedResource Include="EmbeddedExample\ADISampleConfiguration\OPC_DA_SampleAnalyser_tag_list.txt" />
-    <EmbeddedResource Include="EmbeddedExample\DemoConfiguration\BoilerExample.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="EmbeddedExample\DemoConfiguration\DefaultConfig.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -175,11 +172,11 @@
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.Types.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.PredefinedNodes.uanodes">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.Types.bsd" />
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.Types.xsd">
+    <None Include="EmbeddedExample\DemoConfiguration\BoilersSet.csv" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType.csv" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.PredefinedNodes.uanodes" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.Types.bsd" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.Types.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Help\ASModelDesigner.chm" />
@@ -199,11 +196,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContainerResources.cs" />
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\FTNIRModel\FTNIR.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\FTNIRModelInstance\FTNIRInstance.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaAdiModel\Opc.Ua.Adi.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.Classes.cs" />
+    <Compile Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.Classes.cs" />
+    <Compile Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.Classes.cs" />
+    <Compile Include="EmbeddedExample\DemoConfiguration\BoilerType\Commsvr.UA.Examples.BoilerType.Classes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -223,14 +222,21 @@
     <Content Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.NodeSet.xml" />
     <Content Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.NodeSet2.xml" />
     <Content Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.PredefinedNodes.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.NodeSet.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.NodeSet2.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerExample\CAS.UA.Server.Demo.PredefinedNodes.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.PredefinedNodes.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.NodeSet.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.NodeSet2.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.PredefinedNodes.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\Commsvr.UA.Examples.BoilerType.PredefinedNodes.xml" />
     <Content Include="Properties\ConfigurationEditor.ModelsContainer.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ConfigurationEditor.ModelsContainer.nuspec.nuspec</LastGenOutput>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

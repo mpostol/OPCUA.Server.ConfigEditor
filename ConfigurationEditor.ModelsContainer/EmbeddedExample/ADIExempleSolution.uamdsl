@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UAModelDesignerSolution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UAModelDesignerSolution xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ADI Implementation</Name>
   <Projects>
     <UAModelDesignerProject ProjectIdentifier="85c40052-1dda-4222-9a32-46a46ad56d90">
