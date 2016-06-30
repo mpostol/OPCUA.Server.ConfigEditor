@@ -9,7 +9,7 @@
   DefaultByteOrder="LittleEndian"
   TargetNamespace="http://cas.eu/UA/FTNIR/"
 >
-  <!-- This File was generated on 2015-08-11 and supports the specifications supported by version 1.2.26.16032 of the OPC UA deliverables. -->
+  <!-- This File was generated on 2016-06-29 and supports the specifications supported by version 1.2.26.16032 of the OPC UA deliverables. -->
   <opc:Import Namespace="http://opcfoundation.org/UA/ADI/" Location="Opc.Ua.Adi.BinarySchema.bsd"/>
   <opc:Import Namespace="http://opcfoundation.org/UA/DI/" Location="Opc.Ua.Di.BinarySchema.bsd"/>
   <opc:Import Namespace="http://opcfoundation.org/UA/" Location="Opc.Ua.BinarySchema.bsd"/>
