@@ -34,7 +34,7 @@ using System.Reflection;
 using System.Xml;
 using System.Runtime.Serialization;
 using Opc.Ua;
-using Commsvr.UA.Examples.BoilerType;
+using tempuri.org.UA.Examples.BoilerType;
 
 namespace Commsvr.UA.Examples.BoilersSet
 {
@@ -703,14 +703,14 @@ namespace Commsvr.UA.Examples.BoilersSet
         public const string OpcUaXsd = "http://opcfoundation.org/UA/2008/02/Types.xsd";
 
         /// <summary>
-        /// The URI for the BoilerType namespace (.NET code namespace is 'Commsvr.UA.Examples.BoilerType').
+        /// The URI for the BoilerType namespace (.NET code namespace is 'tempuri.org.UA.Examples.BoilerType').
         /// </summary>
-        public const string BoilerType = "http://commsvr.com/UA/Examples/BoilerType";
+        public const string BoilerType = "http://tempuri.org/UA/Examples/BoilerType";
 
         /// <summary>
-        /// The URI for the BoilerTypeXsd namespace (.NET code namespace is 'Commsvr.UA.Examples.BoilerType').
+        /// The URI for the BoilerTypeXsd namespace (.NET code namespace is 'tempuri.org.UA.Examples.BoilerType').
         /// </summary>
-        public const string BoilerTypeXsd = "http://commsvr.com/UA/Examples/BoilerType/Types.xsd";
+        public const string BoilerTypeXsd = "http://tempuri.org/UA/Examples/BoilerType/Types.xsd";
 
         /// <summary>
         /// The URI for the BoilersSet namespace (.NET code namespace is 'Commsvr.UA.Examples.BoilersSet').
