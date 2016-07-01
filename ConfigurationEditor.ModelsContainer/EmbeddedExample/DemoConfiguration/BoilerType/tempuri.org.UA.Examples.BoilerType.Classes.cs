@@ -35,7 +35,7 @@ using System.Xml;
 using System.Runtime.Serialization;
 using Opc.Ua;
 
-namespace Commsvr.UA.Examples.BoilerType
+namespace tempuri.org.UA.Examples.BoilerType
 {
     #region Method Identifiers
     /// <summary>
@@ -688,27 +688,27 @@ namespace Commsvr.UA.Examples.BoilerType
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_Start Method.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Start = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Start, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Start = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Start, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_Suspend Method.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Suspend = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Suspend, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Suspend = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Suspend, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_Resume Method.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Resume = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Resume, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Resume = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Resume, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_Halt Method.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Halt = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Halt, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Halt = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Halt, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_Reset Method.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Reset = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Reset, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Reset = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Methods.Boilers_Boiler1_Simulation_Reset, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
     }
     #endregion
 
@@ -723,142 +723,142 @@ namespace Commsvr.UA.Examples.BoilerType
         /// <summary>
         /// The identifier for the BoilerInputPipeType_FlowTransmitter1 Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerInputPipeType_FlowTransmitter1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerInputPipeType_FlowTransmitter1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerInputPipeType_FlowTransmitter1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerInputPipeType_FlowTransmitter1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerInputPipeType_Valve Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerInputPipeType_Valve = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerInputPipeType_Valve, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerInputPipeType_Valve = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerInputPipeType_Valve, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerDrumType_LevelIndicator Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerDrumType_LevelIndicator = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerDrumType_LevelIndicator, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerDrumType_LevelIndicator = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerDrumType_LevelIndicator, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerOutputPipeType_FlowTransmitter2 Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerOutputPipeType_FlowTransmitter2 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerOutputPipeType_FlowTransmitter2, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerOutputPipeType_FlowTransmitter2 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerOutputPipeType_FlowTransmitter2, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_InputPipe Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_InputPipe = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_InputPipe, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_InputPipe = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_InputPipe, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_InputPipe_FlowTransmitter1 Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_InputPipe_FlowTransmitter1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_InputPipe_FlowTransmitter1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_InputPipe_FlowTransmitter1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_InputPipe_FlowTransmitter1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_InputPipe_Valve Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_InputPipe_Valve = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_InputPipe_Valve, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_InputPipe_Valve = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_InputPipe_Valve, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_Drum Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_Drum = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_Drum, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_Drum = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_Drum, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_Drum_LevelIndicator Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_Drum_LevelIndicator = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_Drum_LevelIndicator, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_Drum_LevelIndicator = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_Drum_LevelIndicator, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_OutputPipe Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_OutputPipe = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_OutputPipe, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_OutputPipe = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_OutputPipe, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_OutputPipe_FlowTransmitter2 Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_OutputPipe_FlowTransmitter2 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_OutputPipe_FlowTransmitter2, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_OutputPipe_FlowTransmitter2 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_OutputPipe_FlowTransmitter2, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_FlowController Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_FlowController = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_FlowController, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_FlowController = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_FlowController, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_LevelController Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_LevelController = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_LevelController, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_LevelController = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_LevelController, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_CustomController Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_CustomController = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_CustomController, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_CustomController = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_CustomController, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_Simulation Object.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_Simulation = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.BoilerType_Simulation, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_Simulation = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.BoilerType_Simulation, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1 Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_InputPipe, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_InputPipe, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe_FlowTransmitter1 Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_FlowTransmitter1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_InputPipe_FlowTransmitter1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_FlowTransmitter1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_InputPipe_FlowTransmitter1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe_Valve Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_Valve = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_InputPipe_Valve, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_Valve = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_InputPipe_Valve, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Drum Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Drum = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_Drum, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Drum = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_Drum, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Drum_LevelIndicator Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Drum_LevelIndicator = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_Drum_LevelIndicator, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Drum_LevelIndicator = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_Drum_LevelIndicator, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_OutputPipe Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_OutputPipe, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_OutputPipe, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_OutputPipe_FlowTransmitter2 Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe_FlowTransmitter2 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_OutputPipe_FlowTransmitter2, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe_FlowTransmitter2 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_OutputPipe_FlowTransmitter2, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_FlowController Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_FlowController, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_FlowController, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_LevelController Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_LevelController, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_LevelController, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_CustomController Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_CustomController, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_CustomController, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation Object.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Objects.Boilers_Boiler1_Simulation, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Objects.Boilers_Boiler1_Simulation, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
     }
     #endregion
 
@@ -873,72 +873,72 @@ namespace Commsvr.UA.Examples.BoilerType
         /// <summary>
         /// The identifier for the GenericControllerType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId GenericControllerType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.GenericControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericControllerType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.GenericControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericSensorType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId GenericSensorType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.GenericSensorType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericSensorType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.GenericSensorType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericActuatorType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId GenericActuatorType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.GenericActuatorType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericActuatorType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.GenericActuatorType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the CustomControllerType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId CustomControllerType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.CustomControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId CustomControllerType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.CustomControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the ValveType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ValveType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.ValveType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId ValveType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.ValveType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the LevelControllerType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId LevelControllerType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.LevelControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId LevelControllerType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.LevelControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the FlowControllerType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId FlowControllerType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.FlowControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId FlowControllerType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.FlowControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the LevelIndicatorType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId LevelIndicatorType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.LevelIndicatorType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId LevelIndicatorType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.LevelIndicatorType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the FlowTransmitterType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId FlowTransmitterType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.FlowTransmitterType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId FlowTransmitterType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.FlowTransmitterType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerStateMachineType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerStateMachineType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerStateMachineType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerStateMachineType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerStateMachineType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerInputPipeType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerInputPipeType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerInputPipeType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerInputPipeType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerInputPipeType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerDrumType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerDrumType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerDrumType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerDrumType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerDrumType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerOutputPipeType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerOutputPipeType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerOutputPipeType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerOutputPipeType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerOutputPipeType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
     }
     #endregion
 
@@ -953,17 +953,17 @@ namespace Commsvr.UA.Examples.BoilerType
         /// <summary>
         /// The identifier for the FlowTo ReferenceType.
         /// </summary>
-        public static readonly ExpandedNodeId FlowTo = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ReferenceTypes.FlowTo, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId FlowTo = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ReferenceTypes.FlowTo, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the HotFlowTo ReferenceType.
         /// </summary>
-        public static readonly ExpandedNodeId HotFlowTo = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ReferenceTypes.HotFlowTo, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId HotFlowTo = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ReferenceTypes.HotFlowTo, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the SignalTo ReferenceType.
         /// </summary>
-        public static readonly ExpandedNodeId SignalTo = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.ReferenceTypes.SignalTo, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId SignalTo = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.ReferenceTypes.SignalTo, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
     }
     #endregion
 
@@ -978,342 +978,342 @@ namespace Commsvr.UA.Examples.BoilerType
         /// <summary>
         /// The identifier for the GenericControllerType_Measurement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericControllerType_Measurement = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericControllerType_Measurement, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericControllerType_Measurement = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericControllerType_Measurement, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericControllerType_SetPoint Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericControllerType_SetPoint = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericControllerType_SetPoint, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericControllerType_SetPoint = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericControllerType_SetPoint, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericControllerType_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericControllerType_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericControllerType_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericControllerType_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericControllerType_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericSensorType_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericSensorType_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericSensorType_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericSensorType_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericSensorType_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericSensorType_Output_EURange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericSensorType_Output_EURange = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericSensorType_Output_EURange, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericSensorType_Output_EURange = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericSensorType_Output_EURange, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericActuatorType_Input Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericActuatorType_Input = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericActuatorType_Input, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericActuatorType_Input = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericActuatorType_Input, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the GenericActuatorType_Input_EURange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GenericActuatorType_Input_EURange = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.GenericActuatorType_Input_EURange, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId GenericActuatorType_Input_EURange = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.GenericActuatorType_Input_EURange, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the CustomControllerType_Input1 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CustomControllerType_Input1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.CustomControllerType_Input1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId CustomControllerType_Input1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.CustomControllerType_Input1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the CustomControllerType_Input2 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CustomControllerType_Input2 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.CustomControllerType_Input2, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId CustomControllerType_Input2 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.CustomControllerType_Input2, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the CustomControllerType_Input3 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CustomControllerType_Input3 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.CustomControllerType_Input3, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId CustomControllerType_Input3 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.CustomControllerType_Input3, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the CustomControllerType_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CustomControllerType_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.CustomControllerType_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId CustomControllerType_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.CustomControllerType_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the CustomControllerType_DescriptionX Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CustomControllerType_DescriptionX = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.CustomControllerType_DescriptionX, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId CustomControllerType_DescriptionX = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.CustomControllerType_DescriptionX, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerStateMachineType_UpdateRate Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerStateMachineType_UpdateRate = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerStateMachineType_UpdateRate, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerStateMachineType_UpdateRate = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerStateMachineType_UpdateRate, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_InputPipe_FlowTransmitter1_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_InputPipe_FlowTransmitter1_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_InputPipe_FlowTransmitter1_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_InputPipe_FlowTransmitter1_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_InputPipe_FlowTransmitter1_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_InputPipe_Valve_Input Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_InputPipe_Valve_Input = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_InputPipe_Valve_Input, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_InputPipe_Valve_Input = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_InputPipe_Valve_Input, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_Drum_LevelIndicator_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_Drum_LevelIndicator_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_Drum_LevelIndicator_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_Drum_LevelIndicator_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_Drum_LevelIndicator_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_OutputPipe_FlowTransmitter2_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_OutputPipe_FlowTransmitter2_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_OutputPipe_FlowTransmitter2_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_OutputPipe_FlowTransmitter2_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_OutputPipe_FlowTransmitter2_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_FlowController_Measurement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_FlowController_Measurement = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_FlowController_Measurement, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_FlowController_Measurement = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_FlowController_Measurement, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_FlowController_SetPoint Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_FlowController_SetPoint = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_FlowController_SetPoint, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_FlowController_SetPoint = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_FlowController_SetPoint, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_FlowController_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_FlowController_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_FlowController_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_FlowController_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_FlowController_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_LevelController_Measurement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_LevelController_Measurement = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_LevelController_Measurement, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_LevelController_Measurement = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_LevelController_Measurement, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_LevelController_SetPoint Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_LevelController_SetPoint = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_LevelController_SetPoint, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_LevelController_SetPoint = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_LevelController_SetPoint, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_LevelController_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_LevelController_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_LevelController_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_LevelController_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_LevelController_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_CustomController_Input1 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_CustomController_Input1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_CustomController_Input1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_CustomController_Input1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_CustomController_Input1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_CustomController_Input2 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_CustomController_Input2 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_CustomController_Input2, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_CustomController_Input2 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_CustomController_Input2, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_CustomController_Input3 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_CustomController_Input3 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_CustomController_Input3, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_CustomController_Input3 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_CustomController_Input3, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_CustomController_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_CustomController_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_CustomController_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_CustomController_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_CustomController_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_CustomController_DescriptionX Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_CustomController_DescriptionX = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_CustomController_DescriptionX, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_CustomController_DescriptionX = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_CustomController_DescriptionX, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the BoilerType_Simulation_UpdateRate Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BoilerType_Simulation_UpdateRate = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.BoilerType_Simulation_UpdateRate, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId BoilerType_Simulation_UpdateRate = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.BoilerType_Simulation_UpdateRate, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe_FlowTransmitter1_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_FlowTransmitter1_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_FlowTransmitter1_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_FlowTransmitter1_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_FlowTransmitter1_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe_FlowTransmitter1_Output_EURange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_FlowTransmitter1_Output_EURange = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_FlowTransmitter1_Output_EURange, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_FlowTransmitter1_Output_EURange = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_FlowTransmitter1_Output_EURange, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe_Valve_Input Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_Valve_Input = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_Valve_Input, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_Valve_Input = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_Valve_Input, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_InputPipe_Valve_Input_EURange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_Valve_Input_EURange = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_Valve_Input_EURange, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_InputPipe_Valve_Input_EURange = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_InputPipe_Valve_Input_EURange, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Drum_LevelIndicator_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Drum_LevelIndicator_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Drum_LevelIndicator_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Drum_LevelIndicator_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Drum_LevelIndicator_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Drum_LevelIndicator_Output_EURange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Drum_LevelIndicator_Output_EURange = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Drum_LevelIndicator_Output_EURange, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Drum_LevelIndicator_Output_EURange = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Drum_LevelIndicator_Output_EURange, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output_EURange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output_EURange = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output_EURange, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output_EURange = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_OutputPipe_FlowTransmitter2_Output_EURange, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_FlowController_Measurement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController_Measurement = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_FlowController_Measurement, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController_Measurement = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_FlowController_Measurement, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_FlowController_SetPoint Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController_SetPoint = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_FlowController_SetPoint, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController_SetPoint = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_FlowController_SetPoint, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_FlowController_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_FlowController_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_FlowController_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_FlowController_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_LevelController_Measurement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController_Measurement = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_LevelController_Measurement, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController_Measurement = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_LevelController_Measurement, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_LevelController_SetPoint Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController_SetPoint = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_LevelController_SetPoint, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController_SetPoint = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_LevelController_SetPoint, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_LevelController_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_LevelController_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_LevelController_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_LevelController_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_CustomController_Input1 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_Input1 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_Input1, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_Input1 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_Input1, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_CustomController_Input2 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_Input2 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_Input2, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_Input2 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_Input2, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_CustomController_Input3 Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_Input3 = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_Input3, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_Input3 = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_Input3, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_CustomController_ControlOut Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_ControlOut = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_ControlOut, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_ControlOut = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_ControlOut, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_CustomController_DescriptionX Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_DescriptionX = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_DescriptionX, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_CustomController_DescriptionX = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_CustomController_DescriptionX, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_CurrentState = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_CurrentState, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_CurrentState = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_CurrentState, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_CurrentState_Id = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_CurrentState_Id, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_CurrentState_Id = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_CurrentState_Id, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_CurrentState_Number Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_CurrentState_Number = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_CurrentState_Number, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_CurrentState_Number = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_CurrentState_Number, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_LastTransition Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition_Id = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition_Id, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition_Id = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition_Id, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_LastTransition_Number Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition_Number = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition_Number, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition_Number = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition_Number, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_LastTransition_TransitionTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition_TransitionTime = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition_TransitionTime, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_LastTransition_TransitionTime = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_LastTransition_TransitionTime, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_Deletable Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Deletable = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_Deletable, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_Deletable = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_Deletable, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_RecycleCount Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_RecycleCount = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_RecycleCount, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_RecycleCount = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_RecycleCount, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateSessionId Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateSessionId = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateSessionId, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateSessionId = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateSessionId, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateClientName Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateClientName = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateClientName, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateClientName = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_CreateClientName, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_InvocationCreationTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_InvocationCreationTime = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_InvocationCreationTime, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_InvocationCreationTime = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_InvocationCreationTime, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastTransitionTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastTransitionTime = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastTransitionTime, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastTransitionTime = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastTransitionTime, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCall Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCall = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCall, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCall = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCall, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodSessionId Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodSessionId = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodSessionId, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodSessionId = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodSessionId, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodInputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodInputArguments = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodInputArguments, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodInputArguments = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodInputArguments, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodOutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodOutputArguments = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodOutputArguments, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodOutputArguments = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodOutputArguments, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCallTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCallTime = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCallTime, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCallTime = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodCallTime, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodReturnStatus Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodReturnStatus = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodReturnStatus, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodReturnStatus = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_ProgramDiagnostics_LastMethodReturnStatus, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
 
         /// <summary>
         /// The identifier for the Boilers_Boiler1_Simulation_UpdateRate Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_UpdateRate = new ExpandedNodeId(Commsvr.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_UpdateRate, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType);
+        public static readonly ExpandedNodeId Boilers_Boiler1_Simulation_UpdateRate = new ExpandedNodeId(tempuri.org.UA.Examples.BoilerType.Variables.Boilers_Boiler1_Simulation_UpdateRate, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType);
     }
     #endregion
 
@@ -1542,14 +1542,14 @@ namespace Commsvr.UA.Examples.BoilerType
         public const string OpcUaXsd = "http://opcfoundation.org/UA/2008/02/Types.xsd";
 
         /// <summary>
-        /// The URI for the BoilerType namespace (.NET code namespace is 'Commsvr.UA.Examples.BoilerType').
+        /// The URI for the BoilerType namespace (.NET code namespace is 'tempuri.org.UA.Examples.BoilerType').
         /// </summary>
-        public const string BoilerType = "http://commsvr.com/UA/Examples/BoilerType";
+        public const string BoilerType = "http://tempuri.org/UA/Examples/BoilerType";
 
         /// <summary>
-        /// The URI for the BoilerTypeXsd namespace (.NET code namespace is 'Commsvr.UA.Examples.BoilerType').
+        /// The URI for the BoilerTypeXsd namespace (.NET code namespace is 'tempuri.org.UA.Examples.BoilerType').
         /// </summary>
-        public const string BoilerTypeXsd = "http://commsvr.com/UA/Examples/BoilerType/Types.xsd";
+        public const string BoilerTypeXsd = "http://tempuri.org/UA/Examples/BoilerType/Types.xsd";
     }
     #endregion
 
@@ -1575,7 +1575,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.GenericControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.GenericControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -1598,7 +1598,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAHQAAAEdlbmVyaWNDb250cm9sbGVyVHlwZUluc3RhbmNlAQEEAAEBBAD/////AwAAABVgiQoCAAAA" +
            "AQALAAAATWVhc3VyZW1lbnQBAQUAAC4ARAUAAAAAC/////8BAf////8AAAAAFWCJCgIAAAABAAgAAABT" +
            "ZXRQb2ludAEBBgAALgBEBgAAAAAL/////wMD/////wAAAAAVYIkKAgAAAAEACgAAAENvbnRyb2xPdXQB" +
@@ -1718,7 +1718,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Measurement:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Measurement:
                 {
                     if (createOrReplace)
                     {
@@ -1739,7 +1739,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.SetPoint:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.SetPoint:
                 {
                     if (createOrReplace)
                     {
@@ -1760,7 +1760,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.ControlOut:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.ControlOut:
                 {
                     if (createOrReplace)
                     {
@@ -1822,7 +1822,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.GenericSensorType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.GenericSensorType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -1845,7 +1845,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGQAAAEdlbmVyaWNTZW5zb3JUeXBlSW5zdGFuY2UBAQgAAQEIAP////8BAAAAFWCJCgIAAAABAAYA" +
            "AABPdXRwdXQBAQkAAC8BAEAJCQAAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAABwAAAEVVUmFuZ2UB" +
            "AQ0AAC4ARA0AAAABAHQD/////wEB/////wAAAAA=";
@@ -1912,7 +1912,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Output:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Output:
                 {
                     if (createOrReplace)
                     {
@@ -1972,7 +1972,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.GenericActuatorType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.GenericActuatorType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -1995,7 +1995,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGwAAAEdlbmVyaWNBY3R1YXRvclR5cGVJbnN0YW5jZQEBDwABAQ8A/////wEAAAAVYIkKAgAAAAEA" +
            "BQAAAElucHV0AQEQAAAvAQBACRAAAAAAC/////8CAv////8BAAAAFWCJCgIAAAAAAAcAAABFVVJhbmdl" +
            "AQEUAAAuAEQUAAAAAQB0A/////8BAf////8AAAAA";
@@ -2062,7 +2062,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Input:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Input:
                 {
                     if (createOrReplace)
                     {
@@ -2122,7 +2122,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.CustomControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.CustomControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2145,7 +2145,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAHAAAAEN1c3RvbUNvbnRyb2xsZXJUeXBlSW5zdGFuY2UBARYAAQEWAP////8FAAAAFWCJCgIAAAAB" +
            "AAYAAABJbnB1dDEBARcAAC4ARBcAAAAAC/////8CAv////8AAAAAFWCJCgIAAAABAAYAAABJbnB1dDIB" +
            "ARgAAC4ARBgAAAAAC/////8CAv////8AAAAAFWCJCgIAAAABAAYAAABJbnB1dDMBARkAAC4ARBkAAAAA" +
@@ -2319,7 +2319,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Input1:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Input1:
                 {
                     if (createOrReplace)
                     {
@@ -2340,7 +2340,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Input2:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Input2:
                 {
                     if (createOrReplace)
                     {
@@ -2361,7 +2361,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Input3:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Input3:
                 {
                     if (createOrReplace)
                     {
@@ -2382,7 +2382,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.ControlOut:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.ControlOut:
                 {
                     if (createOrReplace)
                     {
@@ -2403,7 +2403,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.DescriptionX:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.DescriptionX:
                 {
                     if (createOrReplace)
                     {
@@ -2467,7 +2467,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.ValveType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.ValveType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2490,7 +2490,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAEQAAAFZhbHZlVHlwZUluc3RhbmNlAQEcAAEBHAD/////AQAAABVgiQoCAAAAAQAFAAAASW5wdXQB" +
            "AR0AAC8BAEAJHQAAAAAL/////wIC/////wEAAAAVYIkKAgAAAAAABwAAAEVVUmFuZ2UBASEAAC4ARCEA" +
            "AAABAHQD/////wEB/////wAAAAA=";
@@ -2532,7 +2532,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.LevelControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.LevelControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2555,7 +2555,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGwAAAExldmVsQ29udHJvbGxlclR5cGVJbnN0YW5jZQEBIwABASMA/////wMAAAAVYIkKAgAAAAEA" +
            "CwAAAE1lYXN1cmVtZW50AQEkAAAuAEQkAAAAAAv/////AQH/////AAAAABVgiQoCAAAAAQAIAAAAU2V0" +
            "UG9pbnQBASUAAC4ARCUAAAAAC/////8DA/////8AAAAAFWCJCgIAAAABAAoAAABDb250cm9sT3V0AQEm" +
@@ -2598,7 +2598,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.FlowControllerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.FlowControllerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2621,7 +2621,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGgAAAEZsb3dDb250cm9sbGVyVHlwZUluc3RhbmNlAQEnAAEBJwD/////AwAAABVgiQoCAAAAAQAL" +
            "AAAATWVhc3VyZW1lbnQBASgAAC4ARCgAAAAAC/////8BAf////8AAAAAFWCJCgIAAAABAAgAAABTZXRQ" +
            "b2ludAEBKQAALgBEKQAAAAAL/////wMD/////wAAAAAVYIkKAgAAAAEACgAAAENvbnRyb2xPdXQBASoA" +
@@ -2664,7 +2664,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.LevelIndicatorType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.LevelIndicatorType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2687,7 +2687,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGgAAAExldmVsSW5kaWNhdG9yVHlwZUluc3RhbmNlAQErAAEBKwD/////AQAAABVgiQoCAAAAAQAG" +
            "AAAAT3V0cHV0AQEsAAAvAQBACSwAAAAAC/////8BAf////8BAAAAFWCJCgIAAAAAAAcAAABFVVJhbmdl" +
            "AQEwAAAuAEQwAAAAAQB0A/////8BAf////8AAAAA";
@@ -2729,7 +2729,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.FlowTransmitterType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.FlowTransmitterType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2752,7 +2752,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGwAAAEZsb3dUcmFuc21pdHRlclR5cGVJbnN0YW5jZQEBMgABATIA/////wEAAAAVYIkKAgAAAAEA" +
            "BgAAAE91dHB1dAEBMwAALwEAQAkzAAAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAHAAAARVVSYW5n" +
            "ZQEBNwAALgBENwAAAAEAdAP/////AQH/////AAAAAA==";
@@ -2794,7 +2794,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerStateMachineType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerStateMachineType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2817,7 +2817,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAHgAAAEJvaWxlclN0YXRlTWFjaGluZVR5cGVJbnN0YW5jZQEBOQABATkA/////woAAAAVYIkKAgAA" +
            "AAAADAAAAEN1cnJlbnRTdGF0ZQEBOgAALwEAyAo6AAAAABX/////AQH/////AgAAABVgiQoCAAAAAAAC" +
            "AAAASWQBATsAAC4ARDsAAAAAEf////8BAf////8AAAAAFWCJCgIAAAAAAAYAAABOdW1iZXIBAT0AAC4A" +
@@ -2904,7 +2904,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.UpdateRate:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.UpdateRate:
                 {
                     if (createOrReplace)
                     {
@@ -2964,7 +2964,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerInputPipeType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerInputPipeType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2987,7 +2987,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAGwAAAEJvaWxlcklucHV0UGlwZVR5cGVJbnN0YW5jZQEBeAABAXgAAQAAAAAwAAEBeQACAAAAxGDA" +
            "CgEAAAAQAAAARmxvd1RyYW5zbWl0dGVyMQEABgAAAEZUWDAwMQEBeQADAAAAABAAAABGbG93VHJhbnNt" +
            "aXR0ZXIxAC8BATIAeQAAAAEBAAAAADABAQF4AAEAAAAVYIkKAgAAAAEABgAAAE91dHB1dAEBegAALwEA" +
@@ -3085,7 +3085,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.FlowTransmitter1:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.FlowTransmitter1:
                 {
                     if (createOrReplace)
                     {
@@ -3106,7 +3106,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Valve:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Valve:
                 {
                     if (createOrReplace)
                     {
@@ -3167,7 +3167,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerDrumType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerDrumType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -3190,7 +3190,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAFgAAAEJvaWxlckRydW1UeXBlSW5zdGFuY2UBAYcAAQGHAAEAAAAAMAABAYgAAQAAAIRgwAoBAAAA" +
            "DgAAAExldmVsSW5kaWNhdG9yAQAGAAAATElYMDAxAQGIAAAvAQErAIgAAAABAQAAAAAwAQEBhwABAAAA" +
            "FWCJCgIAAAABAAYAAABPdXRwdXQBAYkAAC8BAEAJiQAAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAA" +
@@ -3258,7 +3258,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.LevelIndicator:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.LevelIndicator:
                 {
                     if (createOrReplace)
                     {
@@ -3318,7 +3318,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerOutputPipeType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerOutputPipeType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -3341,7 +3341,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////8EYIAAAQAA" +
            "AAEAHAAAAEJvaWxlck91dHB1dFBpcGVUeXBlSW5zdGFuY2UBAY8AAQGPAAEAAAAAMAABAZAAAQAAAIRg" +
            "wAoBAAAAEAAAAEZsb3dUcmFuc21pdHRlcjIBAAYAAABGVFgwMDIBAZAAAC8BATIAkAAAAAEBAAAAADAB" +
            "AQGPAAEAAAAVYIkKAgAAAAEABgAAAE91dHB1dAEBkQAALwEAQAmRAAAAAAv/////AQH/////AQAAABVg" +
@@ -3409,7 +3409,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.FlowTransmitter2:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.FlowTransmitter2:
                 {
                     if (createOrReplace)
                     {
@@ -3469,7 +3469,7 @@ namespace Commsvr.UA.Examples.BoilerType
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Commsvr.UA.Examples.BoilerType.ObjectTypes.BoilerType, Commsvr.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
+            return Opc.Ua.NodeId.Create(tempuri.org.UA.Examples.BoilerType.ObjectTypes.BoilerType, tempuri.org.UA.Examples.BoilerType.Namespaces.BoilerType, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -3492,7 +3492,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
         #region Initialization String
         private const string InitializationString =
-           "AQAAACkAAABodHRwOi8vY29tbXN2ci5jb20vVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////+EYIAAAQAA" +
+           "AQAAACkAAABodHRwOi8vdGVtcHVyaS5vcmcvVUEvRXhhbXBsZXMvQm9pbGVyVHlwZf////+EYIAAAQAA" +
            "AAEAEgAAAEJvaWxlclR5cGVJbnN0YW5jZQEBlwABAZcAAQQAAAAAMAABAZgAADAAAQGnAAAwAAEBrwAA" +
            "JAABAcUABwAAAMRgwAoBAAAACQAAAElucHV0UGlwZQEACAAAAFBpcGVYMDAxAQGYAAMAAAAACQAAAElu" +
            "cHV0UGlwZQAvAQF4AJgAAAABAwAAAAAwAQEBlwAAMAABAZkAAQEBAAABAacAAgAAAMRgwAoBAAAAEAAA" +
@@ -3768,7 +3768,7 @@ namespace Commsvr.UA.Examples.BoilerType
 
             switch (browseName.Name)
             {
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.InputPipe:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.InputPipe:
                 {
                     if (createOrReplace)
                     {
@@ -3789,7 +3789,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Drum:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Drum:
                 {
                     if (createOrReplace)
                     {
@@ -3810,7 +3810,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.OutputPipe:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.OutputPipe:
                 {
                     if (createOrReplace)
                     {
@@ -3831,7 +3831,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.FlowController:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.FlowController:
                 {
                     if (createOrReplace)
                     {
@@ -3852,7 +3852,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.LevelController:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.LevelController:
                 {
                     if (createOrReplace)
                     {
@@ -3873,7 +3873,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.CustomController:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.CustomController:
                 {
                     if (createOrReplace)
                     {
@@ -3894,7 +3894,7 @@ namespace Commsvr.UA.Examples.BoilerType
                     break;
                 }
 
-                case Commsvr.UA.Examples.BoilerType.BrowseNames.Simulation:
+                case tempuri.org.UA.Examples.BoilerType.BrowseNames.Simulation:
                 {
                     if (createOrReplace)
                     {

@@ -129,9 +129,6 @@
     <EmbeddedResource Include="EmbeddedExample\BoilerExampleSolution.uamdsl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmbeddedExample\DemoConfiguration\BoilerExample.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="EmbeddedExample\ADIExempleSolution.uamdsl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -173,10 +170,15 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="EmbeddedExample\DemoConfiguration\BoilersSet.csv" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.PredefinedNodes.uanodes" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.Types.bsd" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.Types.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="EmbeddedExample\DemoConfiguration\BoilerType.csv" />
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.PredefinedNodes.uanodes" />
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.Types.bsd" />
-    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.Types.xsd">
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.PredefinedNodes.uanodes" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.Types.bsd" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.Types.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Help\ASModelDesigner.chm" />
@@ -201,8 +203,7 @@
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaAdiModel\Opc.Ua.Adi.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.Classes.cs" />
     <Compile Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.Classes.cs" />
-    <Compile Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.Classes.cs" />
-    <Compile Include="EmbeddedExample\DemoConfiguration\BoilerType\Commsvr.UA.Examples.BoilerType.Classes.cs" />
+    <Compile Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.Classes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -225,12 +226,13 @@
     <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.NodeSet.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.NodeSet2.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.PredefinedNodes.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerType.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.NodeSet.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.NodeSet2.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\CAS.UA.Server.Demo.PredefinedNodes.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\Commsvr.UA.Examples.BoilerType.PredefinedNodes.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.NodeSet.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.NodeSet2.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.PredefinedNodes.xml" />
     <Content Include="Properties\ConfigurationEditor.ModelsContainer.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ConfigurationEditor.ModelsContainer.nuspec.nuspec</LastGenOutput>

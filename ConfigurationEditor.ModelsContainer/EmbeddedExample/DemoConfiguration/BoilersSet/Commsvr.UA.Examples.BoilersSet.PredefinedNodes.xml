@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <uax:ListOfNodeState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd">
   <uax:NamespaceUris>
-    <uax:NamespaceUri>http://commsvr.com/UA/Examples/BoilerType</uax:NamespaceUri>
+    <uax:NamespaceUri>http://tempuri.org/UA/Examples/BoilerType</uax:NamespaceUri>
     <uax:NamespaceUri>http://commsvr.com/UA/Examples/BoilersSet</uax:NamespaceUri>
   </uax:NamespaceUris>
   <BoilersArea xmlns="http://commsvr.com/UA/Examples/BoilersSet">
@@ -155,7 +155,7 @@
             </uax:TargetId>
           </uax:Reference>
         </uax:References>
-        <FlowTransmitter1 xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <FlowTransmitter1 xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=4</uax:Identifier>
@@ -252,7 +252,7 @@
             </EURange>
           </Output>
         </FlowTransmitter1>
-        <Valve xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <Valve xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=11</uax:Identifier>
@@ -389,7 +389,7 @@
             </uax:TargetId>
           </uax:Reference>
         </uax:References>
-        <LevelIndicator xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <LevelIndicator xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=19</uax:Identifier>
@@ -524,7 +524,7 @@
             </uax:TargetId>
           </uax:Reference>
         </uax:References>
-        <FlowTransmitter2 xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <FlowTransmitter2 xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=27</uax:Identifier>
@@ -630,7 +630,7 @@
           <uax:Identifier>ns=1;i=39</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>34</uax:NumericId>
-        <Measurement xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <Measurement xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=35</uax:Identifier>
@@ -664,7 +664,7 @@
             </uax:Reference>
           </uax:References>
         </Measurement>
-        <SetPoint xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <SetPoint xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=36</uax:Identifier>
@@ -698,7 +698,7 @@
             </uax:Reference>
           </uax:References>
         </SetPoint>
-        <ControlOut xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <ControlOut xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=37</uax:Identifier>
@@ -752,7 +752,7 @@
           <uax:Identifier>ns=1;i=35</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>38</uax:NumericId>
-        <Measurement xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <Measurement xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=39</uax:Identifier>
@@ -786,7 +786,7 @@
             </uax:Reference>
           </uax:References>
         </Measurement>
-        <SetPoint xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <SetPoint xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=40</uax:Identifier>
@@ -809,7 +809,7 @@
           <uax:AccessLevel>3</uax:AccessLevel>
           <uax:UserAccessLevel>3</uax:UserAccessLevel>
         </SetPoint>
-        <ControlOut xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <ControlOut xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=41</uax:Identifier>
@@ -863,7 +863,7 @@
           <uax:Identifier>ns=1;i=22</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>42</uax:NumericId>
-        <Input1 xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <Input1 xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=43</uax:Identifier>
@@ -897,7 +897,7 @@
             </uax:Reference>
           </uax:References>
         </Input1>
-        <Input2 xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <Input2 xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=44</uax:Identifier>
@@ -931,7 +931,7 @@
             </uax:Reference>
           </uax:References>
         </Input2>
-        <Input3 xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <Input3 xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=45</uax:Identifier>
@@ -965,7 +965,7 @@
             </uax:Reference>
           </uax:References>
         </Input3>
-        <ControlOut xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <ControlOut xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=46</uax:Identifier>
@@ -998,7 +998,7 @@
             </uax:Reference>
           </uax:References>
         </ControlOut>
-        <DescriptionX xmlns="http://commsvr.com/UA/Examples/BoilerType">
+        <DescriptionX xmlns="http://tempuri.org/UA/Examples/BoilerType">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=2;i=47</uax:Identifier>
@@ -1022,7 +1022,7 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </DescriptionX>
       </CustomController>
-      <Simulation xmlns="http://commsvr.com/UA/Examples/BoilerType">
+      <Simulation xmlns="http://tempuri.org/UA/Examples/BoilerType">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
           <uax:Identifier>ns=2;i=48</uax:Identifier>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LastModified="2016-06-30T05:50:56.1233493Z" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LastModified="2016-07-01T06:47:17.4404521Z" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
   <NamespaceUris>
-    <Uri>http://commsvr.com/UA/Examples/BoilerType</Uri>
+    <Uri>http://tempuri.org/UA/Examples/BoilerType</Uri>
   </NamespaceUris>
   <Aliases>
     <Alias Alias="Boolean">i=1</Alias>

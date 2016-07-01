@@ -3,7 +3,7 @@
   <NamespaceUris>
     <String>http://opcfoundation.org/UA/</String>
     <String>http://commsvr.com/UA/Examples/BoilersSet</String>
-    <String>http://commsvr.com/UA/Examples/BoilerType</String>
+    <String>http://tempuri.org/UA/Examples/BoilerType</String>
   </NamespaceUris>
   <ServerUris />
   <Nodes>
