@@ -434,6 +434,48 @@
       <InstanceConfiguration>
         <NodeDescriptor>
           <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_BoilerAlpha</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_BoilerAlpha_OutputPipe</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_BoilerBravo</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_BoilerBravo_InputPipe</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_BoilerCharlie</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_BoilerDelta</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
           <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler</q:NodeIdentifier>
         </NodeDescriptor>
         <DataSources i:nil="true" />
@@ -454,6 +496,23 @@
       </InstanceConfiguration>
       <InstanceConfiguration>
         <NodeDescriptor>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_Drum_LevelIndicator</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <q:DataType xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Double</q:DataType>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Variable</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_Drum_LevelIndicator_Output</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
           <NodeClass>Object</NodeClass>
           <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_InputPipe</q:NodeIdentifier>
         </NodeDescriptor>
@@ -468,6 +527,31 @@
       </InstanceConfiguration>
       <InstanceConfiguration>
         <NodeDescriptor>
+          <q:DataType xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Double</q:DataType>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Variable</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_InputPipe_FlowTransmitter1_Output</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <q:DataType xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Range</q:DataType>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_InputPipe_FlowTransmitter1_Output_EURange</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_LevelController</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
           <NodeClass>Object</NodeClass>
           <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_CASBoiler_OutputPipe</q:NodeIdentifier>
         </NodeDescriptor>
@@ -476,7 +560,93 @@
       <InstanceConfiguration>
         <NodeDescriptor>
           <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilersArea_ObjectsFolder</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Drums</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Drums_Drum</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Measurements</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Measurements_ObjectsFolder</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Pipes</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Pipes_InputPipe</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://commsvr.com/UA/Examples/BoilersSet" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Pipes_OutputPipe</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <q:DataType xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Range</q:DataType>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:AnalogItemType_EURange</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
           <q:NodeIdentifier xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:HistoryServerCapabilities_ServerCapabilities</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:ModellingRule_Mandatory</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:ModellingRule_Mandatory_NameNotSet1</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:ModellingRule_MandatoryPlaceholder</q:NodeIdentifier>
         </NodeDescriptor>
         <DataSources i:nil="true" />
       </InstanceConfiguration>
@@ -503,8 +673,57 @@
       </InstanceConfiguration>
       <InstanceConfiguration>
         <NodeDescriptor>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilerDrumType_LevelIndicator</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
           <NodeClass>Object</NodeClass>
           <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Boilers</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilerType_Drum</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilerType_InputPipe</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilerType_LevelController</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Object</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:BoilerType_LevelController_ControlOut</q:NodeIdentifier>
+        </NodeDescriptor>
+        <DataSources i:nil="true" />
+      </InstanceConfiguration>
+      <InstanceConfiguration>
+        <NodeDescriptor>
+          <q:DataType xmlns:d6p1="http://opcfoundation.org/UA/" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:Double</q:DataType>
+          <InstanceDeclaration>true</InstanceDeclaration>
+          <NodeClass>Variable</NodeClass>
+          <q:NodeIdentifier xmlns:d6p1="http://tempuri.org/UA/Examples/BoilerType" xmlns:q="http://cas.eu/UA/2009/ServerConfiguration.xsd">d6p1:GenericSensorType_Output</q:NodeIdentifier>
         </NodeDescriptor>
         <DataSources i:nil="true" />
       </InstanceConfiguration>

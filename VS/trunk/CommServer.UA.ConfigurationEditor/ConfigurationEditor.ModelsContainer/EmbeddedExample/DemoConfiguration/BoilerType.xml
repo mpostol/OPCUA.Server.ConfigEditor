@@ -270,45 +270,4 @@
       </Reference>
     </References>
   </ObjectType>
-  <Object SymbolicName="bt:Boilers" TypeDefinition="OpcUa:FolderType" SupportsEvents="true">
-    <Children>
-      <Object SymbolicName="bt:Boiler1" TypeDefinition="bt:BoilerType">
-        <BrowseName>Boiler #1</BrowseName>
-        <Children>
-          <Object SymbolicName="bt:InputPipe">
-            <DisplayName>Pipe1001</DisplayName>
-          </Object>
-          <Object SymbolicName="bt:Drum">
-            <DisplayName>Drum1001</DisplayName>
-          </Object>
-          <Object SymbolicName="bt:OutputPipe">
-            <DisplayName>Pipe1002</DisplayName>
-          </Object>
-          <Object SymbolicName="bt:FlowController">
-            <DisplayName>FC1001</DisplayName>
-          </Object>
-          <Object SymbolicName="bt:LevelController">
-            <DisplayName>LC1001</DisplayName>
-          </Object>
-          <Object SymbolicName="bt:CustomController">
-            <DisplayName>CC1001</DisplayName>
-          </Object>
-        </Children>
-      </Object>
-    </Children>
-    <References>
-      <Reference>
-        <ReferenceType>OpcUa:HasNotifier</ReferenceType>
-        <TargetId>bt:Boilers_Boiler1</TargetId>
-      </Reference>
-      <Reference IsInverse="true">
-        <ReferenceType>OpcUa:Organizes</ReferenceType>
-        <TargetId>OpcUa:ObjectsFolder</TargetId>
-      </Reference>
-      <Reference IsInverse="true">
-        <ReferenceType>OpcUa:HasNotifier</ReferenceType>
-        <TargetId>OpcUa:Server</TargetId>
-      </Reference>
-    </References>
-  </Object>
 </ModelDesign>

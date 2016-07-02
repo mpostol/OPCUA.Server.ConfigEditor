@@ -181,7 +181,6 @@
     <None Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.Types.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Help\ASModelDesigner.chm" />
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -238,7 +237,9 @@
       <LastGenOutput>ConfigurationEditor.ModelsContainer.nuspec.nuspec</LastGenOutput>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Help\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
