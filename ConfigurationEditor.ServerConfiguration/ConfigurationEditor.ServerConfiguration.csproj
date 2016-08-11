@@ -35,7 +35,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -49,20 +49,20 @@
       <HintPath>..\packages\CAS.CodeProtect.5.0.2\lib\net35\CAS.CodeProtect.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="CAS.CommServer.DA.Client.Configuration, Version=3.11.0.38483, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.DA.Client.Configuration.3.11.0\lib\net35\CAS.CommServer.DA.Client.Configuration.dll</HintPath>
+    <Reference Include="CAS.CommServer.DA.Server.Configuration, Version=4.1.2.24782, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DA.Server.Configuration.4.1.2-Alpha\lib\net35\CAS.CommServer.DA.Server.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="CAS.CommServer.DA.Server.Configuration, Version=4.1.0.15768, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.DA.Server.Configuration.4.1.0\lib\net35\CAS.CommServer.DA.Server.Configuration.dll</HintPath>
+    <Reference Include="CAS.CommServer.DAClientConfiguration, Version=3.12.1.17970, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.DAClientConfiguration.3.12.1\lib\net451\CAS.CommServer.DAClientConfiguration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CAS.CommServer.OPCClassic.SDK.Core, Version=2.1.106.25891, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.CommServer.OPCClassic.SDK.Core.2.01.106\lib\net451\CAS.CommServer.OPCClassic.SDK.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="CAS.ControlLibrary, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
       <HintPath>..\packages\CAS.Windows.Forms.5.0.2\lib\net35\CAS.ControlLibrary.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.OpcNetApi.350, Version=2.0.108.39166, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\OPC.DA.SDK.Core.2.00.108\lib\net35\CAS.OpcNetApi.350.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="CAS.RTLib, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
@@ -77,8 +77,8 @@
       <HintPath>..\packages\CAS.UA.IServerConfiguration.1.00.00\lib\net35\CAS.UA.IServerConfiguration.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="CAS.UACommon, Version=3.0.0.40966, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.UA.Common.3.00.00\lib\net461\CAS.UACommon.dll</HintPath>
+    <Reference Include="CAS.UACommon, Version=3.0.2.38912, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.UA.Common.3.00.02-Alpha\lib\net461\CAS.UACommon.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Opc.Ua.Core, Version=1.1.326.0, Culture=neutral, PublicKeyToken=78aea80f6827b5ab, processorArchitecture=MSIL">
@@ -179,6 +179,7 @@
     <None Include="ClassDiagrams\CASConfiguration.cd" />
     <None Include="ClassDiagrams\SourceBase.cd" />
     <EmbeddedResource Include="CAS.UAServer.Default.uasconfig" />
+    <None Include="DemoConfiguration.oses" />
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
