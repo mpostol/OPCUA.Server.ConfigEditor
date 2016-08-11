@@ -226,7 +226,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.NodeSet.xml" />
-    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.NodeSet2.xml" />
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.NodeSet2.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.PredefinedNodes.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerType.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.NodeSet.xml" />
