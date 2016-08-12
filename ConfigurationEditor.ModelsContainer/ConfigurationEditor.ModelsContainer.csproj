@@ -44,50 +44,6 @@
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.CodeProtect, Version=5.0.2.39087, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CodeProtect.5.0.2\lib\net35\CAS.CodeProtect.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.CommServer.DA.Client.Configuration, Version=3.11.0.38483, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.DA.Client.Configuration.3.11.0\lib\net35\CAS.CommServer.DA.Client.Configuration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.CommServer.DA.Server.Configuration, Version=4.1.0.15768, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.DA.Server.Configuration.4.1.0\lib\net35\CAS.CommServer.DA.Server.Configuration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.ControlLibrary, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.Windows.Forms.5.0.2\lib\net35\CAS.ControlLibrary.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.OpcNetApi.350, Version=2.0.108.39166, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\OPC.DA.SDK.Core.2.00.108\lib\net35\CAS.OpcNetApi.350.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.RTLib, Version=5.0.2.39089, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.RealTime.5.0.2\lib\net35\CAS.RTLib.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.RTLibComm, Version=5.0.2.39088, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.RealTime.5.0.2\lib\net35\CAS.RTLibComm.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.UA.IServerConfiguration, Version=1.0.0.32204, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.UA.IServerConfiguration.1.00.00\lib\net35\CAS.UA.IServerConfiguration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.UA.Server.ServerConfiguration, Version=3.20.1.37753, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CommServer.UA.Server.ServerConfiguration.3.20.1-Delta\lib\net35\CAS.UA.Server.ServerConfiguration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="CAS.UACommon, Version=3.0.0.40966, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.UA.Common.3.00.00\lib\net461\CAS.UACommon.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Opc.Ua.Core, Version=1.1.326.0, Culture=neutral, PublicKeyToken=78aea80f6827b5ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\OPC.UA.SDK.Core.1.01.326\lib\net35\Opc.Ua.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Deployment" />
@@ -201,8 +157,8 @@
     <None Include="EmbeddedExample\ADISampleConfiguration\FTNIRModelInstance\FTNIRInstance.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaAdiModel\Opc.Ua.Adi.Classes.cs" />
     <None Include="EmbeddedExample\ADISampleConfiguration\OpcUaDiModel\Opc.Ua.Di.Classes.cs" />
-    <Compile Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.Classes.cs" />
-    <Compile Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.Classes.cs" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilersSet\Commsvr.UA.Examples.BoilersSet.Classes.cs" />
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.Classes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

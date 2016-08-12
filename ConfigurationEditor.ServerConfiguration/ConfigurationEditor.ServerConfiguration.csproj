@@ -220,6 +220,7 @@
     <None Include="Properties\CAS.CommServer.UA.Server.ServerConfiguration.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CAS.CommServer.UA.Server.ServerConfiguration.nuspec.nuspec</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Resources\Folder_Open.png" />
   </ItemGroup>

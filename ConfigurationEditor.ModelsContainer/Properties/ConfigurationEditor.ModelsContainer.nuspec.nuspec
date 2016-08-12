@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer</id>
-    <version>3.20.1-Echo</version>
+    <version>3.20.1-Foxtrot</version>
     <title>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer - CommServer UA ConfigurationEditor ServerConfiguration </title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
@@ -22,7 +22,6 @@
     <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
-      <dependency id="CAS.CommServer.UA.Server.ServerConfiguration" version="3.20.1-Echo" />
     </dependencies>
   </metadata>
   <files>

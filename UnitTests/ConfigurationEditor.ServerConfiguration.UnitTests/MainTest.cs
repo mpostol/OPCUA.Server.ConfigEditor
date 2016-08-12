@@ -1,6 +1,6 @@
 ﻿
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CAS.UA.Server.ServerConfiguration;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace OPCFSDKConfig.UT
 {
@@ -21,36 +21,36 @@ namespace OPCFSDKConfig.UT
     public void MainConstructorTest()
     {
       Assert.IsNull(Main.EntryPoint);
-      Main _serverConfiguartion = new Main();
+      Main _serverConfiguration = new Main();
       Assert.IsNotNull(Main.EntryPoint);
-      Assert.IsNotNull(_serverConfiguartion);
-      Assert.IsNull(_serverConfiguartion.Configuration);
-      Assert.IsFalse(string.IsNullOrEmpty(_serverConfiguartion.DefaultFileName));
+      Assert.IsNotNull(_serverConfiguration);
+      Assert.IsNull(_serverConfiguration.Configuration);
+      Assert.IsFalse(string.IsNullOrEmpty(_serverConfiguration.DefaultFileName));
       bool _isDisposed = false;
-      _serverConfiguartion.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
-      _serverConfiguartion.Dispose();
+      _serverConfiguration.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
+      _serverConfiguration.Dispose();
       Assert.IsTrue(_isDisposed);
       Assert.IsNull(Main.EntryPoint);
     }
     [TestMethod()]
     public void DefaultConfigurationTest()
     {
-      using (Main _serverConfiguartion = new Main())
+      using (Main _serverConfiguration = new Main())
       {
-        Assert.IsNotNull(_serverConfiguartion);
-        Assert.IsNull(_serverConfiguartion.Configuration);
-        _serverConfiguartion.CreateDefaultConfiguration();
-        Assert.IsNotNull(_serverConfiguartion.Configuration);
+        Assert.IsNotNull(_serverConfiguration);
+        Assert.IsNull(_serverConfiguration.Configuration);
+        _serverConfiguration.CreateDefaultConfiguration();
+        Assert.IsNotNull(_serverConfiguration.Configuration);
       }
     }
     [TestMethod()]
-    public void OPCDAClienteEntryPointTest()
+    public void OPCDAClientEntryPointTest()
     {
       bool _isDisposed = false;
-      using (Main _serverConfiguartion = new Main())
+      using (Main _serverConfiguration = new Main())
       {
-        Assert.IsNotNull(_serverConfiguartion.OPCDAClienteEntryPoint);
-        _serverConfiguartion.CommServerEntryPoint.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
+        Assert.IsNotNull(_serverConfiguration.OPCDAClienteEntryPoint);
+        _serverConfiguration.CommServerEntryPoint.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
       }
       Assert.IsTrue(_isDisposed);
     }
@@ -58,10 +58,10 @@ namespace OPCFSDKConfig.UT
     public void CommServerEntryPointTest()
     {
       bool _isDisposed = false;
-      using (Main _serverConfiguartion = new Main())
+      using (Main _serverConfiguration = new Main())
       {
-        Assert.IsNotNull(_serverConfiguartion.CommServerEntryPoint);
-        _serverConfiguartion.CommServerEntryPoint.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
+        Assert.IsNotNull(_serverConfiguration.CommServerEntryPoint);
+        _serverConfiguration.CommServerEntryPoint.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
       }
       Assert.IsTrue(_isDisposed);
     }

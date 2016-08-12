@@ -24,7 +24,6 @@
     <copyright><#=AssemblyCopyright#></copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
     <dependencies>
-      <dependency id="CAS.CommServer.UA.Server.ServerConfiguration" version="<#= CASCommServerUAConfigurationEditorVersion #><#=CASCommServerUAConfigurationEditorPreRelease#>" />
     </dependencies>
   </metadata>
   <files>
