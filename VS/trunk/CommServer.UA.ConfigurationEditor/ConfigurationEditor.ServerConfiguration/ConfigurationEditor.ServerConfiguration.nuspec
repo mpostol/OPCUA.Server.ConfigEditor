@@ -22,8 +22,8 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" />
-        <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" />
+        <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" />
+        <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" />
     </files>
 </package>
 
