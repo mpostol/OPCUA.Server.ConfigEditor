@@ -18,8 +18,7 @@ using System.Windows.Forms;
 using CAS.NetworkConfigLib;
 using CAS.UA.Server.ServerConfiguration.Controls;
 using System.Collections.Generic;
-using System.Drawing;
-using CAS.UA.Server.ServerConfiguration.Properties;
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 
 namespace CAS.UA.Server.ServerConfiguration.CommServer
 {

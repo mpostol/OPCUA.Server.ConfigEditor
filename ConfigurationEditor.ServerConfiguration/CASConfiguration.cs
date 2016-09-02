@@ -13,10 +13,10 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using CAS.DataPorter.Configurator;
 using CAS.Lib.RTLib.Utils;
 using CAS.UA.IServerConfiguration;
-using CAS.UA.Server.ServerConfiguration.Properties;
 using Opc.Ua;
 using System;
 using System.Collections.Generic;
@@ -30,7 +30,7 @@ using System.Xml.Serialization;
 
 namespace CAS.UA.Server.ServerConfiguration
 {
- 
+
   /// <summary>
   /// Configuration for the server
   /// </summary>

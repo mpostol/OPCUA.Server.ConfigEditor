@@ -3,7 +3,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>CAS.CommServer.UA.Server.ServerConfiguration</id>
+        <id>CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration</id>
         <version><#= CASCommServerUAConfigurationEditorVersion #><#=CASCommServerUAConfigurationEditorPreRelease#></version>
         <title>CAS CommServer UA Configuration Editor</title>
         <authors><#=AssemblyCompany#></authors>
@@ -24,8 +24,8 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\bin\Release\CAS.UA.Server.ServerConfiguration.dll" target="lib\net35\CAS.UA.Server.ServerConfiguration.dll" />
-        <file src="..\bin\Release\CAS.UA.Server.ServerConfiguration.XML" target="lib\net35\CAS.UA.Server.ServerConfiguration.xml" />
+        <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" />
+        <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" />
     </files>
 </package>
 

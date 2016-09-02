@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CAS.UA.Server.ServerConfiguration.Properties {
+namespace CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace CAS.UA.Server.ServerConfiguration.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CAS.UA.Server.ServerConfiguration.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

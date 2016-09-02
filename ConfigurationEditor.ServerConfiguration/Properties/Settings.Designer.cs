@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CAS.UA.Server.ServerConfiguration.Properties {
+namespace CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

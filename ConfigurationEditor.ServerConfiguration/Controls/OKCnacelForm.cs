@@ -15,10 +15,10 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using CAS.UA.Server.ServerConfiguration.Properties;
 
 namespace CAS.UA.Server.ServerConfiguration.Controls
 {

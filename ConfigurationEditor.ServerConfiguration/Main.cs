@@ -13,9 +13,9 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using CAS.Lib.ControlLibrary;
 using CAS.UA.IServerConfiguration;
-using CAS.UA.Server.ServerConfiguration.Properties;
 using System;
 using System.ComponentModel;
 using System.IO;
