@@ -22,7 +22,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using System.Xml.Serialization;
 using CAS.Lib.RTLib.Utils;
-using CAS.UA.Server.ServerConfiguration.Properties;
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 
 namespace CAS.UA.Server.ServerConfiguration
 {

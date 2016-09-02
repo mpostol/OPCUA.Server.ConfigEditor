@@ -13,9 +13,9 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using CAS.NetworkConfigLib;
 using CAS.UA.Server.ServerConfiguration.Controls;
-using CAS.UA.Server.ServerConfiguration.Properties;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -93,7 +93,7 @@ namespace CAS.UA.Server.ServerConfiguration.CommServer
         TreeView tv = target.Controls[0] as TreeView;
         if ((tv == null) || (tv.Nodes.Count == 0))
         {
-          MessageBox.Show(CAS.UA.Server.ServerConfiguration.Properties.Resources.NoTagsInTheCommServerConfiguration);
+          MessageBox.Show(Resources.NoTagsInTheCommServerConfiguration);
           return null;
         }
         ui.SelectedObject = target;

@@ -13,7 +13,7 @@
 //  http://www.cas.eu
 //</summary>
 
-using CAS.UA.Server.ServerConfiguration.Properties;
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using System;
 using System.Diagnostics;
 
