@@ -155,13 +155,13 @@ Application will continue but the configuration is default.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Folder_Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Folder_Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\EmbeddedResources\Folder_Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NoTagsInTheCommServerConfiguration" xml:space="preserve">
     <value>There are no tags in the CommServer configuration file. Choose another file</value>
   </data>
   <data name="tag_element_48_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tag_element_48_full.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\EmbeddedResources\tag_element_48_full.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SolutionIsNotSaved_Header" xml:space="preserve">
     <value>Solution is not saved</value>
