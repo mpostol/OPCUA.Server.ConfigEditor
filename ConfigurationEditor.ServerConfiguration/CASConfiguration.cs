@@ -13,6 +13,7 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.EmbeddedResources;
 using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using CAS.DataPorter.Configurator;
 using CAS.Lib.RTLib.Utils;
@@ -23,7 +24,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
-using System.Reflection;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Xml.Serialization;
@@ -117,20 +117,19 @@ namespace CAS.UA.Server.ServerConfiguration
     internal static CASConfiguration CreateDefault()
     {
       CurrentDirectory = string.Empty;
-      Assembly myAssembly = Assembly.GetCallingAssembly();
-      string filename = typeof( InstanceConfiguration ).Namespace + ".CAS.UAServer.Default.uasconfig";
-      Stream _inputStream = myAssembly.GetManifestResourceStream( filename );
-      DataContractSerializer serializer = new DataContractSerializer( typeof( CASConfiguration ) );
-      XmlTextReader reader = new XmlTextReader( _inputStream );
-      CASConfiguration CASConfigurationToBeReturned = serializer.ReadObject( reader, false ) as CASConfiguration;
-      TestIfProcessBindingsAreCreatedAndCreateIfItIsNull( CASConfigurationToBeReturned );
-      if ( CASConfigurationToBeReturned == null )
+      Stream _inputStream = ResourcesManagement.GetDefaultServerConfigurationFile();
+      DataContractSerializer serializer = new DataContractSerializer(typeof(CASConfiguration));
+      XmlTextReader reader = new XmlTextReader(_inputStream);
+      CASConfiguration CASConfigurationToBeReturned = serializer.ReadObject(reader, false) as CASConfiguration;
+      TestIfProcessBindingsAreCreatedAndCreateIfItIsNull(CASConfigurationToBeReturned);
+      if (CASConfigurationToBeReturned == null)
       {
         CASConfigurationToBeReturned = new CASConfiguration();
-        TestIfProcessBindingsAreCreatedAndCreateIfItIsNull( CASConfigurationToBeReturned );
+        TestIfProcessBindingsAreCreatedAndCreateIfItIsNull(CASConfigurationToBeReturned);
       }
       return CASConfigurationToBeReturned;
     }
+
 
     #region private static
     private static void TestIfProcessBindingsAreCreatedAndCreateIfItIsNull( CASConfiguration CASConfigurationToBeReturned )
