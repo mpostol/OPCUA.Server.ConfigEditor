@@ -5,7 +5,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace OPCFSDKConfig.UT
 {
 
-
   /// <summary>
   ///This is a test class for MainTest and is intended
   ///to contain all MainTest Unit Tests
@@ -20,17 +19,17 @@ namespace OPCFSDKConfig.UT
     [TestMethod()]
     public void MainConstructorTest()
     {
-      Assert.IsNull(Main.EntryPoint);
-      Main _serverConfiguration = new Main();
-      Assert.IsNotNull(Main.EntryPoint);
-      Assert.IsNotNull(_serverConfiguration);
-      Assert.IsNull(_serverConfiguration.Configuration);
-      Assert.IsFalse(string.IsNullOrEmpty(_serverConfiguration.DefaultFileName));
-      bool _isDisposed = false;
-      _serverConfiguration.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
-      _serverConfiguration.Dispose();
-      Assert.IsTrue(_isDisposed);
-      Assert.IsNull(Main.EntryPoint);
+      using (Main _serverConfiguration = new Main())
+      {
+        Assert.IsNotNull(Main.EntryPoint);
+        Assert.IsNull(_serverConfiguration.Configuration);
+        Assert.IsFalse(string.IsNullOrEmpty(_serverConfiguration.DefaultFileName));
+        bool _isDisposed = false;
+        _serverConfiguration.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
+        _serverConfiguration.Dispose();
+        Assert.IsTrue(_isDisposed);
+        Assert.IsNull(Main.EntryPoint);
+      }
     }
     [TestMethod()]
     public void DefaultConfigurationTest()
@@ -65,5 +64,6 @@ namespace OPCFSDKConfig.UT
       }
       Assert.IsTrue(_isDisposed);
     }
+
   }
 }

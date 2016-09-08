@@ -26,7 +26,7 @@ namespace CAS.UA.Server.ServerConfiguration
   /// <summary>
   /// The main component of this plugin (it contains the main interface that is exposed by this plugin)
   /// </summary>
-  public partial class Main: Component, IConfiguration
+  public partial class Main : Component, IConfiguration
   {
 
     #region creators
@@ -41,19 +41,18 @@ namespace CAS.UA.Server.ServerConfiguration
     /// Initializes a new instance of the <see cref="Main"/> class.
     /// </summary>
     /// <param name="container">The container.</param>
-    public Main( IContainer container )
+    public Main(IContainer container) : this()
     {
-      container.Add( this );
-      CommonInitialization();
+      container.Add(this);
     }
-    static Main()
-    {
-      EntryPoint = null;
-    }
+    //static Main()
+    //{
+    //  EntryPoint = null;
+    //}
     private void CommonInitialization()
     {
       InitializeComponent();
-      Disposed += new EventHandler( Main_Disposed );
+      Disposed += new EventHandler(Main_Disposed);
       EntryPoint = this;
     }
     #endregion
@@ -73,10 +72,10 @@ namespace CAS.UA.Server.ServerConfiguration
     /// <value>The server configuration.</value>
     #region Attributes
     [
-    DisplayName( "Configuration" ),
-    CategoryAttribute( "Configuration" ),
-    DescriptionAttribute( "It provides detailed information on the configuration file." ),
-    TypeConverterAttribute( typeof( ExpandableObjectConverter ) )
+    DisplayName("Configuration"),
+    CategoryAttribute("Configuration"),
+    DescriptionAttribute("It provides detailed information on the configuration file."),
+    TypeConverterAttribute(typeof(ExpandableObjectConverter))
     ]
     #endregion
     public CASConfiguration Configuration
@@ -84,14 +83,14 @@ namespace CAS.UA.Server.ServerConfiguration
       get { return p_Configuration; }
       private set
       {
-        if ( p_Configuration == value )
+        if (p_Configuration == value)
           return;
-        if ( value == null )
+        if (value == null)
           p_Configuration = CASConfiguration.CreateDefault();
         else
           p_Configuration = value;
-        p_Configuration.OnChenged += new EventHandler( p_Configuration_OnChenged );
-        RaiseOnChangeEvent( true );
+        p_Configuration.OnChenged += new EventHandler(p_Configuration_OnChenged);
+        RaiseOnChangeEvent(true);
       }
     }
     #endregion
@@ -108,17 +107,17 @@ namespace CAS.UA.Server.ServerConfiguration
     public void CreateDefaultConfiguration()
     {
       Configuration = CASConfiguration.CreateDefault();
-      RaiseOnChangeEvent( true );
+      RaiseOnChangeEvent(true);
     }
     /// <summary>
     /// Reads the configuration.
     /// </summary>
     /// <param name="configurationFile">The configuration file.</param>
-    public void ReadConfiguration( FileInfo configurationFile )
+    public void ReadConfiguration(FileInfo configurationFile)
     {
-      Configuration = CASConfiguration.Load( configurationFile );
+      Configuration = CASConfiguration.Load(configurationFile);
       m_ConfigurationFile = configurationFile;
-      RaiseOnChangeEvent( true );
+      RaiseOnChangeEvent(true);
     }
     /// <summary>
     /// Saves the configuration file to a specified location.
@@ -129,23 +128,23 @@ namespace CAS.UA.Server.ServerConfiguration
     /// <paramref name="solutionFilePath"/> is to be used to create relative file path to configuration files used by the plug-in (if required).
     /// Note that some plugins (e.g. this plugin uses relative paths to <paramref name="configurationFile"/> location.
     /// </remarks>
-    public void SaveConfiguration( string solutionFilePath, FileInfo configurationFile )
+    public void SaveConfiguration(string solutionFilePath, FileInfo configurationFile)
     {
-      Configuration.Save( configurationFile );
-      if ( m_ConfigurationFile != null && configurationFile.FullName.CompareTo( m_ConfigurationFile.FullName ) == 0 )
+      Configuration.Save(configurationFile);
+      if (m_ConfigurationFile != null && configurationFile.FullName.CompareTo(m_ConfigurationFile.FullName) == 0)
         return;
       m_ConfigurationFile = configurationFile;
-      RaiseOnChangeEvent( true );
+      RaiseOnChangeEvent(true);
     }
     /// <summary>
     /// Gets the configuration editor - user interface to edit the plug-in configuration file.
     /// </summary>
     public void EditConfiguration()
     {
-      using ( AddObject<object> _dialog = new AddObject<object>( Configuration ) )
+      using (AddObject<object> _dialog = new AddObject<object>(Configuration))
       {
         if (_dialog.ShowDialog() == DialogResult.OK)
-          RaiseOnChangeEvent( false );
+          RaiseOnChangeEvent(false);
       }
     }
     /// <summary>
@@ -155,11 +154,11 @@ namespace CAS.UA.Server.ServerConfiguration
     /// <returns>
     /// 	<see cref="IInstanceConfiguration"/> instance provides configuration utilities.
     /// </returns>
-    public IInstanceConfiguration GetInstanceConfiguration( INodeDescriptor nodeUniqueIdentifier )
+    public IInstanceConfiguration GetInstanceConfiguration(INodeDescriptor nodeUniqueIdentifier)
     {
-      if ( Configuration == null )
+      if (Configuration == null)
         return null;
-      return Configuration.GetInstanceConfiguration( nodeUniqueIdentifier );
+      return Configuration.GetInstanceConfiguration(nodeUniqueIdentifier);
     }
     /// <summary>
     /// Occurs any time the configuration is modified.
@@ -179,25 +178,39 @@ namespace CAS.UA.Server.ServerConfiguration
     /// <param name="descriptors">The descriptors of nodes.</param>
     /// <param name="skipOpeningConfigurationFile">if set to <c>true</c> skip opening configuration file.</param>
     /// <param name="cancelWasPressed">if set to <c>true</c> cancel was pressed.</param>
-    public void CreateInstanceConfigurations( INodeDescriptor[] descriptors, bool skipOpeningConfigurationFile, out bool cancelWasPressed )
+    public void CreateInstanceConfigurations(INodeDescriptor[] descriptors, bool skipOpeningConfigurationFile, out bool cancelWasPressed)
     {
-      Configuration.GetInstanceConfiguration( descriptors, skipOpeningConfigurationFile, out cancelWasPressed );
+      Configuration.GetInstanceConfiguration(descriptors, skipOpeningConfigurationFile, out cancelWasPressed);
+    }
+    #endregion
+
+    #region IDisposable
+    /// <summary> 
+    /// Clean up any resources being used.
+    /// </summary>
+    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    protected override void Dispose(bool disposing)
+    {
+      if (disposing && (components != null))
+        components.Dispose();
+      EntryPoint = null;
+      base.Dispose(disposing);
     }
     #endregion
 
     #region private
     private FileInfo m_ConfigurationFile;
     private CASConfiguration p_Configuration;
-    private void RaiseOnChangeEvent( bool configurationFileChanged )
+    private void RaiseOnChangeEvent(bool configurationFileChanged)
     {
-      if ( OnModified != null )
-        OnModified( this, new UAServerConfigurationEventArgs( configurationFileChanged ) );
+      if (OnModified != null)
+        OnModified(this, new UAServerConfigurationEventArgs(configurationFileChanged));
     }
-    private void p_Configuration_OnChenged( object sender, EventArgs e )
+    private void p_Configuration_OnChenged(object sender, EventArgs e)
     {
-      RaiseOnChangeEvent( true );
+      RaiseOnChangeEvent(true);
     }
-    private void Main_Disposed( object sender, EventArgs e )
+    private void Main_Disposed(object sender, EventArgs e)
     {
       EntryPoint = null;
     }
