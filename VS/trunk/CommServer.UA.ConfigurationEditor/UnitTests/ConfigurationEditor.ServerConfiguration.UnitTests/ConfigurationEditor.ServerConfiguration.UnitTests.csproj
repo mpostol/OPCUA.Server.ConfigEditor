@@ -55,6 +55,10 @@
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Opc.Ua.Core, Version=1.1.326.0, Culture=neutral, PublicKeyToken=78aea80f6827b5ab, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\OPC.UA.SDK.Core.1.01.326\lib\net35\Opc.Ua.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -73,8 +77,13 @@
       <DependentUpon>AssemblyInfo.tt</DependentUpon>
     </Compile>
     <Compile Include="ResourcesManagementUnitTest.cs" />
+    <Compile Include="CASConfigurationUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ConfigurationEditor.ModelsContainer\ConfigurationEditor.ModelsContainer.csproj">
+      <Project>{643a2a07-394d-418f-937c-2d394efe5015}</Project>
+      <Name>ConfigurationEditor.ModelsContainer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ConfigurationEditor.ServerConfiguration\ConfigurationEditor.ServerConfiguration.csproj">
       <Project>{28F30394-6EBA-4584-9041-F69CCB921424}</Project>
       <Name>ConfigurationEditor.ServerConfiguration</Name>

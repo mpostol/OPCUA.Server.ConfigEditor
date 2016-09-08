@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{8B113710-A3AE-40CB-A022-10B2D98C785B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{921B8840-1F94-4BED-A5FD-C8F4357BFCD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Definitions", "..\PR39-CommonResources\T4Definitions\T4Definitions.csproj", "{D506423B-BA21-49E6-8C3B-88A771CA444E}"
@@ -151,7 +149,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D506423B-BA21-49E6-8C3B-88A771CA444E} = {921B8840-1F94-4BED-A5FD-C8F4357BFCD1}
-		{5F77262E-F522-462F-B30F-3FAD94723592} = {8B113710-A3AE-40CB-A022-10B2D98C785B}
-		{678A6D7B-A8AF-43B1-A5AA-9499A9E06065} = {8B113710-A3AE-40CB-A022-10B2D98C785B}
 	EndGlobalSection
 EndGlobal
