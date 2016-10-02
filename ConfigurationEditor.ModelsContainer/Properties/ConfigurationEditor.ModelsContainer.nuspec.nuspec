@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer</id>
-    <version>3.20.1-Hotel</version>
+    <version>3.20.1-India</version>
     <title>CAS.CommServer.UA.ConfigurationEditor.ModelsContainer - CommServer UA ConfigurationEditor ServerConfiguration </title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
