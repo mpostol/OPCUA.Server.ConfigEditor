@@ -1,36 +1,31 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿//_______________________________________________________________
+//  Title   :  Assembly info for: CAS.CommServer.UA.ConfigurationEditor.Scripts
+//  System  : Microsoft VisualStudio 2015 / C#
+//  $LastChangedDate$
+//  $Rev$
+//  $LastChangedBy$
+//  $URL$
+//  $Id$
+//
+//  Copyright (c) 2000-2016 CAS LODZ POLAND
+//  +48 (42) 686 25 47
+//  techsupp@cas.eu
+//  www.cas.eu
+//_______________________________________________________________
+
+using System.Reflection;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("ConfigurationEditor.Scripts")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CAS.CommServer.UA.ConfigurationEditor.Scripts")]
+[assembly: AssemblyDescription("Scripts Prototyping Workspace for CAS.CommServer.UA.ConfigurationEditor.Scripts")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConfigurationEditor.Scripts")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("CAS")]
+[assembly: AssemblyProduct("CAS CommServer Family")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
+[assembly: AssemblyTrademark("CommServer")]
 [assembly: AssemblyCulture("")]
-
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
+[assembly: Guid("CBF6D986-922E-4D3D-A7BF-9AB06B0E744E")]
 [assembly: ComVisible(false)]
+[assembly: AssemblyVersion("3.20.3.*")]
+[assembly: AssemblyFileVersion("3.20.3")]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0fda01a5-7902-4cf5-aa33-8adc13429d1c")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
