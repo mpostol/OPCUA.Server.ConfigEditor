@@ -36,6 +36,7 @@
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>IDE0001,IDE0002,IDE0003</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -142,10 +143,10 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-    <None Include="Properties\ConfigurationEditor.ModelsContainer.nuspec.nuspec">
+    <None Include="ConfigurationEditor.ModelsContainer.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ConfigurationEditor.ModelsContainer.nuspec.tt</DependentUpon>
+      <DependentUpon>ConfigurationEditor.ModelsContainer.tt</DependentUpon>
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -191,9 +192,9 @@
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.NodeSet.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.NodeSet2.xml" />
     <Content Include="EmbeddedExample\DemoConfiguration\BoilerType\tempuri.org.UA.Examples.BoilerType.PredefinedNodes.xml" />
-    <Content Include="Properties\ConfigurationEditor.ModelsContainer.nuspec.tt">
+    <Content Include="ConfigurationEditor.ModelsContainer.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ConfigurationEditor.ModelsContainer.nuspec.nuspec</LastGenOutput>
+      <LastGenOutput>ConfigurationEditor.ModelsContainer.nuspec</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

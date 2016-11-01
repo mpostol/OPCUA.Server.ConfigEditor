@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration</id>
-        <version>3.20.1-Juliet</version>
+        <version>3.20.3</version>
         <title>CAS CommServer UA Configuration Editor</title>
         <authors>CAS</authors>
         <owners>commsvr.com</owners>
@@ -15,10 +15,12 @@
         <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
         <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
         <dependencies>
-            <dependency id="CAS.CommServer.DAClientConfiguration" version="3.12.1" />
-            <dependency id="CAS.CommServer.DAServerConfiguration" version="4.1.0" />
-            <dependency id="CAS.UA.IServerConfiguration" version="1.00.00" />
-            <dependency id="CAS.UA.Common" version="3.00.00" />
+          <dependency idid="CAS.CommServer.DAClientConfiguration" version="5.01.05" />
+          <dependency id="CAS.CommServer.DAServerConfiguration" version="5.01.05" />
+          <dependency id="CAS.CommServer.OPCClassic.SDK.Core" version="2.01.1062" />
+          <dependency id="CAS.RealTime" version="5.0.5" />
+          <dependency id="CAS.UA.IServerConfiguration" version="1.00.00" />
+          <package id="CAS.Windows.Forms" version="6.0.1" />
         </dependencies>
     </metadata>
     <files>

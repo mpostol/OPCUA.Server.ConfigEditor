@@ -61,7 +61,7 @@ namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer
         DirectoryInfo _di = _fi.Directory;
         if (!_di.Exists)
           _di.Create();
-        trace(String.Format("Installing the example file: {0}", _fi.FullName), System.Diagnostics.TraceEventType.Verbose);
+        trace(String.Format("Installing the example file: {0}", _fi.FullName), TraceEventType.Verbose);
         using (Stream _res = myAssembly.GetManifestResourceStream(_name))
           CopyStream(_res, _fi);
       }
