@@ -1,5 +1,6 @@
 ﻿
 using CAS.UA.Server.ServerConfiguration;
+using Microsoft.Practices.ServiceLocation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 
@@ -15,9 +16,11 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
     private static TestContext m_Context;
 
     [AssemblyInitialize()]
-    public static void ClassInitializeMethod(TestContext context)
+    public static void AssemblyInitializeMethod(TestContext context)
     {
       m_Context = context;
+      IServiceLocator serviceLocator = new Instrumentation.ServiceLocation();
+      ServiceLocator.SetLocatorProvider(() => serviceLocator);
     }
     [ClassCleanup]
     public static void ClassCleanupMethod()
@@ -28,7 +31,7 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
     [TestMethod]
     public void DeploymentTest()
     {
-      FileInfo file = new FileInfo(AssemblyInitializeClass.FilePath);
+      FileInfo file = new FileInfo(FilePath);
       Assert.IsTrue(file.Exists);
       Assert.IsNotNull(m_Context);
     }
