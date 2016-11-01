@@ -17,7 +17,7 @@ namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.UnitTests
         string _path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), m_TestPath);
         _targetDirectory = new DirectoryInfo(_path);
         Assert.IsFalse(_targetDirectory.Exists, "The test directory already exist before test starting");
-        ContainerResources.ExampleSolutionInstallation(m_TestPath, (x, y) => { });
+        ContainerResources.ExampleSolutionInstallation(m_TestPath, (x, y) => Console.WriteLine($"{y}: {x}"));
         _targetDirectory.Refresh();
         Assert.IsTrue(_targetDirectory.Exists);
         Assert.AreEqual<int>(2, _targetDirectory.GetFiles().Length, "Expected only 2 solutions");

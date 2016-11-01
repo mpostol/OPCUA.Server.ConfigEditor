@@ -73,9 +73,9 @@ namespace CAS.UA.Server.ServerConfiguration
     #region Attributes
     [
     DisplayName("Configuration"),
-    CategoryAttribute("Configuration"),
-    DescriptionAttribute("It provides detailed information on the configuration file."),
-    TypeConverterAttribute(typeof(ExpandableObjectConverter))
+    Category("Configuration"),
+    Description("It provides detailed information on the configuration file."),
+    TypeConverter(typeof(ExpandableObjectConverter))
     ]
     #endregion
     public CASConfiguration Configuration
