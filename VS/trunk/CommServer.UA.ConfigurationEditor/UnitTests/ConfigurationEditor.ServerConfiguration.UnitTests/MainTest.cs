@@ -49,7 +49,7 @@ namespace OPCFSDKConfig.UT
       using (Main _serverConfiguration = new Main())
       {
         Assert.IsNotNull(_serverConfiguration.OPCDAClienteEntryPoint);
-        _serverConfiguration.CommServerEntryPoint.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
+        _serverConfiguration.OPCDAClienteEntryPoint.Disposed += (object sender, System.EventArgs e) => _isDisposed = true;
       }
       Assert.IsTrue(_isDisposed);
     }
