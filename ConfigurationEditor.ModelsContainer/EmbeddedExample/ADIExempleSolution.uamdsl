@@ -27,5 +27,5 @@
       <FileName>ADISampleConfiguration\FTNIRModelInstance.xml</FileName>
     </UAModelDesignerProject>
   </Projects>
-  <ServerDetails codebase="CAS.UA.Server.ServerConfiguration.dll" configuration="ADISampleConfiguration\CAS.UAServer.DemoConfiguration.uasconfig" />
+  <ServerDetails codebase="CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" configuration="ADISampleConfiguration\CAS.UAServer.DemoConfiguration.uasconfig" />
 </UAModelDesignerSolution>
