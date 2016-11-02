@@ -15,5 +15,5 @@
       <FileName>DemoConfiguration\BoilersSet.xml</FileName>
     </UAModelDesignerProject>
   </Projects>
-  <ServerDetails codebase="CAS.UA.Server.ServerConfiguration.dll" configuration="DemoConfiguration\BoilerExample.uasconfig" />
+  <ServerDetails codebase="CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" configuration="DemoConfiguration\BoilerExample.uasconfig" />
 </UAModelDesignerSolution>

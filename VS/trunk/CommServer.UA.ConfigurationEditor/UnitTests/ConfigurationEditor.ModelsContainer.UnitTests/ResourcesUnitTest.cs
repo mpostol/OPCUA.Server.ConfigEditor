@@ -20,7 +20,7 @@ namespace CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.UnitTests
         ContainerResources.ExampleSolutionInstallation(m_TestPath, (x, y) => Console.WriteLine($"{y}: {x}"));
         _targetDirectory.Refresh();
         Assert.IsTrue(_targetDirectory.Exists);
-        Assert.AreEqual<int>(2, _targetDirectory.GetFiles().Length, "Expected only 2 solutions");
+        Assert.AreEqual<int>(3, _targetDirectory.GetFiles().Length, "Expected 2 solutions and plug-in");
         Assert.AreEqual<int>(2, _targetDirectory.GetDirectories().Length, "Expected only 2 solutions folders");
       }
       catch (Exception)
