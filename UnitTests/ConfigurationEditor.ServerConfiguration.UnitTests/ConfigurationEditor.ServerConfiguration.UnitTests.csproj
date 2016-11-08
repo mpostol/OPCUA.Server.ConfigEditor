@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInitializeClass.cs" />
+    <Compile Include="Instrumentation\Extensions.cs" />
     <Compile Include="Instrumentation\ServiceLocator.cs" />
     <Compile Include="MainTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -85,6 +86,7 @@
     <Compile Include="ResourcesManagementUnitTest.cs" />
     <Compile Include="CASConfigurationUnitTest.cs" />
     <Compile Include="IConfigurationUnitTest.cs" />
+    <Compile Include="NamedTraceLoggerUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ConfigurationEditor.ModelsContainer\ConfigurationEditor.ModelsContainer.csproj">
