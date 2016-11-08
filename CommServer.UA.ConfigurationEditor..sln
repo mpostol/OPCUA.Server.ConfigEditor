@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
@@ -15,9 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ModelsC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ModelsContainer.ModelsTests", "ConfigurationEditor.ModelsContainer\ConfigurationEditor.ModelsContainer.ModelsTests.csproj", "{597DD859-BD2D-46F9-9F12-FA69E2152918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ModelsContainer.UnitTests", "UnitTests\ConfigurationEditor.ModelsContainer.UnitTests\ConfigurationEditor.ModelsContainer.UnitTests.csproj", "{5F77262E-F522-462F-B30F-3FAD94723592}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ModelsContainer.UnitTests", "ConfigurationEditor.ModelsContainer.UnitTests\ConfigurationEditor.ModelsContainer.UnitTests.csproj", "{5F77262E-F522-462F-B30F-3FAD94723592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ServerConfiguration.UnitTests", "UnitTests\ConfigurationEditor.ServerConfiguration.UnitTests\ConfigurationEditor.ServerConfiguration.UnitTests.csproj", "{678A6D7B-A8AF-43B1-A5AA-9499A9E06065}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ServerConfiguration.UnitTests", "ConfigurationEditor.ServerConfiguration.UnitTests\ConfigurationEditor.ServerConfiguration.UnitTests.csproj", "{678A6D7B-A8AF-43B1-A5AA-9499A9E06065}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -19,7 +19,7 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
     {
       TraceSource _tracer = NamedTraceLogger.Logger;
       Assert.IsNotNull(_tracer);
-      Assert.AreEqual(2, _tracer.Listeners.Count);
+      Assert.AreEqual(1, _tracer.Listeners.Count);
       Dictionary<string, TraceListener> _listeners = _tracer.Listeners.Cast<TraceListener>().ToDictionary<TraceListener, string>(x => x.Name);
       Assert.IsTrue(_listeners.ContainsKey("LogFile"));
       TraceListener _listener = _listeners["LogFile"];
@@ -31,7 +31,7 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
       EventTypeFilter _eventTypeFilter = _advancedListener.Filter as EventTypeFilter;
       Assert.AreEqual(SourceLevels.All, _eventTypeFilter.EventType);
       string _testPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-      Assert.AreEqual<string>(Path.Combine(_testPath, @"log\CAS.CommServer.DA.Viewer.log"), _advancedListener.GetFileName());
+      Assert.AreEqual<string>(Path.Combine(_testPath, @"CAS.UA.Server.ServerConfiguration.log"), _advancedListener.GetFileName());
     }
     [TestMethod]
     public void LogFileExistsTest()
@@ -43,13 +43,12 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
       Assert.IsNotNull(_advancedListener);
       Assert.IsFalse(String.IsNullOrEmpty(_advancedListener.GetFileName()));
       FileInfo _logFileInfo = new FileInfo(_advancedListener.GetFileName());
-      Assert.IsTrue(_logFileInfo.Exists);
-      Assert.AreEqual<long>(0, _logFileInfo.Length);
+      long _startEnd = _logFileInfo.Exists ? _logFileInfo.Length : 0;
       _tracer.TraceEvent(TraceEventType.Verbose, 0, "LogFileExistsTest is executed");
       Assert.IsFalse(String.IsNullOrEmpty(_advancedListener.GetFileName()));
       _logFileInfo.Refresh();
       Assert.IsTrue(_logFileInfo.Exists);
-      Assert.IsTrue(_logFileInfo.Length > 10);
+      Assert.IsTrue(_logFileInfo.Length > _startEnd +  10);
     }
 
   }
