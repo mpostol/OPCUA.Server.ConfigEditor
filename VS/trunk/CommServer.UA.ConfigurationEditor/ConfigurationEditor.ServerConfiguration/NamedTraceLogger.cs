@@ -32,12 +32,12 @@ namespace CAS.UA.Server.ServerConfiguration
     /// <value>The logger.</value>
     public static NamedTraceLogger Logger
     {
-      get { return m_NamedTraceLogger; }
+      get { return m_NamedTraceLogger.Value; }
     }
     #endregion
 
     #region private
-    private static NamedTraceLogger m_NamedTraceLogger = new NamedTraceLogger();
+    private static Lazy< NamedTraceLogger> m_NamedTraceLogger = new Lazy<NamedTraceLogger>( () => new NamedTraceLogger());
     private NamedTraceLogger()
       : base(Settings.Default.TraceSourceName)
     {}
