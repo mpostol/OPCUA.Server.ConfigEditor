@@ -17,15 +17,16 @@
         <copyright><#=AssemblyCopyright#></copyright>
         <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
         <dependencies>
-          <dependency idid="CAS.CommServer.DAClientConfiguration" version="5.01.05" />
+          <dependency id="CAS.CommServer.DAClientConfiguration" version="5.01.05" />
           <dependency id="CAS.CommServer.DAServerConfiguration" version="5.01.05" />
           <dependency id="CAS.CommServer.OPCClassic.SDK.Core" version="2.01.1062" />
           <dependency id="CAS.RealTime" version="5.0.5" />
           <dependency id="CAS.UA.IServerConfiguration" version="1.00.00" />
-          <package id="CAS.Windows.Forms" version="6.0.1" />
+          <dependency id="CAS.Windows.Forms" version="6.0.1" />
         </dependencies>
     </metadata>
     <files>
+        <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" target="content\EmbeddedExample\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" />
         <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.dll" />
         <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.xml" />
     </files>
