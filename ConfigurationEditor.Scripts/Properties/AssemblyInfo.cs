@@ -24,7 +24,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
 [assembly: AssemblyTrademark("CommServer")]
 [assembly: AssemblyCulture("")]
-[assembly: Guid("CBF6D986-922E-4D3D-A7BF-9AB06B0E744E")]
+[assembly: Guid("0fda01a5-7902-4cf5-aa33-8adc13429d1c")]
 [assembly: ComVisible(false)]
 [assembly: AssemblyVersion("3.20.3.*")]
 [assembly: AssemblyFileVersion("3.20.3")]
