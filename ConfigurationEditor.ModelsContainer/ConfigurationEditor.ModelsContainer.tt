@@ -27,8 +27,8 @@
     </dependencies>
   </metadata>
   <files>
-     <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" />
-     <file src="..\bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml" />
+     <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.dll" />
+     <file src="bin\Release\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml" target="lib\net461\CAS.CommServer.UA.ConfigurationEditor.ModelsContainer.xml" />
   </files>
 </package>
 
