@@ -70,6 +70,7 @@
     <Compile Include="ResourcesUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="cas.snk" />
   </ItemGroup>
   <ItemGroup>
