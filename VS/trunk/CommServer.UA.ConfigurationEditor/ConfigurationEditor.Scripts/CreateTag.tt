@@ -8,9 +8,9 @@ rem//  $URL:  $
 rem//  $Id:  $
 
 <#
-      string _rel = CASUACommonVersion.Replace(".", "_"); // _version must be replaced by the correct version variable depending on the project.
+      string _rel = CASCommServerUAConfigurationEditorVersion.Replace(".", "_"); // _version must be replaced by the correct version variable depending on the project.
       string _repositoryUrl = @"svn://svnserver.hq.cas.com.pl/VS/";
-      string _solutionPath = @"/CommServer.UA";
+      string _solutionPath = @"/CommServer.UA.ConfigurationEditor";
       string _trunkPath = $@"{_repositoryUrl}trunk{_solutionPath}/";
       string _tagPath = $@"{_repositoryUrl}tags{_solutionPath}.rel_{_rel}";
 #>
