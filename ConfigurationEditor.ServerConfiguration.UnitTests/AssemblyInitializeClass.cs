@@ -1,4 +1,5 @@
 ﻿
+using CAS.CommServer.UA.Server.ServerConfiguration.UnitTests.Instrumentation;
 using CAS.UA.Server.ServerConfiguration;
 using Microsoft.Practices.ServiceLocation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -19,8 +20,9 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
     public static void AssemblyInitializeMethod(TestContext context)
     {
       m_Context = context;
-      IServiceLocator serviceLocator = new Instrumentation.ServiceLocation();
-      ServiceLocator.SetLocatorProvider(() => serviceLocator);
+      IServiceLocator _serviceLocator = ServiceLocation.ServiceLocationSingleton();
+      Assert.IsNotNull(ServiceLocation.ServiceLocationSingleton());
+      Assert.AreSame(_serviceLocator, ServiceLocation.ServiceLocationSingleton());
     }
     [ClassCleanup]
     public static void ClassCleanupMethod()
