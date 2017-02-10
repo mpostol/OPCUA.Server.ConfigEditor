@@ -10,6 +10,15 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests.Instrumentation
 {
   internal class ServiceLocation : ServiceLocatorImplBase
   {
+    internal static IServiceLocator ServiceLocationSingleton()
+    {
+      if (m_ServiceLocation == null)
+      {
+        m_ServiceLocation = new ServiceLocation();
+        ServiceLocator.SetLocatorProvider(() => m_ServiceLocation);
+      }
+      return m_ServiceLocation;
+    }
     protected override IEnumerable<object> DoGetAllInstances(Type serviceType)
     {
       throw new NotImplementedException();
@@ -55,5 +64,7 @@ namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests.Instrumentation
         }
       return _serverConfiguration;
     }
+    private static ServiceLocation m_ServiceLocation;
+
   }
 }
