@@ -31,6 +31,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>IDE0001,IDE0002,IDE0003</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -76,7 +77,7 @@
   <ItemGroup>
     <Compile Include="AssemblyInitializeClass.cs" />
     <Compile Include="Instrumentation\Extensions.cs" />
-    <Compile Include="Instrumentation\ServiceLocator.cs" />
+    <Compile Include="Instrumentation\ServiceLocation.cs" />
     <Compile Include="MainTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
@@ -89,10 +90,6 @@
     <Compile Include="NamedTraceLoggerUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConfigurationEditor.ModelsContainer\ConfigurationEditor.ModelsContainer.csproj">
-      <Project>{643a2a07-394d-418f-937c-2d394efe5015}</Project>
-      <Name>ConfigurationEditor.ModelsContainer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ConfigurationEditor.ServerConfiguration\ConfigurationEditor.ServerConfiguration.csproj">
       <Project>{28F30394-6EBA-4584-9041-F69CCB921424}</Project>
       <Name>ConfigurationEditor.ServerConfiguration</Name>
@@ -101,13 +98,38 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="cas.snk" />
+    <None Include="EmbeddedExample\BoilerExampleSolution.uamdsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerExample.oses">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerExample.uasconfig">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="EmbeddedExample\DemoConfiguration\BoilersSet.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="EmbeddedExample\DemoConfiguration\BoilerType.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilersSet.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedExample\DemoConfiguration\BoilerType.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedExample\DemoConfiguration\DefaultConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
