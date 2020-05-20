@@ -7,3 +7,5 @@ Address Space Model Designer Plug-in to be used as the OPC UA Server configurati
 - [Object Oriented Internet - C# deliverables supporting a new Machine To Machine (M2M) communication architecture](https://github.com/mpostol/OPCUA.Server.ConfigEditor)
 - [OPC UA Address Space Model Designer](https://github.com/mpostol/ASMD)
 - [mpostol/OPCUA.Server](https://github.com/mpostol/OPCUA.Server)
+- [API Browser](https://mpostol.github.io/OPCUA.Server.ConfigEditor/APIHelp)
+- [Website](https://mpostol.github.io/OPCUA.Server.ConfigEditor)

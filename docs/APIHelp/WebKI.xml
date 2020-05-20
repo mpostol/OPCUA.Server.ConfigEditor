@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title=".Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCDAClientMain.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClient.SelectionTree.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServer.SelectionTreeForCommServer.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServer.CommServerMain.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BindingDescription property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.BindingDescription.htm" />
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration namespace" Url="html/N-CAS.UA.Server.ServerConfiguration.htm" />
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.CASConfiguration class">
+    <HelpKINode Title="CASConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="CASConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.CommServerConfiguration class">
+    <HelpKINode Title="CommServerConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+    <HelpKINode Title="CommServerConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration class">
+    <HelpKINode Title="CommServerSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+    <HelpKINode Title="CommServerSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.Controls namespace" Url="html/N-CAS.UA.Server.ServerConfiguration.Controls.htm" />
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.Controls.IEnableOK interface">
+    <HelpKINode Title="IEnableOK Interface" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+    <HelpKINode Title="IEnableOK Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs class">
+    <HelpKINode Title="OKButtonEventArgs Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+    <HelpKINode Title="OKButtonEventArgs Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm class">
+    <HelpKINode Title="OKCnacelForm Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="OKCnacelForm Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.DataSourceConfiguration class">
+    <HelpKINode Title="DataSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+    <HelpKINode Title="DataSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source enumeration" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration class">
+    <HelpKINode Title="DefaultSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    <HelpKINode Title="DefaultSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.InstanceConfiguration class">
+    <HelpKINode Title="InstanceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+    <HelpKINode Title="InstanceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.Main class">
+    <HelpKINode Title="Main Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="Main Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.ModelLayer class">
+    <HelpKINode Title="ModelLayer Class" Url="html/T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+    <HelpKINode Title="ModelLayer Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.NamedTraceLogger class">
+    <HelpKINode Title="NamedTraceLogger Class" Url="html/T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+    <HelpKINode Title="NamedTraceLogger Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper class">
+    <HelpKINode Title="NodeDescriptorWrapper Class" Url="html/T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+    <HelpKINode Title="NodeDescriptorWrapper Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.OPCDAClient namespace" Url="html/N-CAS.UA.Server.ServerConfiguration.OPCDAClient.htm" />
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier class">
+    <HelpKINode Title="OPCItemIdentifier Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+    <HelpKINode Title="OPCItemIdentifier Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration class">
+    <HelpKINode Title="OPCDAClientConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+    <HelpKINode Title="OPCDAClientConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration class">
+    <HelpKINode Title="OPCDAClientSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+    <HelpKINode Title="OPCDAClientSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.ProcessDataBindings class">
+    <HelpKINode Title="ProcessDataBindings Class" Url="html/T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+    <HelpKINode Title="ProcessDataBindings Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.SimulatorConfiguration class">
+    <HelpKINode Title="SimulatorConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+    <HelpKINode Title="SimulatorConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration class">
+    <HelpKINode Title="SimulatorSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+    <HelpKINode Title="SimulatorSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names enumeration" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="CAS.UA.Server.ServerConfiguration.SourceBase class">
+    <HelpKINode Title="SourceBase Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+    <HelpKINode Title="SourceBase Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CASConfiguration class">
+    <HelpKINode Title="CASConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="CASConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="about CASConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CASConfiguration.CASExtension property" Url="html/P-CAS.UA.Server.ServerConfiguration.CASConfiguration.CASExtension.htm" />
+  <HelpKINode Title="CASConfiguration.DefaultNamespace field" Url="html/F-CAS.UA.Server.ServerConfiguration.CASConfiguration.DefaultNamespace.htm" />
+  <HelpKINode Title="CASConfiguration.PreparePathBasedOnBaseDirectory method" Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.PreparePathBasedOnBaseDirectory.htm" />
+  <HelpKINode Title="CASConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.ToString.htm" />
+  <HelpKINode Title="CASExtension property" Url="html/P-CAS.UA.Server.ServerConfiguration.CASConfiguration.CASExtension.htm" />
+  <HelpKINode Title="ClearConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.ClearConfiguration.htm" />
+  <HelpKINode Title="Clone method">
+    <HelpKINode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.Clone.htm" />
+    <HelpKINode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.Clone.htm" />
+    <HelpKINode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SourceBase.Clone.htm" />
+    <HelpKINode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.Clone.htm" />
+    <HelpKINode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Clone.htm" />
+    <HelpKINode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.Clone.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommServer enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+  <HelpKINode Title="CommServer field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.CommServer.htm" />
+  <HelpKINode Title="CommServer property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.CommServer.htm" />
+  <HelpKINode Title="CommServerConfiguration class">
+    <HelpKINode Title="CommServerConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+    <HelpKINode Title="CommServerConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+    <HelpKINode Title="about CommServerConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommServerConfiguration.DisplayFileName property" Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.DisplayFileName.htm" />
+  <HelpKINode Title="CommServerConfiguration.FileName property" Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.FileName.htm" />
+  <HelpKINode Title="CommServerConfiguration.FileStatus property" Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.FileStatus.htm" />
+  <HelpKINode Title="CommServerConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.ToString.htm" />
+  <HelpKINode Title="CommServerSourceConfiguration class">
+    <HelpKINode Title="CommServerSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+    <HelpKINode Title="CommServerSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+    <HelpKINode Title="about CommServerSourceConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommServerSourceConfiguration.Clone method" Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.Clone.htm" />
+  <HelpKINode Title="CommServerSourceConfiguration.CommServerSourceConfiguration constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.-ctor.htm" />
+  <HelpKINode Title="CommServerSourceConfiguration.GetSourceBase method" Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.GetSourceBase.htm" />
+  <HelpKINode Title="CommServerSourceConfiguration.ItemName property" Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.ItemName.htm" />
+  <HelpKINode Title="CommServerSourceConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.ToString.htm" />
+  <HelpKINode Title="CompareTo method" Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.CompareTo.htm" />
+  <HelpKINode Title="Configuration property" Url="html/P-CAS.UA.Server.ServerConfiguration.Main.Configuration.htm" />
+  <HelpKINode Title="CreateDefaultConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.CreateDefaultConfiguration.htm" />
+  <HelpKINode Title="CreateInstanceConfigurations method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.CreateInstanceConfigurations.htm" />
+  <HelpKINode Title="customController_ControlOut_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="customController_ControlOut_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_ControlOut_Value.htm" />
+  <HelpKINode Title="customController_Input1_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="customController_Input1_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_Input1_Value.htm" />
+  <HelpKINode Title="customController_Input2_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="customController_Input2_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_Input2_Value.htm" />
+  <HelpKINode Title="customController_Input3_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="customController_Input3_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_Input3_Value.htm" />
+  <HelpKINode Title="DataSourceConfiguration class">
+    <HelpKINode Title="DataSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+    <HelpKINode Title="DataSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+    <HelpKINode Title="about DataSourceConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataSourceConfiguration.DataSourceConfiguration constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.-ctor.htm" />
+  <HelpKINode Title="DataSourceConfiguration.Name property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Name.htm" />
+  <HelpKINode Title="DataSourceConfiguration.SelectedSource property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSource.htm" />
+  <HelpKINode Title="DataSourceConfiguration.SelectedSourceBrowse property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceBrowse.htm" />
+  <HelpKINode Title="DataSourceConfiguration.SelectedSourceConfiguration property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceConfiguration.htm" />
+  <HelpKINode Title="DataSourceConfiguration.SelectedSourceConfigurationBrowse property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceConfigurationBrowse.htm" />
+  <HelpKINode Title="DataSourceConfiguration.Source enumeration" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+  <HelpKINode Title="DataSourceConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.ToString.htm" />
+  <HelpKINode Title="DataSources property" Url="html/P-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.DataSources.htm" />
+  <HelpKINode Title="DataType property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.DataType.htm" />
+  <HelpKINode Title="DefaultFileName property" Url="html/P-CAS.UA.Server.ServerConfiguration.Main.DefaultFileName.htm" />
+  <HelpKINode Title="DefaultNamespace field" Url="html/F-CAS.UA.Server.ServerConfiguration.CASConfiguration.DefaultNamespace.htm" />
+  <HelpKINode Title="DefaultSourceConfiguration class">
+    <HelpKINode Title="DefaultSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    <HelpKINode Title="DefaultSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    <HelpKINode Title="about DefaultSourceConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultSourceConfiguration.Clone method" Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.Clone.htm" />
+  <HelpKINode Title="DefaultSourceConfiguration.GetSourceBase method" Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.GetSourceBase.htm" />
+  <HelpKINode Title="DefaultSourceConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.ToString.htm" />
+  <HelpKINode Title="DisplayFileName property">
+    <HelpKINode Title="DisplayFileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.DisplayFileName.htm" />
+    <HelpKINode Title="DisplayFileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.DisplayFileName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCDAClientMain.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Main.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServer.SelectionTreeForCommServer.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServer.CommServerMain.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClient.SelectionTree.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="drum_LevelIndicator_Output_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="drum_LevelIndicator_Output_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.drum_LevelIndicator_Output_Value.htm" />
+  <HelpKINode Title="Edit method" Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.Edit.htm" />
+  <HelpKINode Title="EditConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.EditConfiguration.htm" />
+  <HelpKINode Title="FileName property">
+    <HelpKINode Title="FileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.FileName.htm" />
+    <HelpKINode Title="FileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.FileName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilePathCsv property" Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.FilePathCsv.htm" />
+  <HelpKINode Title="FilePathUanodes property" Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.FilePathUanodes.htm" />
+  <HelpKINode Title="FileStatus property">
+    <HelpKINode Title="FileStatus Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.FileStatus.htm" />
+    <HelpKINode Title="FileStatus Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.FileStatus.htm" />
+  </HelpKINode>
+  <HelpKINode Title="flowController_SetPoint_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="flowController_SetPoint_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.flowController_SetPoint_Value.htm" />
+  <HelpKINode Title="GetInstanceConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.GetInstanceConfiguration.htm" />
+  <HelpKINode Title="GetSourceBase method">
+    <HelpKINode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.GetSourceBase.htm" />
+    <HelpKINode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.GetSourceBase.htm" />
+    <HelpKINode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.GetSourceBase.htm" />
+    <HelpKINode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SourceBase.GetSourceBase.htm" />
+    <HelpKINode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.GetSourceBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnableOK interface">
+    <HelpKINode Title="IEnableOK Interface" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+    <HelpKINode Title="IEnableOK Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+    <HelpKINode Title="about IEnableOK interface" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnableOK.OnStateChanged event" Url="html/E-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.OnStateChanged.htm" />
+  <HelpKINode Title="inputPipe_FlowTransmitter1_Output_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="inputPipe_FlowTransmitter1_Output_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.inputPipe_FlowTransmitter1_Output_Value.htm" />
+  <HelpKINode Title="inputPipe_Valve_Input_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="inputPipe_Valve_Input_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.inputPipe_Valve_Input_Value.htm" />
+  <HelpKINode Title="InstanceConfiguration class">
+    <HelpKINode Title="InstanceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+    <HelpKINode Title="InstanceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+    <HelpKINode Title="about InstanceConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstanceConfiguration.ClearConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.ClearConfiguration.htm" />
+  <HelpKINode Title="InstanceConfiguration.DataSources property" Url="html/P-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.DataSources.htm" />
+  <HelpKINode Title="InstanceConfiguration.Edit method" Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.Edit.htm" />
+  <HelpKINode Title="InstanceConfiguration.InstanceConfiguration constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.-ctor.htm" />
+  <HelpKINode Title="InstanceConfiguration.NodeDescriptor property" Url="html/P-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.NodeDescriptor.htm" />
+  <HelpKINode Title="InstanceConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.ToString.htm" />
+  <HelpKINode Title="InstanceDeclaration property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.InstanceDeclaration.htm" />
+  <HelpKINode Title="ItemName property">
+    <HelpKINode Title="ItemName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.ItemName.htm" />
+    <HelpKINode Title="ItemName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ItemName.htm" />
+    <HelpKINode Title="ItemName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.ItemName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Logger property" Url="html/P-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Logger.htm" />
+  <HelpKINode Title="Main class">
+    <HelpKINode Title="Main Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="Main Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="about Main class" Url="html/T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.Main.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Main.Configuration property" Url="html/P-CAS.UA.Server.ServerConfiguration.Main.Configuration.htm" />
+  <HelpKINode Title="Main.CreateDefaultConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.CreateDefaultConfiguration.htm" />
+  <HelpKINode Title="Main.CreateInstanceConfigurations method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.CreateInstanceConfigurations.htm" />
+  <HelpKINode Title="Main.DefaultFileName property" Url="html/P-CAS.UA.Server.ServerConfiguration.Main.DefaultFileName.htm" />
+  <HelpKINode Title="Main.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Main.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Main.EditConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.EditConfiguration.htm" />
+  <HelpKINode Title="Main.GetInstanceConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.GetInstanceConfiguration.htm" />
+  <HelpKINode Title="Main.Main constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.Main.-ctor.htm" />
+  <HelpKINode Title="Main.OnModified event" Url="html/E-CAS.UA.Server.ServerConfiguration.Main.OnModified.htm" />
+  <HelpKINode Title="Main.ReadConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.ReadConfiguration.htm" />
+  <HelpKINode Title="Main.SaveConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.SaveConfiguration.htm" />
+  <HelpKINode Title="ModelLayer class">
+    <HelpKINode Title="ModelLayer Class" Url="html/T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+    <HelpKINode Title="ModelLayer Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+    <HelpKINode Title="about ModelLayer class" Url="html/T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModelLayer.FilePathCsv property" Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.FilePathCsv.htm" />
+  <HelpKINode Title="ModelLayer.FilePathUanodes property" Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.FilePathUanodes.htm" />
+  <HelpKINode Title="ModelLayer.NamespaceUri property" Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.NamespaceUri.htm" />
+  <HelpKINode Title="ModelLayers property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.ModelLayers.htm" />
+  <HelpKINode Title="Name property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Name.htm" />
+  <HelpKINode Title="NamedTraceLogger class">
+    <HelpKINode Title="NamedTraceLogger Class" Url="html/T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+    <HelpKINode Title="NamedTraceLogger Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+    <HelpKINode Title="about NamedTraceLogger class" Url="html/T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamedTraceLogger.Dispose method" Url="html/Overload-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Dispose.htm" />
+  <HelpKINode Title="NamedTraceLogger.Logger property" Url="html/P-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Logger.htm" />
+  <HelpKINode Title="Names.customController_ControlOut_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_ControlOut_Value.htm" />
+  <HelpKINode Title="Names.customController_Input1_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_Input1_Value.htm" />
+  <HelpKINode Title="Names.customController_Input2_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_Input2_Value.htm" />
+  <HelpKINode Title="Names.customController_Input3_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.customController_Input3_Value.htm" />
+  <HelpKINode Title="Names.drum_LevelIndicator_Output_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.drum_LevelIndicator_Output_Value.htm" />
+  <HelpKINode Title="Names.flowController_SetPoint_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.flowController_SetPoint_Value.htm" />
+  <HelpKINode Title="Names.inputPipe_FlowTransmitter1_Output_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.inputPipe_FlowTransmitter1_Output_Value.htm" />
+  <HelpKINode Title="Names.inputPipe_Valve_Input_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.inputPipe_Valve_Input_Value.htm" />
+  <HelpKINode Title="Names.outputPipe_FlowTransmitter2_Output_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.outputPipe_FlowTransmitter2_Output_Value.htm" />
+  <HelpKINode Title="Names.test_Boolean field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Boolean.htm" />
+  <HelpKINode Title="Names.test_Byte field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Byte.htm" />
+  <HelpKINode Title="Names.test_ByteString field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_ByteString.htm" />
+  <HelpKINode Title="Names.test_DataValue field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_DataValue.htm" />
+  <HelpKINode Title="Names.test_DateTime field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_DateTime.htm" />
+  <HelpKINode Title="Names.test_DiagnosticInfo field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_DiagnosticInfo.htm" />
+  <HelpKINode Title="Names.test_Double field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Double.htm" />
+  <HelpKINode Title="Names.test_Enumeration field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Enumeration.htm" />
+  <HelpKINode Title="Names.test_ExpandedNodeId field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_ExpandedNodeId.htm" />
+  <HelpKINode Title="Names.test_ExtensionObject field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_ExtensionObject.htm" />
+  <HelpKINode Title="Names.test_Float field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Float.htm" />
+  <HelpKINode Title="Names.test_Guid field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Guid.htm" />
+  <HelpKINode Title="Names.test_Int16 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Int16.htm" />
+  <HelpKINode Title="Names.test_Int32 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Int32.htm" />
+  <HelpKINode Title="Names.test_Int64 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Int64.htm" />
+  <HelpKINode Title="Names.test_Integer field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Integer.htm" />
+  <HelpKINode Title="Names.test_LocalizedText field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_LocalizedText.htm" />
+  <HelpKINode Title="Names.test_NodeId field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_NodeId.htm" />
+  <HelpKINode Title="Names.test_Number field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Number.htm" />
+  <HelpKINode Title="Names.test_QualifiedName field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_QualifiedName.htm" />
+  <HelpKINode Title="Names.test_SByte field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_SByte.htm" />
+  <HelpKINode Title="Names.test_StatusCode field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_StatusCode.htm" />
+  <HelpKINode Title="Names.test_String field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_String.htm" />
+  <HelpKINode Title="Names.test_UInt16 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInt16.htm" />
+  <HelpKINode Title="Names.test_UInt32 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInt32.htm" />
+  <HelpKINode Title="Names.test_UInt64 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInt64.htm" />
+  <HelpKINode Title="Names.test_UInteger field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInteger.htm" />
+  <HelpKINode Title="Names.test_value1 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_value1.htm" />
+  <HelpKINode Title="Names.test_value2 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_value2.htm" />
+  <HelpKINode Title="Names.test_Variant field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Variant.htm" />
+  <HelpKINode Title="Names.test_XmlElement field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_XmlElement.htm" />
+  <HelpKINode Title="NamespaceUri property" Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.NamespaceUri.htm" />
+  <HelpKINode Title="NodeClass property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.NodeClass.htm" />
+  <HelpKINode Title="NodeDescriptor property" Url="html/P-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.NodeDescriptor.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper class">
+    <HelpKINode Title="NodeDescriptorWrapper Class" Url="html/T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+    <HelpKINode Title="NodeDescriptorWrapper Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+    <HelpKINode Title="about NodeDescriptorWrapper class" Url="html/T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NodeDescriptorWrapper.BindingDescription property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.BindingDescription.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.Clone method" Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.Clone.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.CompareTo method" Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.CompareTo.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.DataType property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.DataType.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.InstanceDeclaration property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.InstanceDeclaration.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.NodeClass property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.NodeClass.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.NodeDescriptorWrapper constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.-ctor.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.NodeIdentifier property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.NodeIdentifier.htm" />
+  <HelpKINode Title="NodeDescriptorWrapper.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.ToString.htm" />
+  <HelpKINode Title="NodeIdentifier property" Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.NodeIdentifier.htm" />
+  <HelpKINode Title="NodesConfiguration property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.NodesConfiguration.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+  <HelpKINode Title="None field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.None.htm" />
+  <HelpKINode Title="OKButtonEventArgs class">
+    <HelpKINode Title="OKButtonEventArgs Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+    <HelpKINode Title="OKButtonEventArgs Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+    <HelpKINode Title="about OKButtonEventArgs class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OKButtonEventArgs.OKButtonEventArgs constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.-ctor.htm" />
+  <HelpKINode Title="OKButtonEventArgs.OKButtonState property" Url="html/P-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.OKButtonState.htm" />
+  <HelpKINode Title="OKButtonState property" Url="html/P-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.OKButtonState.htm" />
+  <HelpKINode Title="OKCnacelForm class">
+    <HelpKINode Title="OKCnacelForm Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="OKCnacelForm Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="about OKCnacelForm class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OKCnacelForm.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OKCnacelForm.SelectedObject property" Url="html/P-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.SelectedObject.htm" />
+  <HelpKINode Title="OnModified event" Url="html/E-CAS.UA.Server.ServerConfiguration.Main.OnModified.htm" />
+  <HelpKINode Title="OnStateChanged event" Url="html/E-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.OnStateChanged.htm" />
+  <HelpKINode Title="OPCClient enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+  <HelpKINode Title="OPCClient field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.OPCClient.htm" />
+  <HelpKINode Title="OPCDAClient property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.OPCDAClient.htm" />
+  <HelpKINode Title="OPCDAClientConfiguration class">
+    <HelpKINode Title="OPCDAClientConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+    <HelpKINode Title="OPCDAClientConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+    <HelpKINode Title="about OPCDAClientConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OPCDAClientConfiguration.DisplayFileName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.DisplayFileName.htm" />
+  <HelpKINode Title="OPCDAClientConfiguration.FileName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.FileName.htm" />
+  <HelpKINode Title="OPCDAClientConfiguration.FileStatus property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.FileStatus.htm" />
+  <HelpKINode Title="OPCDAClientConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.ToString.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration class">
+    <HelpKINode Title="OPCDAClientSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+    <HelpKINode Title="OPCDAClientSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+    <HelpKINode Title="about OPCDAClientSourceConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OPCDAClientSourceConfiguration.Clone method" Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.Clone.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.GetSourceBase method" Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.GetSourceBase.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.ItemName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ItemName.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.OPCDAClientSourceConfiguration constructor" Url="html/Overload-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.-ctor.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.ServerName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ServerName.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.SubscriptionName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.SubscriptionName.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ToString.htm" />
+  <HelpKINode Title="OPCDAClientSourceConfiguration.UniqueIdentifier property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.UniqueIdentifier.htm" />
+  <HelpKINode Title="OPCItemIdentifier class">
+    <HelpKINode Title="OPCItemIdentifier Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+    <HelpKINode Title="OPCItemIdentifier Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+    <HelpKINode Title="about OPCItemIdentifier class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OPCItemIdentifier.ItemName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.ItemName.htm" />
+  <HelpKINode Title="OPCItemIdentifier.ServerName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.ServerName.htm" />
+  <HelpKINode Title="OPCItemIdentifier.SubscriptionName property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.SubscriptionName.htm" />
+  <HelpKINode Title="OPCItemIdentifier.UniqueIdentifier property" Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.UniqueIdentifier.htm" />
+  <HelpKINode Title="outputPipe_FlowTransmitter2_Output_Value enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="outputPipe_FlowTransmitter2_Output_Value field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.outputPipe_FlowTransmitter2_Output_Value.htm" />
+  <HelpKINode Title="PreparePathBasedOnBaseDirectory method" Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.PreparePathBasedOnBaseDirectory.htm" />
+  <HelpKINode Title="ProcessDataBindings class">
+    <HelpKINode Title="ProcessDataBindings Class" Url="html/T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+    <HelpKINode Title="ProcessDataBindings Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+    <HelpKINode Title="about ProcessDataBindings class" Url="html/T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessDataBindings.CommServer property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.CommServer.htm" />
+  <HelpKINode Title="ProcessDataBindings.ModelLayers property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.ModelLayers.htm" />
+  <HelpKINode Title="ProcessDataBindings.NodesConfiguration property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.NodesConfiguration.htm" />
+  <HelpKINode Title="ProcessDataBindings.OPCDAClient property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.OPCDAClient.htm" />
+  <HelpKINode Title="ProcessDataBindings.ProcessDataBindings constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.-ctor.htm" />
+  <HelpKINode Title="ProcessDataBindings.Simulator property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.Simulator.htm" />
+  <HelpKINode Title="ReadConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.ReadConfiguration.htm" />
+  <HelpKINode Title="SaveConfiguration method" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.SaveConfiguration.htm" />
+  <HelpKINode Title="Selected property" Url="html/P-CAS.UA.Server.ServerConfiguration.SourceBase.Selected.htm" />
+  <HelpKINode Title="SelectedObject property" Url="html/P-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.SelectedObject.htm" />
+  <HelpKINode Title="SelectedSource property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSource.htm" />
+  <HelpKINode Title="SelectedSourceBrowse property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceBrowse.htm" />
+  <HelpKINode Title="SelectedSourceConfiguration property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceConfiguration.htm" />
+  <HelpKINode Title="SelectedSourceConfigurationBrowse property" Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceConfigurationBrowse.htm" />
+  <HelpKINode Title="ServerName property">
+    <HelpKINode Title="ServerName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.ServerName.htm" />
+    <HelpKINode Title="ServerName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ServerName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Simulator enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+  <HelpKINode Title="Simulator field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.Simulator.htm" />
+  <HelpKINode Title="Simulator property" Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.Simulator.htm" />
+  <HelpKINode Title="SimulatorConfiguration class">
+    <HelpKINode Title="SimulatorConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+    <HelpKINode Title="SimulatorConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+    <HelpKINode Title="about SimulatorConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimulatorSourceConfiguration class">
+    <HelpKINode Title="SimulatorSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+    <HelpKINode Title="SimulatorSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+    <HelpKINode Title="about SimulatorSourceConfiguration class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimulatorSourceConfiguration.Clone method" Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Clone.htm" />
+  <HelpKINode Title="SimulatorSourceConfiguration.GetSourceBase method" Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.GetSourceBase.htm" />
+  <HelpKINode Title="SimulatorSourceConfiguration.Names enumeration" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="SimulatorSourceConfiguration.SimulatorSourceConfiguration constructor" Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.-ctor.htm" />
+  <HelpKINode Title="SimulatorSourceConfiguration.Tag property" Url="html/P-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Tag.htm" />
+  <HelpKINode Title="SimulatorSourceConfiguration.ToString method" Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.ToString.htm" />
+  <HelpKINode Title="Source.CommServer field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.CommServer.htm" />
+  <HelpKINode Title="Source.None field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.None.htm" />
+  <HelpKINode Title="Source.OPCClient field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.OPCClient.htm" />
+  <HelpKINode Title="Source.Simulator field" Url="html/F-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.Simulator.htm" />
+  <HelpKINode Title="SourceBase class">
+    <HelpKINode Title="SourceBase Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+    <HelpKINode Title="SourceBase Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+    <HelpKINode Title="about SourceBase class" Url="html/T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SourceBase.Clone method" Url="html/M-CAS.UA.Server.ServerConfiguration.SourceBase.Clone.htm" />
+  <HelpKINode Title="SourceBase.GetSourceBase method" Url="html/M-CAS.UA.Server.ServerConfiguration.SourceBase.GetSourceBase.htm" />
+  <HelpKINode Title="SourceBase.Selected property" Url="html/P-CAS.UA.Server.ServerConfiguration.SourceBase.Selected.htm" />
+  <HelpKINode Title="SubscriptionName property">
+    <HelpKINode Title="SubscriptionName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.SubscriptionName.htm" />
+    <HelpKINode Title="SubscriptionName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.SubscriptionName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tag property" Url="html/P-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Tag.htm" />
+  <HelpKINode Title="test_Boolean enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Boolean field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Boolean.htm" />
+  <HelpKINode Title="test_Byte enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Byte field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Byte.htm" />
+  <HelpKINode Title="test_ByteString enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_ByteString field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_ByteString.htm" />
+  <HelpKINode Title="test_DataValue enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_DataValue field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_DataValue.htm" />
+  <HelpKINode Title="test_DateTime enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_DateTime field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_DateTime.htm" />
+  <HelpKINode Title="test_DiagnosticInfo enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_DiagnosticInfo field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_DiagnosticInfo.htm" />
+  <HelpKINode Title="test_Double enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Double field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Double.htm" />
+  <HelpKINode Title="test_Enumeration enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Enumeration field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Enumeration.htm" />
+  <HelpKINode Title="test_ExpandedNodeId enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_ExpandedNodeId field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_ExpandedNodeId.htm" />
+  <HelpKINode Title="test_ExtensionObject enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_ExtensionObject field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_ExtensionObject.htm" />
+  <HelpKINode Title="test_Float enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Float field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Float.htm" />
+  <HelpKINode Title="test_Guid enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Guid field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Guid.htm" />
+  <HelpKINode Title="test_Int16 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Int16 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Int16.htm" />
+  <HelpKINode Title="test_Int32 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Int32 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Int32.htm" />
+  <HelpKINode Title="test_Int64 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Int64 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Int64.htm" />
+  <HelpKINode Title="test_Integer enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Integer field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Integer.htm" />
+  <HelpKINode Title="test_LocalizedText enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_LocalizedText field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_LocalizedText.htm" />
+  <HelpKINode Title="test_NodeId enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_NodeId field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_NodeId.htm" />
+  <HelpKINode Title="test_Number enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Number field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Number.htm" />
+  <HelpKINode Title="test_QualifiedName enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_QualifiedName field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_QualifiedName.htm" />
+  <HelpKINode Title="test_SByte enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_SByte field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_SByte.htm" />
+  <HelpKINode Title="test_StatusCode enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_StatusCode field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_StatusCode.htm" />
+  <HelpKINode Title="test_String enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_String field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_String.htm" />
+  <HelpKINode Title="test_UInt16 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_UInt16 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInt16.htm" />
+  <HelpKINode Title="test_UInt32 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_UInt32 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInt32.htm" />
+  <HelpKINode Title="test_UInt64 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_UInt64 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInt64.htm" />
+  <HelpKINode Title="test_UInteger enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_UInteger field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_UInteger.htm" />
+  <HelpKINode Title="test_value1 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_value1 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_value1.htm" />
+  <HelpKINode Title="test_value2 enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_value2 field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_value2.htm" />
+  <HelpKINode Title="test_Variant enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_Variant field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_Variant.htm" />
+  <HelpKINode Title="test_XmlElement enumeration member" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+  <HelpKINode Title="test_XmlElement field" Url="html/F-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.test_XmlElement.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ToString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UniqueIdentifier property">
+    <HelpKINode Title="UniqueIdentifier Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.UniqueIdentifier.htm" />
+    <HelpKINode Title="UniqueIdentifier Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.UniqueIdentifier.htm" />
+  </HelpKINode>
+</HelpKI>

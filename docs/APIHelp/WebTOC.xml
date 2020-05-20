@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="895f1055-39a7-413f-9ea9-e128fbe7916b" Title="CAS.UA.Server.ServerConfiguration Namespace" Url="html/N-CAS.UA.Server.ServerConfiguration.htm">
+    <HelpTOCNode Id="5bfff8b6-8b67-4661-bccc-a758bbd97061" Title="CASConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm">
+      <HelpTOCNode Title="CASConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm" />
+      <HelpTOCNode Id="99e0bc15-5933-47e6-b74a-fbf1efa3b67d" Title="CASConfiguration Fields" Url="html/Fields.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm">
+        <HelpTOCNode Title="DefaultNamespace Field" Url="html/F-CAS.UA.Server.ServerConfiguration.CASConfiguration.DefaultNamespace.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bf386d53-47fc-4abf-91cf-a03e04ecd830" Title="CASConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm">
+        <HelpTOCNode Title="Load Method (FileInfo, ApplicationType, Type, Boolean)" Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.Load.htm" />
+        <HelpTOCNode Title="PreparePathBasedOnBaseDirectory Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.PreparePathBasedOnBaseDirectory.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CASConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="04b34d07-be2c-407c-bed1-8bb33105e462" Title="CASConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.CASConfiguration.htm">
+        <HelpTOCNode Title="CASExtension Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CASConfiguration.CASExtension.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1272a6a-102f-42b5-b7b4-7ec3f3d95035" Title="CommServerConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm">
+      <HelpTOCNode Title="CommServerConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm" />
+      <HelpTOCNode Id="4f2ca9ed-1e98-406d-ba2b-7ac22f9f2d78" Title="CommServerConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d188cc1-f785-4b93-b881-e7f891503087" Title="CommServerConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.htm">
+        <HelpTOCNode Title="DisplayFileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.DisplayFileName.htm" />
+        <HelpTOCNode Title="FileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.FileName.htm" />
+        <HelpTOCNode Title="FileStatus Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerConfiguration.FileStatus.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f224bae9-f9e9-4dc8-b6b1-f68325e7b8fe" Title="CommServerSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm">
+      <HelpTOCNode Title="CommServerSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm" />
+      <HelpTOCNode Title="CommServerSourceConfiguration Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.-ctor.htm" />
+      <HelpTOCNode Id="a85c1476-4097-4cac-8cec-fa5d61f9befc" Title="CommServerSourceConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.Clone.htm" />
+        <HelpTOCNode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.GetSourceBase.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bb118861-0c4c-4613-aea0-9f4d9e51aa70" Title="CommServerSourceConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.htm">
+        <HelpTOCNode Title="ItemName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.CommServerSourceConfiguration.ItemName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5932df8e-d11a-4196-bcad-a71bc25c02d7" Title="DataSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm">
+      <HelpTOCNode Title="DataSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm" />
+      <HelpTOCNode Title="DataSourceConfiguration Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.-ctor.htm" />
+      <HelpTOCNode Id="ca5be9b9-c11c-4f14-994d-8adf6c8af661" Title="DataSourceConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6949d109-0740-4499-a552-e4b0aff43763" Title="DataSourceConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Name.htm" />
+        <HelpTOCNode Title="SelectedSource Property " Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSource.htm" />
+        <HelpTOCNode Title="SelectedSourceBrowse Property " Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceBrowse.htm" />
+        <HelpTOCNode Title="SelectedSourceConfiguration Property " Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceConfiguration.htm" />
+        <HelpTOCNode Title="SelectedSourceConfigurationBrowse Property " Url="html/P-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.SelectedSourceConfigurationBrowse.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="DataSourceConfiguration.Source Enumeration" Url="html/T-CAS.UA.Server.ServerConfiguration.DataSourceConfiguration.Source.htm" />
+    <HelpTOCNode Id="c3541799-2186-4b52-bd62-fed4ea71823e" Title="DefaultSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm">
+      <HelpTOCNode Title="DefaultSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+      <HelpTOCNode Id="97e085ca-c375-4964-a91f-f17fa578b68d" Title="DefaultSourceConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.Clone.htm" />
+        <HelpTOCNode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.GetSourceBase.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DefaultSourceConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.DefaultSourceConfiguration.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9041d59d-5886-4a21-8123-b6d6b3b83fa4" Title="InstanceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm">
+      <HelpTOCNode Title="InstanceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm" />
+      <HelpTOCNode Id="9436ac5d-b462-4883-b42a-0eb9abb7b12d" Title="InstanceConfiguration Constructor " Url="html/Overload-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.-ctor.htm">
+        <HelpTOCNode Title="InstanceConfiguration Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.-ctor.htm" />
+        <HelpTOCNode Title="InstanceConfiguration Constructor (DataSourceConfiguration[], String, String)" Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="49031134-150b-43ce-bfca-4c49a499d05c" Title="InstanceConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm">
+        <HelpTOCNode Title="ClearConfiguration Method " Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.ClearConfiguration.htm" />
+        <HelpTOCNode Title="Edit Method " Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.Edit.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a8ef4ff8-03eb-420b-870e-f64f23f04259" Title="InstanceConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.htm">
+        <HelpTOCNode Title="DataSources Property " Url="html/P-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.DataSources.htm" />
+        <HelpTOCNode Title="NodeDescriptor Property " Url="html/P-CAS.UA.Server.ServerConfiguration.InstanceConfiguration.NodeDescriptor.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="944e2ed0-ab87-433d-be14-f8248b5ca0b0" Title="Main Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Main.htm">
+      <HelpTOCNode Title="Main Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Main.htm" />
+      <HelpTOCNode Id="075c1715-95cd-4f53-b4bb-ddb1da62430d" Title="Main Constructor " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Main.-ctor.htm">
+        <HelpTOCNode Title="Main Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.-ctor.htm" />
+        <HelpTOCNode Title="Main Constructor (IContainer)" Url="html/M-CAS.UA.Server.ServerConfiguration.Main.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bbf5c67e-82f6-4d45-8448-f06c38f55564" Title="Main Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Main.htm">
+        <HelpTOCNode Title="CreateDefaultConfiguration Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.CreateDefaultConfiguration.htm" />
+        <HelpTOCNode Title="CreateInstanceConfigurations Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.CreateInstanceConfigurations.htm" />
+        <HelpTOCNode Id="ab6a4910-ea4a-430e-907e-e1354e8115cc" Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Main.Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.Dispose.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EditConfiguration Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.EditConfiguration.htm" />
+        <HelpTOCNode Title="GetInstanceConfiguration Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.GetInstanceConfiguration.htm" />
+        <HelpTOCNode Title="ReadConfiguration Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.ReadConfiguration.htm" />
+        <HelpTOCNode Title="SaveConfiguration Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Main.SaveConfiguration.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7ea211cf-b512-4cdd-ae89-e5ce90ca15e4" Title="Main Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.Main.htm">
+        <HelpTOCNode Title="Configuration Property " Url="html/P-CAS.UA.Server.ServerConfiguration.Main.Configuration.htm" />
+        <HelpTOCNode Title="DefaultFileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.Main.DefaultFileName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="459adab3-bd82-40b9-b578-acac5ace0f84" Title="Main Events" Url="html/Events.T-CAS.UA.Server.ServerConfiguration.Main.htm">
+        <HelpTOCNode Title="OnModified Event" Url="html/E-CAS.UA.Server.ServerConfiguration.Main.OnModified.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e2a37c3b-e466-43ed-9410-6a7638b419de" Title="ModelLayer Class" Url="html/T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm">
+      <HelpTOCNode Title="ModelLayer Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+      <HelpTOCNode Title="ModelLayer Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm" />
+      <HelpTOCNode Id="ed46fcb0-c69a-43f1-9a49-5ed5f612ea42" Title="ModelLayer Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.ModelLayer.htm">
+        <HelpTOCNode Title="FilePathCsv Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.FilePathCsv.htm" />
+        <HelpTOCNode Title="FilePathUanodes Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.FilePathUanodes.htm" />
+        <HelpTOCNode Title="NamespaceUri Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ModelLayer.NamespaceUri.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="487d3cce-250a-4cc0-9b06-fe871e07d1ab" Title="NamedTraceLogger Class" Url="html/T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm">
+      <HelpTOCNode Title="NamedTraceLogger Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm" />
+      <HelpTOCNode Id="767dd53b-41c6-4bb7-a932-5ea81e7e1b5a" Title="NamedTraceLogger Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm">
+        <HelpTOCNode Id="b4c522f8-9796-463c-8a3b-e949244a109b" Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Dispose.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Dispose_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="edab5030-09a0-4e98-ab58-8344d7bbba66" Title="NamedTraceLogger Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.htm">
+        <HelpTOCNode Title="Logger Property " Url="html/P-CAS.UA.Server.ServerConfiguration.NamedTraceLogger.Logger.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="81c766d5-f26f-4c0d-a10f-3adc13faabbf" Title="NodeDescriptorWrapper Class" Url="html/T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm">
+      <HelpTOCNode Title="NodeDescriptorWrapper Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm" />
+      <HelpTOCNode Id="8f1f4b1d-9de9-4c36-b685-abc4cc317ad4" Title="NodeDescriptorWrapper Constructor " Url="html/Overload-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.-ctor.htm">
+        <HelpTOCNode Title="NodeDescriptorWrapper Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.-ctor.htm" />
+        <HelpTOCNode Title="NodeDescriptorWrapper Constructor (String, String)" Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="24e97a32-75a4-43e8-b6a7-93c3041c0057" Title="NodeDescriptorWrapper Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.Clone.htm" />
+        <HelpTOCNode Title="CompareTo Method " Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.CompareTo.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1158874e-2aa5-4b3c-a705-39b5698fe3d5" Title="NodeDescriptorWrapper Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.htm">
+        <HelpTOCNode Title="BindingDescription Property " Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.BindingDescription.htm" />
+        <HelpTOCNode Title="DataType Property " Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.DataType.htm" />
+        <HelpTOCNode Title="InstanceDeclaration Property " Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.InstanceDeclaration.htm" />
+        <HelpTOCNode Title="NodeClass Property " Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.NodeClass.htm" />
+        <HelpTOCNode Title="NodeIdentifier Property " Url="html/P-CAS.UA.Server.ServerConfiguration.NodeDescriptorWrapper.NodeIdentifier.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="53c574b0-a304-4b61-82d6-248da30f85be" Title="OPCDAClientConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm">
+      <HelpTOCNode Title="OPCDAClientConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm" />
+      <HelpTOCNode Id="3054bd6c-4a1f-4ba2-bad4-9958fc62c26f" Title="OPCDAClientConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b52fd64-8a99-4677-b720-08bd76dc4261" Title="OPCDAClientConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.htm">
+        <HelpTOCNode Title="DisplayFileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.DisplayFileName.htm" />
+        <HelpTOCNode Title="FileName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.FileName.htm" />
+        <HelpTOCNode Title="FileStatus Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientConfiguration.FileStatus.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="447e8002-857b-42fc-b2ba-281a10c1b55f" Title="OPCDAClientSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm">
+      <HelpTOCNode Title="OPCDAClientSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm" />
+      <HelpTOCNode Id="b691d2e0-a2df-4396-a6b4-a8eb6a00d52f" Title="OPCDAClientSourceConfiguration Constructor " Url="html/Overload-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.-ctor.htm">
+        <HelpTOCNode Title="OPCDAClientSourceConfiguration Constructor (INodeDescriptor, AdditionalResultInfo, Boolean)" Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.-ctor.htm" />
+        <HelpTOCNode Title="OPCDAClientSourceConfiguration Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6307e54b-dd01-4ec0-b4f4-a4754caa66c5" Title="OPCDAClientSourceConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.Clone.htm" />
+        <HelpTOCNode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.GetSourceBase.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="18f944ea-b45d-4bbd-ba82-416081155cc5" Title="OPCDAClientSourceConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.htm">
+        <HelpTOCNode Title="ItemName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ItemName.htm" />
+        <HelpTOCNode Title="ServerName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.ServerName.htm" />
+        <HelpTOCNode Title="SubscriptionName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.SubscriptionName.htm" />
+        <HelpTOCNode Title="UniqueIdentifier Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClientSourceConfiguration.UniqueIdentifier.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="389cb0bf-e7dc-4551-940a-5a78433c0288" Title="ProcessDataBindings Class" Url="html/T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm">
+      <HelpTOCNode Title="ProcessDataBindings Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+      <HelpTOCNode Title="ProcessDataBindings Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.-ctor.htm" />
+      <HelpTOCNode Title="ProcessDataBindings Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm" />
+      <HelpTOCNode Id="36437ad5-1350-4e9d-9d1c-f90189673696" Title="ProcessDataBindings Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.htm">
+        <HelpTOCNode Title="CommServer Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.CommServer.htm" />
+        <HelpTOCNode Title="ModelLayers Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.ModelLayers.htm" />
+        <HelpTOCNode Title="NodesConfiguration Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.NodesConfiguration.htm" />
+        <HelpTOCNode Title="OPCDAClient Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.OPCDAClient.htm" />
+        <HelpTOCNode Title="Simulator Property " Url="html/P-CAS.UA.Server.ServerConfiguration.ProcessDataBindings.Simulator.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="16b7715f-09fc-4d44-9f3b-47dad517c3ec" Title="SimulatorConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm">
+      <HelpTOCNode Title="SimulatorConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.SimulatorConfiguration.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6bfee95b-714d-4b4f-877f-aac532449dfd" Title="SimulatorSourceConfiguration Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm">
+      <HelpTOCNode Title="SimulatorSourceConfiguration Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm" />
+      <HelpTOCNode Title="SimulatorSourceConfiguration Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.-ctor.htm" />
+      <HelpTOCNode Id="41654145-c718-44a2-8c3c-277e041890c1" Title="SimulatorSourceConfiguration Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Clone.htm" />
+        <HelpTOCNode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.GetSourceBase.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9792d48b-f7f6-43d3-ba77-9794e8b84997" Title="SimulatorSourceConfiguration Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.htm">
+        <HelpTOCNode Title="Tag Property " Url="html/P-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Tag.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SimulatorSourceConfiguration.Names Enumeration" Url="html/T-CAS.UA.Server.ServerConfiguration.SimulatorSourceConfiguration.Names.htm" />
+    <HelpTOCNode Id="bd639db8-7725-466b-aea7-e72569d18407" Title="SourceBase Class" Url="html/T-CAS.UA.Server.ServerConfiguration.SourceBase.htm">
+      <HelpTOCNode Title="SourceBase Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm" />
+      <HelpTOCNode Id="f1f764fc-40b8-4b1d-a8dc-e8206d448e2f" Title="SourceBase Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SourceBase.Clone.htm" />
+        <HelpTOCNode Title="GetSourceBase Method " Url="html/M-CAS.UA.Server.ServerConfiguration.SourceBase.GetSourceBase.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c68d832b-2ecd-4be4-b602-24371375c804" Title="SourceBase Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.SourceBase.htm">
+        <HelpTOCNode Title="Selected Property " Url="html/P-CAS.UA.Server.ServerConfiguration.SourceBase.Selected.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="226051f2-d678-4e7f-820c-cdc6d86e3535" Title="CAS.UA.Server.ServerConfiguration.Controls Namespace" Url="html/N-CAS.UA.Server.ServerConfiguration.Controls.htm">
+    <HelpTOCNode Id="9d34950a-8f16-46a8-990a-bf53cece5dca" Title="IEnableOK Interface" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm">
+      <HelpTOCNode Title="IEnableOK Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+      <HelpTOCNode Title="IEnableOK Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm" />
+      <HelpTOCNode Id="2f78113d-5ad2-4195-9ca1-7c92c61a510a" Title="IEnableOK Events" Url="html/Events.T-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.htm">
+        <HelpTOCNode Title="OnStateChanged Event" Url="html/E-CAS.UA.Server.ServerConfiguration.Controls.IEnableOK.OnStateChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9588d85-d8c2-4045-abb4-13ed52e4fc25" Title="OKButtonEventArgs Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm">
+      <HelpTOCNode Title="OKButtonEventArgs Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+      <HelpTOCNode Title="OKButtonEventArgs Constructor " Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.-ctor.htm" />
+      <HelpTOCNode Title="OKButtonEventArgs Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm" />
+      <HelpTOCNode Id="4a3a07dc-222f-4e90-bf6e-4db97981bb7e" Title="OKButtonEventArgs Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.htm">
+        <HelpTOCNode Title="OKButtonState Property " Url="html/P-CAS.UA.Server.ServerConfiguration.Controls.OKButtonEventArgs.OKButtonState.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ba23a577-95fe-427f-965d-7adcd45cc943" Title="OKCnacelForm Class" Url="html/T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm">
+      <HelpTOCNode Title="OKCnacelForm Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+      <HelpTOCNode Title="OKCnacelForm Constructor (String)" Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.-ctor.htm" />
+      <HelpTOCNode Id="56c84f0c-b2ef-4372-98d0-f19429cefc47" Title="OKCnacelForm Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm">
+        <HelpTOCNode Id="216fd067-6786-4bb3-b9a1-751df58cfa0b" Title="Dispose Method " Url="html/Overload-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.Dispose.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="99f9fdb8-0cff-4c7c-a0bb-26c2187d10fa" Title="OKCnacelForm Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm">
+        <HelpTOCNode Title="SelectedObject Property " Url="html/P-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.SelectedObject.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OKCnacelForm Events" Url="html/Events.T-CAS.UA.Server.ServerConfiguration.Controls.OKCnacelForm.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="aa90196b-f893-4a85-969e-ef6145718672" Title="CAS.UA.Server.ServerConfiguration.OPCDAClient Namespace" Url="html/N-CAS.UA.Server.ServerConfiguration.OPCDAClient.htm">
+    <HelpTOCNode Id="b108e890-76cb-4553-9cb7-a29fe0443155" Title="OPCItemIdentifier Class" Url="html/T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm">
+      <HelpTOCNode Title="OPCItemIdentifier Members" Url="html/AllMembers.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+      <HelpTOCNode Title="OPCItemIdentifier Methods" Url="html/Methods.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm" />
+      <HelpTOCNode Id="834bb1b7-f9f6-4dd8-be4c-fda5c12d6f42" Title="OPCItemIdentifier Properties" Url="html/Properties.T-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.htm">
+        <HelpTOCNode Title="ItemName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.ItemName.htm" />
+        <HelpTOCNode Title="ServerName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.ServerName.htm" />
+        <HelpTOCNode Title="SubscriptionName Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.SubscriptionName.htm" />
+        <HelpTOCNode Title="UniqueIdentifier Property " Url="html/P-CAS.UA.Server.ServerConfiguration.OPCDAClient.OPCItemIdentifier.UniqueIdentifier.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
