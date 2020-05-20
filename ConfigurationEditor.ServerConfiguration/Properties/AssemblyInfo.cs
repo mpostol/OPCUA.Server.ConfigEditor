@@ -1,31 +1,23 @@
-﻿//<summary>
-//  Title   : Assembly info for: CAS UA Server Configuration Editor
-//  System  : Microsoft Visual C# .NET
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿
+//___________________________________________________________________________________
 //
-//  Copyright (c) 2000-2016 CAS LODZ POLAND
-//  +48 (42) 686 25 47
-//  techsupp@cas.eu
-//  www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CAS UA Server Configuration Editor")]
-[assembly: AssemblyDescription("CAS CommServer Family: CAS UA Server Configuration Editor")]
+[assembly: AssemblyTitle("CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration")]
+[assembly: AssemblyDescription("OOI OPC UA Server Configuration Editor")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("CAS CommServer Family")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("CommServer")]
+[assembly: AssemblyCompany("Mariusz Postol")]
+[assembly: AssemblyProduct("Object-Oriented Internet OPC UA Server")]
+[assembly: AssemblyCopyright("Copyright (c) 2020 Mariusz Postol")]
+[assembly: AssemblyTrademark("OOI ASMD")]
 [assembly: AssemblyCulture("")]
-
 [assembly: ComVisible(false)]
 [assembly: Guid( "2c354f42-23dc-49b5-8732-6a660cf02f00" )]
 [assembly: AssemblyVersion("3.20.4.*")]

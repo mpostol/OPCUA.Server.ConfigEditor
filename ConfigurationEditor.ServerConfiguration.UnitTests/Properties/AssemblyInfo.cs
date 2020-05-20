@@ -1,28 +1,28 @@
 ﻿//<summary>
 //  Title   : Assembly info for: CAS UA Server Configuration Unit Tests
 //  System  : Microsoft Visual C# .NET
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//  $LastChangedDate:  $
+//  $Rev:  $
+//  $LastChangedBy: $
+//  $URL:  $
+//  $Id:  $
 //
-//  Copyright (c) 2000-2016 CAS LODZ POLAND
-//  +48 (42) 686 25 47
-//  techsupp@cas.eu
-//  www.cas.eu
+//  Copyright (c) 2020 Mariusz Postol
+//  +48 (608) 619 899
+//  mpostol@cas.eu
+//  https://mpostol.github.io/OPCUA.Server.ConfigEditor
 //</summary>
 
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CAS UA Server Configuration Unit Tests")]
-[assembly: AssemblyDescription("CAS CommServer Family: CAS UA Server Configuration Unit Tests")]
+[assembly: AssemblyTitle("CAS.CommServer.UA.Server.ServerConfiguration.UnitTests")]
+[assembly: AssemblyDescription("Object-Oriented Internet OPC UA Server: CAS UA Server Configuration Unit Tests")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("CAS CommServer Family")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("CommServer")]
+[assembly: AssemblyCompany("Mariusz Postol")]
+[assembly: AssemblyProduct("Object-Oriented Internet OPC UA Server")]
+[assembly: AssemblyCopyright("Copyright (c) 2020 Mariusz Postol")]
+[assembly: AssemblyTrademark("OOI ASMD")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]

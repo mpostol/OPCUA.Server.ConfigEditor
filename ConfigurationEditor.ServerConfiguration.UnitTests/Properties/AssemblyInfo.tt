@@ -18,7 +18,7 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("<#=m_AssemblyTitle#>")]
+[assembly: AssemblyTitle("CAS.CommServer.UA.Server.ServerConfiguration.UnitTests")]
 [assembly: AssemblyDescription("<#=AssemblyProduct#>: <#=m_AssemblyTitle#>")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("<#=AssemblyCompany#>")]
@@ -29,10 +29,10 @@ using System.Runtime.InteropServices;
 
 [assembly: ComVisible(false)]
 [assembly: Guid( "5bb6d3ea-b6fa-44cc-8ea8-a8bfb6f7c967" )]
-[assembly: AssemblyVersion("<#= CASCommServerUAConfigurationEditorVersion #>.*")]
-[assembly: AssemblyFileVersion("<#= CASCommServerUAConfigurationEditorVersion #>")]
+[assembly: AssemblyVersion("<#= AssemblyVersion #>.*")]
+[assembly: AssemblyFileVersion("<#= AssemblyVersion #>")]
 
-<#@ include file = "..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\..\SolutionMetadataTemplate.t4" #>
 <#+
 string m_AssemblyTitle = "CAS UA Server Configuration Unit Tests";
 #>

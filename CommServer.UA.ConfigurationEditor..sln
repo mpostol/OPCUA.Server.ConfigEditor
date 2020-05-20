@@ -3,8 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{921B8840-1F94-4BED-A5FD-C8F4357BFCD1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.Scripts", "ConfigurationEditor.Scripts\ConfigurationEditor.Scripts.csproj", "{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		SolutionMetadataTemplate.t4 = SolutionMetadataTemplate.t4
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEditor.ServerConfiguration", "ConfigurationEditor.ServerConfiguration\ConfigurationEditor.ServerConfiguration.csproj", "{28F30394-6EBA-4584-9041-F69CCB921424}"
 EndProject
@@ -22,22 +24,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|ARM.Build.0 = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|x64.Build.0 = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Debug|x86.Build.0 = Debug|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|ARM.ActiveCfg = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|ARM.Build.0 = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|x64.ActiveCfg = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|x64.Build.0 = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|x86.ActiveCfg = Release|Any CPU
-		{0FDA01A5-7902-4CF5-AA33-8ADC13429D1C}.Release|x86.Build.0 = Release|Any CPU
 		{28F30394-6EBA-4584-9041-F69CCB921424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28F30394-6EBA-4584-9041-F69CCB921424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F30394-6EBA-4584-9041-F69CCB921424}.Debug|ARM.ActiveCfg = Debug|Any CPU
