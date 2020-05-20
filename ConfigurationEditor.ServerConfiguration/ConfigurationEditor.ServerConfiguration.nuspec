@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration</id>
-        <version>3.20.4-Bravo</version>
+        <version>3.20.5</version>
         <title>CAS CommServer UA Configuration Editor</title>
         <authors>Mariusz Postol</authors>
         <owners>Mariusz Postol</owners>
