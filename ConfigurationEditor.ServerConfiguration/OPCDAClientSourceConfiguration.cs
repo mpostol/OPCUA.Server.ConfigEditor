@@ -1,22 +1,13 @@
-﻿//<summary>
-//  Title   : DataPorter Source definition
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.DataPorter.Configurator;
 using CAS.UA.IServerConfiguration;
 using CAS.UA.Server.ServerConfiguration.OPCDAClient;
-using System;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Xml.Serialization;
@@ -26,11 +17,12 @@ namespace CAS.UA.Server.ServerConfiguration
   /// <summary>
   /// OPC DA client data source configuration.
   /// </summary>
-  [XmlTypeAttribute( Namespace = CASConfiguration.DefaultNamespace )]
-  [DataContract( Namespace = CASConfiguration.DefaultNamespace )]
-  public class OPCDAClientSourceConfiguration: SourceBase
+  [XmlTypeAttribute(Namespace = CASConfiguration.DefaultNamespace)]
+  [DataContract(Namespace = CASConfiguration.DefaultNamespace)]
+  public class OPCDAClientSourceConfiguration : SourceBase
   {
     #region creators
+
     /// <summary>
     /// Creates the OPCDA client source configuration.
     /// </summary>
@@ -40,13 +32,13 @@ namespace CAS.UA.Server.ServerConfiguration
     public OPCDAClientSourceConfiguration(
       INodeDescriptor item,
       out ConfigurationManagement.AdditionalResultInfo LastResultInfo,
-      bool SkipGetItemIdentifier )
+      bool SkipGetItemIdentifier)
     {
       LastResultInfo = ConfigurationManagement.AdditionalResultInfo.OK;
       OPCItemIdentifier ret = null;
-      if ( !SkipGetItemIdentifier )
-        ret = Main.EntryPoint.OPCDAClienteEntryPoint.GetItemIdentifier( item.BindingDescription, out LastResultInfo );
-      if ( ret == null )
+      if (!SkipGetItemIdentifier)
+        ret = Main.EntryPoint.OPCDAClienteEntryPoint.GetItemIdentifier(item.BindingDescription, out LastResultInfo);
+      if (ret == null)
       {
         Selected = false;
         LastResultInfo = ConfigurationManagement.AdditionalResultInfo.Cancel;
@@ -57,51 +49,59 @@ namespace CAS.UA.Server.ServerConfiguration
       SubscriptionName = ret.SubscriptionName;
       Selected = true;
     }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="OPCDAClientSourceConfiguration"/> class.
     /// </summary>
     public OPCDAClientSourceConfiguration() { }
-    #endregion
 
-    #region Browsable properties
+    #endregion creators
+
+    #region Brows-able properties
+
     /// <summary>
     /// Gets or sets the name of the item.
     /// </summary>
     /// <value>The name of the item.</value>
-    [ReadOnly( true )]
+    [ReadOnly(true)]
     [DataMember]
     public string ItemName { get; set; }
+
     /// <summary>
     /// Gets or sets the name of the server.
     /// </summary>
     /// <value>The name of the server.</value>
-    [ReadOnly( true )]
+    [ReadOnly(true)]
     [DataMember]
     public string ServerName { get; set; }
+
     /// <summary>
     /// Gets or sets the name of the subscription.
     /// </summary>
     /// <value>The name of the subscription.</value>
-    [ReadOnly( true )]
+    [ReadOnly(true)]
     [DataMember]
     public string SubscriptionName { get; set; }
+
     /// <summary>
     /// Gets the unique identifier of the item.
     /// </summary>
     /// <value>The unique identifier.</value>
     public string UniqueIdentifier
     {
-      get 
+      get
       {
-        if ( Selected )
-          return String.Format( "{0}\\{1}\\{2}", ServerName, SubscriptionName, ItemName );
+        if (Selected)
+          return string.Format("{0}\\{1}\\{2}", ServerName, SubscriptionName, ItemName);
         else
           return "Not selected";
       }
     }
+
     #endregion
 
     #region public
+
     /// <summary>
     /// Creates a new object that is a copy of the current instance.
     /// </summary>
@@ -110,8 +110,9 @@ namespace CAS.UA.Server.ServerConfiguration
     /// </returns>
     public override object Clone()
     {
-      return this.MemberwiseClone();
+      return MemberwiseClone();
     }
+
     /// <summary>
     /// Returns a <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
     /// </summary>
@@ -122,10 +123,11 @@ namespace CAS.UA.Server.ServerConfiguration
     {
       return "OPC Client " + UniqueIdentifier;
     }
+
     internal static OPCDAClientSourceConfiguration CreateInstance()
     {
       OPCItemIdentifier ret = Main.EntryPoint.OPCDAClienteEntryPoint.GetItemIdentifier();
-      if ( ret == null )
+      if (ret == null)
         return new OPCDAClientSourceConfiguration() { Selected = false };
       else
         return new OPCDAClientSourceConfiguration()
@@ -136,14 +138,15 @@ namespace CAS.UA.Server.ServerConfiguration
           Selected = true
         };
     }
+
     /// <summary>
     /// Gets the instance of this type.
     /// </summary>
     /// <returns>SourceBase.</returns>
-    internal protected override SourceBase GetSourceBase()
+    protected internal override SourceBase GetSourceBase()
     {
       OPCItemIdentifier ret = Main.EntryPoint.OPCDAClienteEntryPoint.GetItemIdentifier();
-      if ( ret != null )
+      if (ret != null)
       {
         ItemName = ret.ItemName;
         ServerName = ret.ServerName;
@@ -152,6 +155,7 @@ namespace CAS.UA.Server.ServerConfiguration
       }
       return this;
     }
-    #endregion
+
+    #endregion public
   }
 }

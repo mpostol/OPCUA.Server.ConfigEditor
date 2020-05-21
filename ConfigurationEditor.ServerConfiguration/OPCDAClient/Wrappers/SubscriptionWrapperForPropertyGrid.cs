@@ -1,142 +1,110 @@
-﻿//<summary>
-//  Title   : Subscription Wrapper for Property Grid
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  20090608: mzbrzezny - created
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using System.ComponentModel;
 using CAS.DataPorter.Configurator;
+using System.ComponentModel;
 
 namespace CAS.UA.Server.ServerConfiguration.OPCDAClient.Wrappers
 {
-  [ReadOnly( true )]
+  [ReadOnly(true)]
   internal class SubscriptionWrapperForPropertyGrid
   {
     #region Public properties
-    [Description( "Name of the subscription" )]
+
+    [Description("Name of the subscription")]
     public string Name
     {
-      get
-      {
-        return this.mSubscription.Name;
-      }
-      set
-      {
-        this.mSubscription.Name = value;
-      }
+      get => mSubscription.Name;
+      set => mSubscription.Name = value;
     }
-    [Description( "The update rate for the subscription" )]
+
+    [Description("The update rate for the subscription")]
     public int UpdateRate
     {
-      get
-      {
-        return this.mSubscription.UpdateRate;
-      }
-      set
-      {
-        this.mSubscription.UpdateRate = value;
-      }
+      get => mSubscription.UpdateRate;
+      set => mSubscription.UpdateRate = value;
     }
-    [Description( "The locale setting rate for the subscription" )]
+
+    [Description("The locale setting rate for the subscription")]
     public string Locale
     {
       get
       {
-        if ( this.mSubscription.IsLocaleNull() )
+        if (mSubscription.IsLocaleNull())
           return null;
-        return this.mSubscription.Locale;
+        return mSubscription.Locale;
       }
-      set
-      {
-        this.mSubscription.Locale = value;
-      }
+      set => mSubscription.Locale = value;
     }
-    [Description( "The Keep Alive Rate setting rate for the subscription" )]
+
+    [Description("The Keep Alive Rate setting rate for the subscription")]
     public int? KeepAliveRate
     {
       get
       {
-        if ( this.mSubscription.IsKeepAliveRateNull() )
+        if (mSubscription.IsKeepAliveRateNull())
           return null;
-        return this.mSubscription.KeepAliveRate;
+        return mSubscription.KeepAliveRate;
       }
       set
       {
-        if ( value != null )
-          this.mSubscription.KeepAliveRate = (int)value;
+        if (value != null)
+          mSubscription.KeepAliveRate = (int)value;
         else
-          this.mSubscription.SetKeepAliveRateNull();
+          mSubscription.SetKeepAliveRateNull();
       }
     }
-    [Description( "The Deadband setting rate for the subscription" )]
+
+    [Description("The Dead-band setting rate for the subscription")]
     public float? Deadband
     {
       get
       {
-        if ( this.mSubscription.IsDeadbandNull() )
+        if (mSubscription.IsDeadbandNull())
           return null;
-        return this.mSubscription.Deadband;
+        return mSubscription.Deadband;
       }
       set
       {
-        if ( value != null )
-          this.mSubscription.Deadband = (float)value;
+        if (value != null)
+          mSubscription.Deadband = (float)value;
         else
-          this.mSubscription.SetDeadbandNull();
+          mSubscription.SetDeadbandNull();
       }
     }
-    [Description( "Idicates whether subscription is enabled" )]
+
+    [Description("Indicates whether subscription is enabled")]
     public bool Enabled
     {
-      get
-      {
-        return this.mSubscription.Enabled;
-      }
-      set
-      {
-        this.mSubscription.Enabled = value;
-      }
+      get => mSubscription.Enabled;
+      set => mSubscription.Enabled = value;
     }
-    [Description( "Idicates whether subscription is active" )]
+
+    [Description("Indicates whether subscription is active")]
     public bool Active
     {
-      get
-      {
-        return this.mSubscription.Active;
-      }
-      set
-      {
-        this.mSubscription.Active = value;
-      }
+      get => mSubscription.Active;
+      set => mSubscription.Active = value;
     }
-    [Description( "Idicates whether subscription is read asynchronously" )]
+
+    [Description("Indicates whether subscription is read asynchronously")]
     public bool Asynchronous
     {
-      get
-      {
-        return this.mSubscription.Asynchronous;
-      }
-      set
-      {
-        this.mSubscription.Asynchronous = value;
-      }
-    } 
-    #endregion
-    internal SubscriptionWrapperForPropertyGrid( OPCCliConfiguration.SubscriptionsRow subscription )
-    {
-      this.mSubscription = subscription;
+      get => mSubscription.Asynchronous;
+      set => mSubscription.Asynchronous = value;
     }
+
+    #endregion Public properties
+
+    internal SubscriptionWrapperForPropertyGrid(OPCCliConfiguration.SubscriptionsRow subscription)
+    {
+      mSubscription = subscription;
+    }
+
     private OPCCliConfiguration.SubscriptionsRow mSubscription;
   }
 }
