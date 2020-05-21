@@ -1,23 +1,13 @@
-﻿//<summary>
-//  Title   : Provides configuration utulities for the instance nodes.
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.Lib.ControlLibrary;
 using CAS.UA.IServerConfiguration;
 using System.ComponentModel;
 using System.Runtime.Serialization;
-using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -31,28 +21,8 @@ namespace CAS.UA.Server.ServerConfiguration
   [KnownType( typeof( OPCDAClientSourceConfiguration ) )]
   [KnownType( typeof( CommServerSourceConfiguration ) )]
   [KnownType( typeof( SimulatorSourceConfiguration ) )]
-  public class InstanceConfiguration: IInstanceConfiguration
+  public partial class InstanceConfiguration 
   {
-    #region IInstanceConfiguration Members
-    /// <summary>
-    /// Edits this instance.
-    /// </summary>
-    public void Edit()
-    {
-      InstanceConfiguration copy;
-      copy = (InstanceConfiguration)this.Clone();
-      using ( AddObject<InstanceConfiguration> form = new AddObject<InstanceConfiguration>( copy ) )
-        if ( form.ShowDialog() == DialogResult.OK )
-          DataSources = form.Object.DataSources;
-    }
-    /// <summary>
-    /// Create new empty data bindings configuration for this instance node to store proprietary information of the UA server.
-    /// </summary>
-    public void ClearConfiguration()
-    {
-      DataSources = null;
-    }
-    #endregion
 
     #region public properties
     /// <summary>

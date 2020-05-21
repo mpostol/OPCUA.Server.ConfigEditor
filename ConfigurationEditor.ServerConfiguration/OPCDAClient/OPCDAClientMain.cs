@@ -1,17 +1,9 @@
-﻿//<summary>
-//  Title   : Component providing access to DataPorter configuration.
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using CAS.DataPorter.Configurator;
@@ -30,6 +22,7 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
   internal partial class OPCDAClientMain : Component
   {
     #region constructors
+
     /// <summary>
     /// Initializes a new instance of the <see cref="OPCDAClientMain"/> class.
     /// </summary>
@@ -38,6 +31,7 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
       InitializeComponent();
       Opened = false;
     }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="OPCDAClientMain"/> class.
     /// </summary>
@@ -48,20 +42,22 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
       InitializeComponent();
       Opened = false;
     }
-    #endregion
+
+    #endregion constructors
 
     #region public
+
     /// <summary>
     /// Opens the specified file.
     /// </summary>
     /// <param name="fileName">Name of the file.</param>
     /// <param name="additionalResult">
     /// The additional result from the enumerations <see cref="ConfigurationManagement.AdditionalResultInfo"/>.signaling if the operation succeeded, failed or was canceled by the user.
-    /// </param> 
+    /// </param>
     /// <returns><c>true</c> if success.</returns>
     internal bool Open(string fileName, out ConfigurationManagement.AdditionalResultInfo additionalResult)
     {
-      if (String.IsNullOrEmpty(fileName))
+      if (string.IsNullOrEmpty(fileName))
         Opened = m_ConfigurationManagement.Open(out additionalResult);
       else
         try
@@ -78,14 +74,14 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
         }
       return Opened;
     }
+
     /// <summary>
     /// Opens the subscription item selection dialog that allows to pick up a tag.
     /// </summary>
     /// <returns>Selected item description or null if the selection was canceled. </returns>
     internal OPCItemIdentifier GetItemIdentifier()
     {
-      ConfigurationManagement.AdditionalResultInfo resultInfo;
-      if ((!Opened) && !Open(m_DefaultFileName, out resultInfo))
+      if ((!Opened) && !Open(m_DefaultFileName, out ConfigurationManagement.AdditionalResultInfo resultInfo))
         return null;
       using (SelectionTree target = new SelectionTree())
       using (OKCnacelForm ui = new OKCnacelForm("Subscription item selection dialog"))
@@ -98,6 +94,7 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
         return target.Selection;
       }
     }
+
     internal OPCItemIdentifier GetItemIdentifier(string description, out ConfigurationManagement.AdditionalResultInfo resultInfo)
     {
       if ((!Opened) && !Open(m_DefaultFileName, out resultInfo))
@@ -113,13 +110,14 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
       resultInfo = ConfigurationManagement.AdditionalResultInfo.Exception;
       return null;
     }
+
     /// <summary>
     /// Gets or sets a value indicating whether this configuration file is opened.
     /// </summary>
     /// <value><c>true</c> if opened; otherwise, <c>false</c>.</value>
     internal bool Opened
     {
-      get { return m_Opened; }
+      get => m_Opened;
       set
       {
         m_Opened = value;
@@ -128,12 +126,14 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
           case true:
             m_LastMessageText = "Opened";
             break;
+
           case false:
             m_LastMessageText = "Closed";
             break;
         }
       }
     }
+
     /// <summary>
     /// Gets or sets the default name of the configuration file.
     /// </summary>
@@ -149,7 +149,7 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
       }
       set
       {
-        if (String.IsNullOrEmpty(value))
+        if (string.IsNullOrEmpty(value))
           return;
         FileInfo fi = CASConfiguration.PreparePathBasedOnBaseDirectory(value);
         if (fi == null)
@@ -167,33 +167,39 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
         }
       }
     }
+
     /// <summary>
     /// Gets the file status.
     /// </summary>
     /// <value>The file status.</value>
-    internal string FileStatus { get { return m_LastMessageText; } }
+    internal string FileStatus => m_LastMessageText;
+
     /// <summary>
     /// Occurs when the configuration has been changed.
     /// </summary>
     internal event EventHandler<EventArgs> ConfigurationChnged;
+
     /// <summary>
     /// Gets the file open dialog defined for the OPC DA Client configuration.
     /// </summary>
     /// <value>The open dialog.</value>
-    internal OpenFileDialog OpenDialog { get { return m_ConfigurationManagement.OpenFileDialog; } }
-    #endregion
+    internal OpenFileDialog OpenDialog => m_ConfigurationManagement.OpenFileDialog;
+
+    #endregion public
 
     #region private
+
     private string m_LastMessageText = "Not set";
     private bool m_Opened = false;
     private string m_DefaultFileName = null;
+
     private void m_ConfigurationManagement_ConfigurationChnged(object sender, ConfigurationManagement.ConfigurationEventArg e)
     {
       if (ConfigurationChnged == null)
         return;
       ConfigurationChnged(this, EventArgs.Empty);
     }
-    #endregion
 
+    #endregion private
   }
 }

@@ -1,42 +1,34 @@
-﻿//<summary>
-//  Title   : Item Tree Node
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.DataPorter.Configurator;
 using CAS.UA.Server.ServerConfiguration.OPCDAClient.Wrappers;
 
 namespace CAS.UA.Server.ServerConfiguration.OPCDAClient.TreeNodes
 {
-  class ItemTreeNode: BaseTreeNode<ItemWrapperForPropertyGrid>
+  internal class ItemTreeNode : BaseTreeNode<ItemWrapperForPropertyGrid>
   {
-    public ItemTreeNode( OPCCliConfiguration.ItemsRow item )
-      : base( new ItemWrapperForPropertyGrid( item ), item.Name )
-    { }
-    public override bool CanBeAccepted
+    public ItemTreeNode(OPCCliConfiguration.ItemsRow item) : base(new ItemWrapperForPropertyGrid(item), item.Name)
     {
-      get { return true; }
     }
+
+    public override bool CanBeAccepted => true;
+
     internal OPCItemIdentifier GetIdentifier()
     {
       OPCItemIdentifier ret = new OPCItemIdentifier();
-      FillUpIdentifier( ret );
+      FillUpIdentifier(ret);
       return ret;
     }
-    protected override void FillUpIdentifier( OPCItemIdentifier ret )
+
+    protected override void FillUpIdentifier(OPCItemIdentifier ret)
     {
       ret.ItemName = MyWrapper.Name;
-      base.FillUpIdentifier( ret );
+      base.FillUpIdentifier(ret);
     }
   }
 }

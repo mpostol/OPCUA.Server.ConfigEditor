@@ -1,30 +1,22 @@
-﻿//<summary>
-//  Title   : The main component of this plugin (it contains the main interface that is exposed by this plugin)
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
-using CAS.Lib.ControlLibrary;
 using CAS.UA.IServerConfiguration;
 using System;
 using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms;
 
 namespace CAS.UA.Server.ServerConfiguration
 {
   /// <summary>
-  /// The main component of this plugin (it contains the main interface that is exposed by this plugin)
+  /// The main component of this plug-in (it contains the main interface that is exposed by this plug-in)
   /// </summary>
   public partial class Main : Component, IConfiguration
   {
