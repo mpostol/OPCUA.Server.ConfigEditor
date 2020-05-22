@@ -162,7 +162,7 @@ namespace CAS.UA.Server.ServerConfiguration
     /// <value>The default name of the file.</value>
     public string DefaultFileName
     {
-      get { return Resources.Default_ConfigurationFileName + "." + Resources.DefaultConfigurationFileNametExtension; }
+      get { return Resource.Default_ConfigurationFileName + "." + Resource.DefaultConfigurationFileNametExtension; }
     }
     /// <summary>
     /// Creates automatically the instance configurations on the best effort basis.
