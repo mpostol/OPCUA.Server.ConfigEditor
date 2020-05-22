@@ -176,7 +176,7 @@ namespace CAS.UA.Server.ServerConfiguration
       using (FileStream file = new FileStream(configurationFile.FullName, FileMode.Create, FileAccess.Write))
       using (XmlWriter writer = XmlWriter.Create(file, _ws))
         _deserializer.WriteObject(writer, this);
-      NamedTraceLogger.Logger.TraceEvent(TraceEventType.Verbose, 164, Resources.InformationFileSaved, configurationFile.FullName);
+      NamedTraceLogger.Logger.TraceEvent(TraceEventType.Verbose, 164, Resource.InformationFileSaved, configurationFile.FullName);
     }
 
     /// <summary>
@@ -208,7 +208,7 @@ namespace CAS.UA.Server.ServerConfiguration
     /// </returns>
     public override string ToString()
     {
-      return Resources.MainEditorTitle;
+      return Resource.MainEditorTitle;
     }
 
     #endregion public

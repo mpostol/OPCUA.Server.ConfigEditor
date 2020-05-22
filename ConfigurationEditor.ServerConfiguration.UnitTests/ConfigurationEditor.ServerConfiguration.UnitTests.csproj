@@ -71,6 +71,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UAOOI.ProcessObserver.Configuration, Version=6.40.0.26080, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInitializeClass.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="CASConfigurationUnitTest.cs" />
     <Compile Include="IConfigurationUnitTest.cs" />
     <Compile Include="NamedTraceLoggerUnitTest.cs" />
+    <Compile Include="CommServerConfigurationMainUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConfigurationEditor.ServerConfiguration\ConfigurationEditor.ServerConfiguration.csproj">

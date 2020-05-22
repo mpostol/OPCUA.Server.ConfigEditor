@@ -89,7 +89,7 @@ namespace CAS.UA.Server.ServerConfiguration.Controls
 
     private void OKCnacelForm_HelpButtonClicked( object sender, System.ComponentModel.CancelEventArgs e )
     {
-      System.Diagnostics.Process.Start( Resources.Help_MainPage );
+      System.Diagnostics.Process.Start( Resource.Help_MainPage );
       //TODO [UAD-1577] Invoke help content form DataPorter Plug-in 
 
     }

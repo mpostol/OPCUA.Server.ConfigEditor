@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CAS.UA.Server.ServerConfiguration.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="ApplicationConfigurationAutostart" Type="System.Boolean" Scope="Application">

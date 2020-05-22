@@ -29,12 +29,12 @@
     private void InitializeComponent()
     {
       this.components = new System.ComponentModel.Container();
-      this.m_CcommServerConfiguration = new CAS.NetworkConfigLib.CommServerConfigurationMain( this.components );
+      this.m_CcommServerConfiguration = new CommServerConfigurationMain( this.components );
     }
 
     #endregion
 
-    private CAS.NetworkConfigLib.CommServerConfigurationMain m_CcommServerConfiguration;
+    private CommServerConfigurationMain m_CcommServerConfiguration;
 
   }
 }

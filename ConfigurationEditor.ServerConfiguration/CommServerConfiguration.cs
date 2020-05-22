@@ -138,7 +138,7 @@ namespace CAS.UA.Server.ServerConfiguration
 
       private void openFileDialog_HelpRequest(object sender, EventArgs e)
       {
-        System.Diagnostics.Process.Start(Resources.Help_MainPage);
+        System.Diagnostics.Process.Start(Resource.Help_MainPage);
         //TODO [UAD-1577] Invoke help content form CommServer Plug-in
       }
 
@@ -153,7 +153,7 @@ namespace CAS.UA.Server.ServerConfiguration
     {
       Debug.Assert(!string.IsNullOrEmpty(filename));
       if (string.IsNullOrEmpty(m_BaseDirecoryFilePath))
-        MessageBox.Show(Resources.SolutionIsNotSaved_Info + filename, Resources.SolutionIsNotSaved_Header, MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show(Resource.SolutionIsNotSaved_Info + filename, Resource.SolutionIsNotSaved_Header, MessageBoxButtons.OK, MessageBoxIcon.Information);
       else
         filename = RelativeFilePathsCalculator.TryComputeRelativePath(m_BaseDirecoryFilePath, filename);
       return filename;

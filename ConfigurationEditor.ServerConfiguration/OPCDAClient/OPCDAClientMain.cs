@@ -162,7 +162,7 @@ namespace CAS.UA.Server.ServerConfiguration.OPCDAClient
         }
         catch (Exception ex)
         {
-          NamedTraceLogger.Logger.TraceEvent(TraceEventType.Warning, 164, Resources.CASConfiguration_UnableToOpenConfigurationFile, fi.FullName, ex.Message);
+          NamedTraceLogger.Logger.TraceEvent(TraceEventType.Warning, 164, Resource.CASConfiguration_UnableToOpenConfigurationFile, fi.FullName, ex.Message);
           m_LastMessageText = ex.Message;
         }
       }

@@ -132,7 +132,7 @@ namespace CAS.UA.Server.ServerConfiguration
 
       private void openFileDialog_HelpRequest(object sender, EventArgs e)
       {
-        System.Diagnostics.Process.Start(Resources.Help_MainPage);
+        System.Diagnostics.Process.Start(Resource.Help_MainPage);
         //TODO [UAD-1577] Invoke help content form DataPorter Plug-in
       }
 
@@ -141,7 +141,7 @@ namespace CAS.UA.Server.ServerConfiguration
         OpenFileDialog parent = (OpenFileDialog)sender;
         Main.EntryPoint.OPCDAClienteEntryPoint.Open(parent.FileName, out ConfigurationManagement.AdditionalResultInfo resultinfo);
         if (resultinfo != ConfigurationManagement.AdditionalResultInfo.OK)
-          MessageBox.Show(string.Format(Resources.CASConfiguration_MessageBox_configuration_file_exception, resultinfo.ToString()));
+          MessageBox.Show(string.Format(Resource.CASConfiguration_MessageBox_configuration_file_exception, resultinfo.ToString()));
       }
     }
 
@@ -149,7 +149,7 @@ namespace CAS.UA.Server.ServerConfiguration
     {
       Debug.Assert(!string.IsNullOrEmpty(filename));
       if (string.IsNullOrEmpty(m_BaseDirectoryFilePath))
-        MessageBox.Show(Resources.SolutionIsNotSaved_Info + filename, Resources.SolutionIsNotSaved_Header, MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show(Resource.SolutionIsNotSaved_Info + filename, Resource.SolutionIsNotSaved_Header, MessageBoxButtons.OK, MessageBoxIcon.Information);
       else
         filename = RelativeFilePathsCalculator.TryComputeRelativePath(m_BaseDirectoryFilePath, filename);
       return filename;
