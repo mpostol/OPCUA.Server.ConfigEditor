@@ -52,10 +52,6 @@
       <HintPath>..\packages\CAS.CommServer.UA.Stack.Core.1.01.3265\lib\net451\CAS.CommServer.UA.Stack.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="CAS.UA.IServerConfiguration, Version=1.0.0.32204, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.UA.IServerConfiguration.1.00.00\lib\net35\CAS.UA.IServerConfiguration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="CommonServiceLocator, Version=2.0.5.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.2.0.5\lib\net46\CommonServiceLocator.dll</HintPath>
     </Reference>
@@ -71,6 +67,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UAOOI.Configuration.Core, Version=4.0.1.1, Culture=neutral, PublicKeyToken=deede3c2df331bb0, processorArchitecture=MSIL">
+      <HintPath>..\packages\UAOOI.Configuration.Core.4.0.1\lib\netstandard2.0\UAOOI.Configuration.Core.dll</HintPath>
+    </Reference>
     <Reference Include="UAOOI.ProcessObserver.Configuration, Version=6.40.0.26080, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3" />
   </ItemGroup>
   <ItemGroup>

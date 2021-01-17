@@ -6,11 +6,11 @@
 //___________________________________________________________________________________
 
 using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
-using CAS.UA.IServerConfiguration;
 using System;
 using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
+using UAOOI.Configuration.Core;
 using UAOOI.Windows.Forms;
 
 namespace CAS.UA.Server.ServerConfiguration

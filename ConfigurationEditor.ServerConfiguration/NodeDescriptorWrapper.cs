@@ -1,24 +1,17 @@
-﻿//<summary>
-//  Title   : Wrapper providing information about the model node
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2021, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.UA.IServerConfiguration;
+
 using System;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Xml.Serialization;
+using UAOOI.Configuration.Core;
 
 namespace CAS.UA.Server.ServerConfiguration
 {

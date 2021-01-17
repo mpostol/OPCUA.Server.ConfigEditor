@@ -5,11 +5,11 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.UA.IServerConfiguration;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Xml.Serialization;
+using UAOOI.Configuration.Core;
 
 namespace CAS.UA.Server.ServerConfiguration
 {
