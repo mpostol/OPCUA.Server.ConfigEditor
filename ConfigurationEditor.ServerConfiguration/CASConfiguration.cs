@@ -1,6 +1,6 @@
 ﻿//___________________________________________________________________________________
 //
-//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//  Copyright (C) 2021, Mariusz Postol LODZ POLAND.
 //
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
@@ -9,7 +9,6 @@ using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.EmbeddedResource
 using CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration.Properties;
 using CAS.DataPorter.Configurator;
 using CAS.Lib.CodeProtect;
-using CAS.UA.IServerConfiguration;
 using Opc.Ua;
 using System;
 using System.Collections.Generic;
@@ -19,6 +18,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Xml.Serialization;
+using UAOOI.Configuration.Core;
 
 namespace CAS.UA.Server.ServerConfiguration
 {

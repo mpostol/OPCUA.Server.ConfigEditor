@@ -5,9 +5,9 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.UA.IServerConfiguration;
 using CommonServiceLocator;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using UAOOI.Configuration.Core;
 
 namespace CAS.CommServer.UA.Server.ServerConfiguration.UnitTests
 {
