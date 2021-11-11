@@ -9,7 +9,7 @@ string AssemblyCopyright = "Copyright (c) 2020 Mariusz Postol";
 string AssemblyCompany = "Mariusz Postol";
 string AssemblyTrademark = "OOI ASMD";
 string AssemblyProduct = "Object-Oriented Internet OPC UA Server";
-string AssemblyVersion = "3.20.5";
+string AssemblyVersion = "3.20.6";
 string AssemblyVersionPrerelease = "";
 
 //Note: 
